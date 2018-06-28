@@ -1,0 +1,3355 @@
+{
+    "absinthe": {
+        "buffs": [
+            "+35% Disease Resist",
+            "+35% Blight Resist",
+            "+35% Blight Skill Chance",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "cc_set_gr_absinthe",
+        "name": "Absinthe",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "accuracystone": {
+        "buffs": [
+            "+4 ACC",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "accuracy_stone",
+        "name": "Accuracy Stone",
+        "origin_dungeon": "Warrens",
+        "rarity": "Common"
+    },
+    "acidichuskichor": {
+        "buffs": [
+            "-25% MAX HP",
+            "+30% DMG",
+            "+30% DMG",
+            "+30% Bleed Skill Chance vs 0",
+            "+25% Healing Received if HP below 0%"
+        ],
+        "hero_class": "Flagellant",
+        "id": "com_flag_acidic_husk_ichor",
+        "name": "Acidic Husk Ichor",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "agilitytalon": {
+        "buffs": [
+            "+1 SPD",
+            "+4 DODGE"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "agile_talon",
+        "name": "Agility Talon",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "agilitywhistle": {
+        "buffs": [
+            "+4 DODGE",
+            "+1 SPD",
+            "-20% Debuff Resist"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "agility_whistle",
+        "name": "Agility Whistle",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "ancestorsbottle": {
+        "buffs": [
+            "+25% MAX HP",
+            "+50% Food Consumed",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_bottle",
+        "name": "Ancestor's Bottle",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorscandle": {
+        "buffs": [
+            "+15% DMG if Torch above 50",
+            "+15% DMG if Torch above 50",
+            "+2 SPD if Torch above 50",
+            "+5 DODGE if Torch above 50",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_candle",
+        "name": "Ancestor's Candle",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorscoat": {
+        "buffs": [
+            "+15 DODGE",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_coat",
+        "name": "Ancestor's Coat",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorshandkerchief": {
+        "buffs": [
+            "+50% Bleed Resist",
+            "+50% Disease Resist",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_handkerchief",
+        "name": "Ancestor's Handkerchief",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorslantern": {
+        "buffs": [
+            "-20% Chance Party Surprised",
+            "+20% Chance Monsters Surprised",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_lantern",
+        "name": "Ancestor's Lantern",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsmap": {
+        "buffs": [
+            "+25% Trap Disarm Chance",
+            "+25% Scouting Chance",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_map",
+        "name": "Ancestor's Map",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsmoustachecream": {
+        "buffs": [
+            "+50% Blight Resist",
+            "+50% Debuff Resist",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_moustache_cream",
+        "name": "Ancestor's Moustache Cream",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsmusketball": {
+        "buffs": [
+            "+10% CRT Ranged Skills",
+            "+10% DMG Ranged Skills",
+            "+10% DMG Ranged Skills",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_musket_ball",
+        "name": "Ancestor's Musket Ball",
+        "origin_dungeon": "Weald",
+        "rarity": "Ancestral"
+    },
+    "ancestorspen": {
+        "buffs": [
+            "+10% CRT Melee Skills",
+            "+10% DMG Melee Skills",
+            "+10% DMG Melee Skills",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_pen",
+        "name": "Ancestor's Pen",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorspistol": {
+        "buffs": [
+            "+15 ACC Ranged Skills",
+            "+3 SPD",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_pistol",
+        "name": "Ancestor's Pistol",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsportrait": {
+        "buffs": [
+            "+50% Resolve XP",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_portrait",
+        "name": "Ancestor's Portrait",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsscroll": {
+        "buffs": [
+            "+25% Healing Skills",
+            "+25% Stress Skills",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_scroll",
+        "name": "Ancestor's Scroll",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorssignetring": {
+        "buffs": [
+            "+10 ACC",
+            "+10% PROT",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "ancestors_signet_ring",
+        "name": "Ancestor's Signet Ring",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorstentacleidol": {
+        "buffs": [
+            "+20% Virtue Chance",
+            "+8% Death Blow Resist"
+        ],
+        "hero_class": "",
+        "id": "ancestors_tentacle_idol",
+        "name": "Ancestor's Tentacle Idol",
+        "origin_dungeon": "",
+        "rarity": "Ancestral"
+    },
+    "ancestorsvintage": {
+        "buffs": [
+            "Delayed Curse craving"
+        ],
+        "hero_class": "",
+        "id": "cc_crimson_tincture",
+        "name": "Ancestor's Vintage",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "archersring": {
+        "buffs": [
+            "+5 ACC Ranged Skills",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "archers_ring",
+        "name": "Archer's Ring",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "ariabox": {
+        "buffs": [
+            "-25% Stress"
+        ],
+        "hero_class": "",
+        "id": "madman_1",
+        "name": "Aria Box",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "ashendistillation": {
+        "buffs": [
+            "+20 DODGE",
+            "+25% Blight Skill Chance",
+            "+20% Healing Received if 0 in inventory"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "com_pd_ashen_distillation",
+        "name": "Ashen Distillation",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "atonementbeads": {
+        "buffs": [
+            "+15% DMG Melee Skills",
+            "+15% DMG Melee Skills",
+            "+9% CRT Melee Skills",
+            "-15% Virtue Chance"
+        ],
+        "hero_class": "Vestal",
+        "id": "cc_set_vest_atonement_beads",
+        "name": "Atonement Beads",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "bagofmarbles": {
+        "buffs": [
+            "+10 DODGE"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "antiq_1",
+        "name": "Bag of Marbles",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "baronslash": {
+        "buffs": [
+            "+75% Debuff Resist if has Crimson Curse",
+            "+4 SPD if has Crimson Curse",
+            "-10% Stun Resist if has Crimson Curse"
+        ],
+        "hero_class": "",
+        "id": "cc_boss_baron",
+        "name": "Baron's Lash",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "barristanshead": {
+        "buffs": [
+            "+25% PROT",
+            "+20% Stress"
+        ],
+        "hero_class": "",
+        "id": "collector_2",
+        "name": "Barristan's Head",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "batteredlawmansbadge": {
+        "buffs": [
+            "+15 ACC Ranged Skills",
+            "+50% Stress Skills while Camping",
+            "+25% Healing Skills",
+            "-20% Stun Resist",
+            "-20% Debuff Resist"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "cc_set_hm_lawmans_badge",
+        "name": "Battered Lawman's Badge",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "beastslayersring": {
+        "buffs": [
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "-8 DODGE"
+        ],
+        "hero_class": "",
+        "id": "beast_slayers_ring",
+        "name": "Beast Slayer's Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "bedtimestory": {
+        "buffs": [
+            "+15 ACC vs 0",
+            "+10% CRT vs 0",
+            "+35% Debuff Skill Chance",
+            "+35% Move Skill Chance"
+        ],
+        "hero_class": "Arbalest",
+        "id": "cc_set_arb_sharpshooters_string_wax",
+        "name": "Bedtime Story",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "berserkcharm": {
+        "buffs": [
+            "+3 SPD",
+            "+15% DMG",
+            "+15% DMG",
+            "+15% Stress",
+            "-5 ACC",
+            "-10% Virtue Chance"
+        ],
+        "hero_class": "",
+        "id": "berserk_charm",
+        "name": "Berserk Charm",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "berserkmask": {
+        "buffs": [
+            "+10% CRT",
+            "+3 SPD",
+            "-10% Virtue Chance",
+            "-33% Healing Received"
+        ],
+        "hero_class": "Leper",
+        "id": "berserk_mask",
+        "name": "Berserk Mask",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "blasphemousvial": {
+        "buffs": [
+            "+10 ACC Ranged Skills",
+            "+20% Stun Skill Chance",
+            "+20% Blight Skill Chance",
+            "+25% Stress"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "blasphemous_vial",
+        "name": "Blasphemous Vial",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "bleedamulet": {
+        "buffs": [
+            "+20% Bleed Skill Chance",
+            "+20% Bleed Resist",
+            "-20% Blight Resist"
+        ],
+        "hero_class": "",
+        "id": "bleed_amulet",
+        "name": "Bleed Amulet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bleedcharm": {
+        "buffs": [
+            "+20% Bleed Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "bleed_charm",
+        "name": "Bleed Charm",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "bleedingpendant": {
+        "buffs": [
+            "+15% Bleed Skill Chance"
+        ],
+        "hero_class": "Hellion",
+        "id": "bleeding_pendant",
+        "name": "Bleeding Pendant",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "bleedstone": {
+        "buffs": [
+            "+15% Bleed Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "bleed_stone",
+        "name": "Bleed Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "blightamulet": {
+        "buffs": [
+            "+20% Blight Skill Chance",
+            "+20% Blight Resist",
+            "-20% Bleed Resist"
+        ],
+        "hero_class": "",
+        "id": "blight_amulet",
+        "name": "Blight Amulet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "blightcharm": {
+        "buffs": [
+            "+20% Blight Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "blight_charm",
+        "name": "Blight Charm",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "blightingsatchel": {
+        "buffs": [
+            "+25% Blight Skill Chance",
+            "+1 SPD",
+            "-4 DODGE"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "seers_satchel",
+        "name": "Blighting Satchel",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "blightstone": {
+        "buffs": [
+            "+15% Blight Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "blight_stone",
+        "name": "Blight Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "bloodcharm": {
+        "buffs": [
+            "+30% Bleed Resist"
+        ],
+        "hero_class": "",
+        "id": "blood_charm",
+        "name": "Blood Charm",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bloodcoursemedallion": {
+        "buffs": [
+            "+33% Healing Received"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "antiq_2",
+        "name": "Bloodcourse Medallion",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bloodiedfetish": {
+        "buffs": [
+            "+20% Blight Resist",
+            "+20% Bleed Resist",
+            "-20% Disease Resist"
+        ],
+        "hero_class": "",
+        "id": "bloodied_fetish",
+        "name": "Bloodied Fetish",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "bloodiedneckerchief": {
+        "buffs": [
+            "+2 SPD",
+            "+10 DODGE"
+        ],
+        "hero_class": "Highwayman",
+        "id": "cc_set_high_bloodied_neckerchief",
+        "name": "Bloodied Neckerchief",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "bloodpact": {
+        "buffs": [
+            "+4 SPD if Torch below 60",
+            "+25% DMG if Torch below 60",
+            "+25% DMG if Torch below 60",
+            "-25% Bleed Skill Chance",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Occultist",
+        "id": "cc_set_occ_blood_pact",
+        "name": "Blood Pact",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "bloodthirstring": {
+        "buffs": [
+            "-1% Food Consumed",
+            "+10% MAX HP",
+            "-25% Healing Received"
+        ],
+        "hero_class": "",
+        "id": "bloodthirst_ring",
+        "name": "Bloodthirst Ring",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bloodydice": {
+        "buffs": [
+            "+30% Bleed Skill Chance",
+            "-10% Bleed Resist"
+        ],
+        "hero_class": "Jester",
+        "id": "bloody_dice",
+        "name": "Bloody Dice",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "bloodyherb": {
+        "buffs": [
+            "+10 ACC Melee Skills",
+            "+30% Bleed Skill Chance",
+            "+20% DMG Melee Skills",
+            "+20% DMG Melee Skills"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "bloody_herb",
+        "name": "Bloody Herb",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "bookofconstitution": {
+        "buffs": [
+            "+30% Blight Resist",
+            "+30% Disease Resist",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "book_of_constitution",
+        "name": "Book of Constitution",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bookofholiness": {
+        "buffs": [
+            "-20% Stress",
+            "-10% Death Blow Resist"
+        ],
+        "hero_class": "",
+        "id": "book_of_holiness",
+        "name": "Book of Holiness",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bookofintuition": {
+        "buffs": [
+            "-20% Chance Party Surprised",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "book_of_intuition",
+        "name": "Book of Intuition",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "bookofrage": {
+        "buffs": [
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+10% CRT if HP below 0%",
+            "-10% Bleed Resist",
+            "-10% Blight Resist"
+        ],
+        "hero_class": "",
+        "id": "book_of_rage",
+        "name": "Book of Rage",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bookofrelaxation": {
+        "buffs": [
+            "-10% Stress",
+            "+4 ACC",
+            "-4 DODGE"
+        ],
+        "hero_class": "",
+        "id": "book_of_relaxation",
+        "name": "Book of Relaxation",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "bookofsanity": {
+        "buffs": [
+            "-20% Stress"
+        ],
+        "hero_class": "",
+        "id": "book_of_sanity",
+        "name": "Book of Sanity",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "brawlersgloves": {
+        "buffs": [
+            "+25% DMG if in position 0",
+            "+25% DMG if in position 0",
+            "-6% CRT",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "brawlers_gloves",
+        "name": "Brawler's Gloves",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "brighttambourine": {
+        "buffs": [
+            "-25% Stress if Torch above 75",
+            "+15% Stress if Torch below 51",
+            "+20% Stress Skills"
+        ],
+        "hero_class": "Jester",
+        "id": "bright_tambourine",
+        "name": "Bright Tambourine",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "brokenkey": {
+        "buffs": [
+            "+15 ACC",
+            "+35% Stun Skill Chance",
+            "+10% Stress"
+        ],
+        "hero_class": "Abomination",
+        "id": "com_abom_broken_key",
+        "name": "Broken Key",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "bullseyebandana": {
+        "buffs": [
+            "+8 ACC",
+            "+6% CRT",
+            "-4 DODGE"
+        ],
+        "hero_class": "Arbalest",
+        "id": "bulls_eye_bandana",
+        "name": "Bull's Eye Bandana",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "bullseyehat": {
+        "buffs": [
+            "+8 ACC",
+            "+6% CRT",
+            "-4 DODGE"
+        ],
+        "hero_class": "Musketeer",
+        "id": "bulls_eye_hat",
+        "name": "Bulls-Eye Hat",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "calloustalon": {
+        "buffs": [
+            "+7% CRT",
+            "+33% Disease Resist if Torch below 75",
+            "+33% Bleed Skill Chance if Torch below 50",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "crow_talon",
+        "name": "Callous Talon",
+        "origin_dungeon": "",
+        "rarity": "Shrieker"
+    },
+    "calmingcrystal": {
+        "buffs": [
+            "-15% Stress",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "calming_crystal",
+        "name": "Calming Crystal",
+        "origin_dungeon": "Ruins",
+        "rarity": "Uncommon"
+    },
+    "camouflagecloak": {
+        "buffs": [
+            "+15 DODGE if Torch above 75",
+            "-20% Stun Resist"
+        ],
+        "hero_class": "",
+        "id": "camouflage_cloak",
+        "name": "Camouflage Cloak",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "campershelmet": {
+        "buffs": [
+            "+20% Stress Heal Received while Camping",
+            "+10% Scouting Chance"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "campers_helmet",
+        "name": "Camper's Helmet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "candleoflife": {
+        "buffs": [
+            "+50% Healing Skills",
+            "+15% MAX HP"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "antiq_5",
+        "name": "Candle of Life",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "carapaceidol": {
+        "buffs": [
+            "+25% PROT"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "antiq_3",
+        "name": "Carapace Idol",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "cautioncloak": {
+        "buffs": [
+            "+10% Scouting Chance",
+            "-10 SPD on First Round"
+        ],
+        "hero_class": "",
+        "id": "caution_cloak",
+        "name": "Caution Cloak",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "childhoodtreasure": {
+        "buffs": [
+            "+30% Healing Skills",
+            "+20% Healing Skills while Camping",
+            "-15% Stress"
+        ],
+        "hero_class": "Arbalest",
+        "id": "cc_set_arb_childhood_treasure",
+        "name": "Childhood Treasure",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "chippedtooth": {
+        "buffs": [
+            "+20% MAX HP",
+            "+35% Move Resist"
+        ],
+        "hero_class": "Flagellant",
+        "id": "cc_set_flag_chipped_tooth",
+        "name": "Chipped Tooth",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "chirurgeonscharm": {
+        "buffs": [
+            "+15% Healing Skills"
+        ],
+        "hero_class": "",
+        "id": "chirurgeons_charm",
+        "name": "Chirurgeons Charm",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "cleansingcrystal": {
+        "buffs": [
+            "+40% Blight Resist",
+            "+40% Bleed Resist",
+            "+40% Debuff Resist",
+            "-15% Blight Skill Chance",
+            "-15% Bleed Skill Chance",
+            "-15% Debuff Skill Chance"
+        ],
+        "hero_class": "",
+        "id": "cleansing_crystal",
+        "name": "Cleansing Crystal",
+        "origin_dungeon": "Warrens",
+        "rarity": "Very Rare"
+    },
+    "cleansingeyepatch": {
+        "buffs": [
+            "+30% Blight Resist",
+            "+20% Disease Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "cleansing_eyepatch",
+        "name": "Cleansing Eyepatch",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "clusterpendant": {
+        "buffs": [
+            "+25% Shards Given",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "com_comet_cluster_pendant",
+        "name": "Cluster Pendant",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "coatofmanycolors": {
+        "hero_class": "",
+        "id": "com_coat_many_colours",
+        "name": "Coat Of Many Colors",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "commandersorders": {
+        "buffs": [
+            "+15% Stress Heal Received",
+            "+33% Healing Skills",
+            "-10% DMG",
+            "-10% DMG"
+        ],
+        "hero_class": "Crusader",
+        "id": "commanders_orders",
+        "name": "Commander's Orders",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "countessfan": {
+        "buffs": [
+            "+50% Healing Received if has Crimson Curse",
+            "-25% Bleed Resist if has Crimson Curse"
+        ],
+        "hero_class": "",
+        "id": "cc_boss_countess",
+        "name": "Countess' Fan",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "covensignet": {
+        "buffs": [
+            "-25% Stress if has Crimson Curse"
+        ],
+        "hero_class": "",
+        "id": "cc_coven_signet",
+        "name": "Coven Signet",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "crescendobox": {
+        "buffs": [
+            "+2 SPD",
+            "+15% DMG",
+            "+15% DMG",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "madman_3",
+        "name": "Crescendo Box",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "crestofthe1100": {
+        "buffs": [
+            "+25% Virtue Chance",
+            "-15% Stress"
+        ],
+        "hero_class": "",
+        "id": "crest_of_1100",
+        "name": "Crest of the 1100",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "crewsbell": {
+        "buffs": [
+            "+50% Move Resist",
+            "+20% Healing Received"
+        ],
+        "hero_class": "",
+        "id": "boss_crew",
+        "name": "Crew's Bell",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "crimelordsmolars": {
+        "buffs": [
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "-10 DODGE"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "cc_set_bh_crime_lords_molars",
+        "name": "Crime Lords' Molars",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "criticaldice": {
+        "buffs": [
+            "+9% CRT"
+        ],
+        "hero_class": "Jester",
+        "id": "critical_dice",
+        "name": "Critical Dice",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "criticalstone": {
+        "buffs": [
+            "+3% CRT",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "critical_stone",
+        "name": "Critical Stone",
+        "origin_dungeon": "Warrens",
+        "rarity": "Common"
+    },
+    "crystallinegunpowder": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "+3 SPD",
+            "-15% Stun Resist"
+        ],
+        "hero_class": "Highwayman",
+        "id": "com_hwy_crystalline_gunpowder",
+        "name": "Crystalline Gunpowder",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "crystalpendant": {
+        "buffs": [
+            "+15% Shards Given",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "com_comet_seed_pendant",
+        "name": "Crystal Pendant",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "cudgelweight": {
+        "buffs": [
+            "+25% Stun Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "cudgel_weight",
+        "name": "Cudgel Weight",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "cuirboilli": {
+        "buffs": [
+            "+33% MAX HP",
+            "-2 SPD"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_5",
+        "name": "Cuirboilli",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "cursedincense": {
+        "buffs": [
+            "+40% Debuff Skill Chance",
+            "+20% Move Skill Chance",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Occultist",
+        "id": "cursed_incense",
+        "name": "Cursed Incense",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "damagestone": {
+        "buffs": [
+            "+10% DMG",
+            "+10% DMG",
+            "-4 DODGE"
+        ],
+        "hero_class": "",
+        "id": "damage_stone",
+        "name": "Damage Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "dancersfootwraps": {
+        "buffs": [
+            "+40% Move Resist",
+            "+2 SPD"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_3",
+        "name": "Dancer's Footwraps",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "darkbracer": {
+        "buffs": [
+            "+10% CRT if Torch below 26",
+            "+5 DODGE if Torch below 51",
+            "-10% DMG if Torch above 51",
+            "-10% DMG if Torch above 51"
+        ],
+        "hero_class": "",
+        "id": "dark_bracer",
+        "name": "Dark Bracer",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "darkcrown": {
+        "buffs": [
+            "-25% Stress if Torch below 26",
+            "+15% Virtue Chance if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "dark_crown",
+        "name": "Dark Crown",
+        "origin_dungeon": "Weald",
+        "rarity": "Rare"
+    },
+    "darktambourine": {
+        "buffs": [
+            "+12% Death Blow Resist",
+            "-25% Stress if Torch below 26",
+            "+10% Virtue Chance if Torch below 26"
+        ],
+        "hero_class": "Jester",
+        "id": "dark_tambourine",
+        "name": "Dark Tambourine",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "dazzlingcharm": {
+        "buffs": [
+            "+10% Stun Skill Chance"
+        ],
+        "hero_class": "",
+        "id": "dazzling_charm",
+        "name": "Dazzling Charm",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "dazzlingmirror": {
+        "buffs": [
+            "+4 SPD vs. 1s",
+            "+20% Stun Skill Chance vs 0"
+        ],
+        "hero_class": "",
+        "id": "cc_dazzling_mirror",
+        "name": "Dazzling Mirror",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "debuffamulet": {
+        "buffs": [
+            "+30% Debuff Skill Chance",
+            "+30% Debuff Resist",
+            "-4 DODGE"
+        ],
+        "hero_class": "",
+        "id": "debuff_amulet",
+        "name": "Debuff Amulet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "debuffcharm": {
+        "buffs": [
+            "+20% Debuff Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "debuff_charm",
+        "name": "Debuff Charm",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "debuffstone": {
+        "buffs": [
+            "+15% Debuff Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "debuff_stone",
+        "name": "Debuff Stone",
+        "origin_dungeon": "Ruins",
+        "rarity": "Common"
+    },
+    "defendersseal": {
+        "buffs": [
+            "+5% PROT",
+            "-3% CRT"
+        ],
+        "hero_class": "Crusader",
+        "id": "defenders_seal",
+        "name": "Defender's Seal",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "demonscauldron": {
+        "buffs": [
+            "+30% Stun Skill Chance",
+            "+40% Debuff Skill Chance",
+            "+3% CRT",
+            "-10% Virtue Chance",
+            "+15% Stress"
+        ],
+        "hero_class": "Occultist",
+        "id": "demons_cauldron",
+        "name": "Demon's Cauldron",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "deterioratingbracer": {
+        "buffs": [
+            "+10 DODGE if HP above 0%",
+            "-6 DODGE if HP below 0%"
+        ],
+        "hero_class": "",
+        "id": "deteriorating_bracer",
+        "name": "Deteriorating Bracer",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "dirgeforthedevoured": {
+        "buffs": [
+            "+25% Stress Skills",
+            "+25% DMG if 0 in inventory",
+            "+25% DMG if 0 in inventory",
+            "+10% Stress"
+        ],
+        "hero_class": "Jester",
+        "id": "com_jes_dirge_for_devoured",
+        "name": "Dirge For The Devoured",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "diseasecharm": {
+        "buffs": [
+            "+20% Disease Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "disease_charm",
+        "name": "Disease Charm",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "diseasedherb": {
+        "buffs": [
+            "+40% Disease Resist"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "diseased_herb",
+        "name": "Diseased Herb",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "dismashead": {
+        "buffs": [
+            "+25% DMG",
+            "+25% DMG",
+            "-10% MAX HP",
+            "+20% Stress"
+        ],
+        "hero_class": "",
+        "id": "collector_1",
+        "name": "Dismas' Head",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "dissectionkit": {
+        "buffs": [
+            "+35% Bleed Skill Chance",
+            "+25% DMG",
+            "+25% DMG"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "cc_set_pd_dissection_kit",
+        "name": "Dissection Kit",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "distendedcrowseye": {
+        "buffs": [
+            "+10 ACC",
+            "+33% Disease Resist if Torch below 75",
+            "+15% Scouting Chance if Torch below 50",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "crow_eye",
+        "name": "Distended Crowseye",
+        "origin_dungeon": "",
+        "rarity": "Shrieker"
+    },
+    "dodgestone": {
+        "buffs": [
+            "+4 DODGE",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "dodge_stone",
+        "name": "Dodge Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "dodgysheath": {
+        "buffs": [
+            "+8 DODGE",
+            "+1 SPD",
+            "-10 ACC Ranged Skills"
+        ],
+        "hero_class": "Highwayman",
+        "id": "dodgy_sheath",
+        "name": "Dodgy Sheath",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "doubleedgedpendant": {
+        "buffs": [
+            "+15% MAX HP",
+            "-20% Stun Resist"
+        ],
+        "hero_class": "Hellion",
+        "id": "double_edged_pendant",
+        "name": "Double-Edged Pendant",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "driftersbuckle": {
+        "buffs": [
+            "+10% Trap Disarm Chance",
+            "+4 DODGE",
+            "-5% Stress Heal Received"
+        ],
+        "hero_class": "Highwayman",
+        "id": "drifters_buckle",
+        "name": "Drifter's Buckle",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "eldritchkillingincense": {
+        "buffs": [
+            "+8% CRT vs 0",
+            "+15% DMG vs 0",
+            "+15% DMG vs 0"
+        ],
+        "hero_class": "Occultist",
+        "id": "eldritch_killing_incense",
+        "name": "Eldritch Killing Incense",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "eldritchslayersring": {
+        "buffs": [
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "-8 DODGE"
+        ],
+        "hero_class": "",
+        "id": "eldritch_slayers_ring",
+        "name": "Eldritch Slayer's Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "eternityscollar": {
+        "buffs": [
+            "+10% Death Blow Resist",
+            "+20 DODGE at Death's Door",
+            "+20% DMG if Stress above 85",
+            "+20% DMG if Stress above 85"
+        ],
+        "hero_class": "Flagellant",
+        "id": "flag_1",
+        "name": "Eternity's Collar",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "evasionincense": {
+        "buffs": [
+            "+8 DODGE",
+            "-1 SPD"
+        ],
+        "hero_class": "Occultist",
+        "id": "evasion_incense",
+        "name": "Evasion Incense",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "evidenceofcorruption": {
+        "buffs": [
+            "+25% Scouting Chance",
+            "-15% Chance Party Surprised",
+            "+10% Stress"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "cc_set_hm_damning_evidence",
+        "name": "Evidence of Corruption",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "fangedspeartip": {
+        "buffs": [
+            "+35% DMG vs 0",
+            "+35% DMG vs 0",
+            "-10% DMG",
+            "-10% DMG"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_4",
+        "name": "Fanged Spear Tip",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "fastingseal": {
+        "buffs": [
+            "-1% Food Consumed",
+            "-1% HP DMG Inflicted When Starving",
+            "+5 DODGE",
+            "-1% Stress from hunger",
+            "-1% Stress from camping meals"
+        ],
+        "hero_class": "",
+        "id": "fasting_seal",
+        "name": "Fasting Seal",
+        "origin_dungeon": "Warrens",
+        "rarity": "Rare"
+    },
+    "feathercrystal": {
+        "buffs": [
+            "+2 SPD",
+            "+8 DODGE",
+            "-20% Stun Resist",
+            "-20% Move Resist"
+        ],
+        "hero_class": "",
+        "id": "feather_crystal",
+        "name": "Feather Crystal",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "flashfiregunpowder": {
+        "buffs": [
+            "+10% DMG Ranged Skills",
+            "+10% DMG Ranged Skills",
+            "-20% Stun Resist"
+        ],
+        "hero_class": "Highwayman",
+        "id": "flashfire_gunpowder",
+        "name": "Flashfire Gunpowder",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "fleetflorin": {
+        "buffs": [
+            "+4 SPD",
+            "+20% Debuff Skill Chance"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "antiq_4",
+        "name": "Fleet Florin",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "fleshsheart": {
+        "buffs": [
+            "+50% Bleed Resist",
+            "+15% MAX HP"
+        ],
+        "hero_class": "",
+        "id": "boss_flesh",
+        "name": "Flesh's Heart",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "focusring": {
+        "buffs": [
+            "+15 ACC",
+            "+6% CRT",
+            "-8 DODGE"
+        ],
+        "hero_class": "",
+        "id": "focus_ring",
+        "name": "Focus Ring",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "fortunatearmlet": {
+        "buffs": [
+            "+8 ACC",
+            "+3% CRT",
+            "+10% Stress"
+        ],
+        "hero_class": "Leper",
+        "id": "fortunate_armlet",
+        "name": "Fortunate Armlet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "fusemansmatchstick": {
+        "buffs": [
+            "+2 SPD",
+            "+10% DMG Ranged Skills",
+            "+10% DMG Ranged Skills",
+            "+6% CRT Ranged Skills"
+        ],
+        "hero_class": "",
+        "id": "boss_cannon",
+        "name": "Fuseman's Matchstick",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "gamblerscharm": {
+        "buffs": [
+            "+15% MAX HP",
+            "-10% Death Blow Resist"
+        ],
+        "hero_class": "",
+        "id": "gamblers_charm",
+        "name": "Gambler's Charm",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "glitteringspaulders": {
+        "buffs": [
+            "+15% PROT",
+            "+35% Move Resist",
+            "-15% Stress",
+            "-2 SPD"
+        ],
+        "hero_class": "Crusader",
+        "id": "cc_set_cru_glittering_spaulders",
+        "name": "Glittering Spaulders",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "guardiansshield": {
+        "buffs": [
+            "+10% PROT if in position 3",
+            "+50% Healing Received if in position 3",
+            "+10 DODGE if in position 3"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "guardians_shield",
+        "name": "Guardian's Shield",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "gunslingersbuckle": {
+        "buffs": [
+            "+20% DMG Ranged Skills",
+            "+20% DMG Ranged Skills",
+            "+15 ACC Ranged Skills",
+            "-10% DMG Melee Skills",
+            "-10% DMG Melee Skills",
+            "-6% CRT Melee Skills"
+        ],
+        "hero_class": "Highwayman",
+        "id": "poisoning_buckle",
+        "name": "Gunslinger's Buckle",
+        "origin_dungeon": "Ruins",
+        "rarity": "Very Rare"
+    },
+    "hagsladle": {
+        "buffs": [
+            "+30% Blight Skill Chance",
+            "+40% Blight Resist",
+            "+40% Disease Resist"
+        ],
+        "hero_class": "",
+        "id": "boss_hag",
+        "name": "Hag's Ladle",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "hastechalice": {
+        "buffs": [
+            "+8 SPD on First Round",
+            "+2 SPD on First Round",
+            "-25% Stun Skill Chance"
+        ],
+        "hero_class": "Vestal",
+        "id": "haste_chalice",
+        "name": "Haste Chalice",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "healingarmlet": {
+        "buffs": [
+            "+20% Healing Received"
+        ],
+        "hero_class": "Leper",
+        "id": "healing_armlet",
+        "name": "Healing Armlet",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "healthstone": {
+        "buffs": [
+            "+10% MAX HP",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "health_stone",
+        "name": "Health Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "heartbursthood": {
+        "buffs": [
+            "+4 SPD if HP below 0%"
+        ],
+        "hero_class": "Flagellant",
+        "id": "flag_5",
+        "name": "Heartburst Hood",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "heavenshairpin": {
+        "buffs": [
+            "-25% Stress if Torch above 75",
+            "+10 ACC if Torch above 75"
+        ],
+        "hero_class": "Hellion",
+        "id": "heavens_hairpin",
+        "name": "Heaven's Hairpin",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "heavyboots": {
+        "buffs": [
+            "+40% Move Resist",
+            "+20% PROT",
+            "-2 SPD"
+        ],
+        "hero_class": "",
+        "id": "heavy_boots",
+        "name": "Heavy Boots",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "hellshairpin": {
+        "buffs": [
+            "+12% CRT if Torch below 25",
+            "+15 ACC if Torch below 25",
+            "-10% Debuff Resist",
+            "-10% Bleed Resist"
+        ],
+        "hero_class": "Hellion",
+        "id": "hells_hairpin",
+        "name": "Hell's Hairpin",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "hereticalpassage": {
+        "buffs": [
+            "+20% Healing Skills if 0 in inventory",
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "+10% Stress"
+        ],
+        "hero_class": "Vestal",
+        "id": "com_ves_heretical_passages",
+        "name": "Heretical Passage",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "herosring": {
+        "buffs": [
+            "+25% Virtue Chance"
+        ],
+        "hero_class": "",
+        "id": "heros_ring",
+        "name": "Hero's Ring",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "holyorders": {
+        "buffs": [
+            "+15% Virtue Chance",
+            "-20% Stress",
+            "+12% Death Blow Resist",
+            "-20% Blight Resist",
+            "-20% Bleed Resist"
+        ],
+        "hero_class": "Crusader",
+        "id": "holy_orders",
+        "name": "Holy Orders",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "hunterstalon": {
+        "buffs": [
+            "+6% CRT",
+            "+10 ACC",
+            "+50% Food Consumed"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "hunters_talon",
+        "name": "Hunter's Talon",
+        "origin_dungeon": "Warrens",
+        "rarity": "Rare"
+    },
+    "huskfangwhistle": {
+        "buffs": [
+            "+50% Bleed Skill Chance if 0 in inventory",
+            "+40% Stress Skills when Guarding",
+            "-10 DODGE",
+            "+66% Guard Duration"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "com_hnd_huskfang_whistle",
+        "name": "Huskfang Whistle",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "icosahedricmusketballs": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "On attack: Random target 20%."
+        ],
+        "hero_class": "Musketeer",
+        "id": "com_msk_icosahedric_balls",
+        "name": "Icosahedric Musket Balls",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "immunitymask": {
+        "buffs": [
+            "+40% Stun Resist",
+            "+30% Blight Resist",
+            "+30% Bleed Resist",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Leper",
+        "id": "immunity_mask",
+        "name": "Immunity Mask",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "juniashead": {
+        "buffs": [
+            "+30% Healing Skills",
+            "+20% Stress"
+        ],
+        "hero_class": "",
+        "id": "collector_3",
+        "name": "Junia's Head",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "keeningbolts": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "+8% CRT Ranged Skills"
+        ],
+        "hero_class": "Arbalest",
+        "id": "com_arb_keening_bolts",
+        "name": "Keening Bolts",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "knightscrest": {
+        "buffs": [
+            "+10% MAX HP"
+        ],
+        "hero_class": "Crusader",
+        "id": "knights_crest",
+        "name": "Knight's Crest",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "lastwillandtestament": {
+        "buffs": [
+            "+15% PROT",
+            "+15% MAX HP",
+            "-10% Death Blow Resist"
+        ],
+        "hero_class": "Leper",
+        "id": "cc_set_lep_last_will_and_testament",
+        "name": "Last Will and Testament",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "legendarybracer": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "-1 SPD",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "legendary_bracer",
+        "name": "Legendary Bracer",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "lensofthecomet": {
+        "buffs": [
+            "Ignores Stealth",
+            "-20% Virtue Chance",
+            "+5% CRT if 0 in inventory"
+        ],
+        "hero_class": "",
+        "id": "com_lens_of_comet",
+        "name": "Lens of the Comet",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "lifecrystal": {
+        "buffs": [
+            "+20% MAX HP",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "life_crystal",
+        "name": "Life Crystal",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "lionesswarpaint": {
+        "buffs": [
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+20% DMG if HP below 0%",
+            "+10% Stress"
+        ],
+        "hero_class": "Hellion",
+        "id": "cc_set_hel_lioness_warpaint",
+        "name": "Lioness Warpaint",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "lockoffury": {
+        "buffs": [
+            "+10% DMG",
+            "+10% DMG",
+            "+3 SPD",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Abomination",
+        "id": "padlock_4",
+        "name": "Lock of Fury",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "lockofpatience": {
+        "buffs": [
+            "+10% Virtue Chance"
+        ],
+        "hero_class": "Abomination",
+        "id": "padlock_1",
+        "name": "Lock of Patience",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "longevityeyepatch": {
+        "buffs": [
+            "+15% MAX HP",
+            "-2 SPD"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "longevity_eyepatch",
+        "name": "Longevity Eyepatch",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "luckydice": {
+        "buffs": [
+            "+4 ACC",
+            "+4 DODGE"
+        ],
+        "hero_class": "Jester",
+        "id": "lucky_dice",
+        "name": "Lucky Dice",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "luckytalisman": {
+        "buffs": [
+            "+12 DODGE",
+            "+10 ACC Ranged Skills",
+            "+10% Stress"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "lucky_talisman",
+        "name": "Lucky Talisman",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "manslayersring": {
+        "buffs": [
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "-8 DODGE"
+        ],
+        "hero_class": "",
+        "id": "man_slayers_ring",
+        "name": "Man Slayer's Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "mantraoffasting": {
+        "buffs": [
+            "+40% MAX HP if 0",
+            "+7 SPD if 0"
+        ],
+        "hero_class": "",
+        "id": "cc_mantra_of_fasting",
+        "name": "Mantra of Fasting",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "markoftheoutcast": {
+        "buffs": [
+            "+2 SPD",
+            "+35% Bleed Skill Chance",
+            "+15% Death Blow Resist",
+            "-15% Healing Received"
+        ],
+        "hero_class": "Hellion",
+        "id": "cc_set_hel_mark_of_the_outcast",
+        "name": "Mark of the Outcast",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "martyrsseal": {
+        "buffs": [
+            "+60% DMG at Death's Door",
+            "+60% DMG at Death's Door",
+            "+15% CRT at Death's Door",
+            "+12% Death Blow Resist",
+            "+15% MAX HP"
+        ],
+        "hero_class": "",
+        "id": "martyrs_seal",
+        "name": "Martyr's Seal",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "maskofthetimeless": {
+        "buffs": [
+            "+2 SPD",
+            "+15 DODGE",
+            "+5% Stress"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "com_bh_mask_of_timeless",
+        "name": "Mask Of The Timeless",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "medicsboots": {
+        "buffs": [
+            "+33% Healing Skills"
+        ],
+        "hero_class": "Musketeer",
+        "id": "medics_boots",
+        "name": "Medic's Boots",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "medicsgreaves": {
+        "buffs": [
+            "+33% Healing Skills"
+        ],
+        "hero_class": "Arbalest",
+        "id": "medics_greaves",
+        "name": "Medic's Greaves",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "mercurialsalve": {
+        "buffs": [
+            "+25% DMG vs 0",
+            "+25% DMG vs 0"
+        ],
+        "hero_class": "",
+        "id": "cc_quicksilver_salve",
+        "name": "Mercurial Salve",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "mildredslocket": {
+        "buffs": [
+            "-1% DMG Taken: 0",
+            "+40% Blight Resist",
+            "+3 SPD",
+            "+40% DMG vs 0",
+            "+40% DMG vs 0"
+        ],
+        "hero_class": "",
+        "id": "com_mildredslocket",
+        "name": "Mildred's Locket",
+        "origin_dungeon": "",
+        "rarity": "Keepsake"
+    },
+    "millerspipe": {
+        "hero_class": "",
+        "id": "com_millers_pipe",
+        "name": "Miller's Pipe",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "mirrorshield": {
+        "buffs": [
+            "+10 DODGE",
+            "30% Damage Reflection",
+            "+20% Stun Resist"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "com_maa_mirror_shield",
+        "name": "Mirror Shield",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "moltedtailfeather": {
+        "buffs": [
+            "+4 SPD",
+            "+33% Disease Resist if Torch below 75",
+            "+33% Stun Resist if Torch below 50",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "crow_tailfeather",
+        "name": "Molted Tailfeather",
+        "origin_dungeon": "",
+        "rarity": "Shrieker"
+    },
+    "moltedwingfeather": {
+        "buffs": [
+            "+10 DODGE",
+            "+33% Disease Resist if Torch below 75",
+            "+33% Move Resist if Torch below 50",
+            "+15% Stress"
+        ],
+        "hero_class": "",
+        "id": "crow_wingfeather",
+        "name": "Molted Wingfeather",
+        "origin_dungeon": "",
+        "rarity": "Shrieker"
+    },
+    "mooncloak": {
+        "buffs": [
+            "+15% PROT if Torch below 26",
+            "+10 DODGE if Torch below 26",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "moon_cloak",
+        "name": "Moon Cloak",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "moonring": {
+        "buffs": [
+            "+15% DMG if Torch below 25",
+            "+15% DMG if Torch below 25",
+            "+10 ACC if Torch below 25",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "moon_ring",
+        "name": "Moon Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "moveamulet": {
+        "buffs": [
+            "+20% Move Skill Chance",
+            "+30% Move Resist",
+            "-20% Debuff Resist"
+        ],
+        "hero_class": "",
+        "id": "move_amulet",
+        "name": "Move Amulet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "movecharm": {
+        "buffs": [
+            "+20% Move Resist",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "move_charm",
+        "name": "Move Charm",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "movestone": {
+        "buffs": [
+            "+15% Move Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "move_stone",
+        "name": "Move Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "necromancerscollar": {
+        "buffs": [
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+10% CRT vs 0"
+        ],
+        "hero_class": "",
+        "id": "boss_necromancer",
+        "name": "Necromancer's Collar",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "noneuclideanhilt": {
+        "buffs": [
+            "+15% MAX HP",
+            "On attack: Random target 5%.",
+            "+25% Stun Skill Chance if 0 in inventory"
+        ],
+        "hero_class": "Crusader",
+        "id": "com_cru_non_euclidean_hilt",
+        "name": "Non-Euclidean Hilt",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "obsidiandagger": {
+        "buffs": [
+            "+40% Debuff Skill Chance",
+            "+40% Blight Skill Chance"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_set_1",
+        "name": "Obsidian Dagger",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "oldunitstandard": {
+        "buffs": [
+            "+15% Stun Skill Chance",
+            "+20% Debuff Skill Chance",
+            "+15% Death Blow Resist",
+            "+10% Stress"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "cc_set_maa_old_unit_banner",
+        "name": "Old Unit Standard",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "osmondchains": {
+        "buffs": [
+            "+20% DMG Ranged Skills",
+            "+20% DMG Ranged Skills",
+            "+9% CRT Ranged Skills"
+        ],
+        "hero_class": "Abomination",
+        "id": "cc_set_abom_wrought_osmond_chains",
+        "name": "Osmond Chains",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "overturebox": {
+        "buffs": [
+            "+15% MAX HP",
+            "+8 DODGE",
+            "-2 ACC"
+        ],
+        "hero_class": "",
+        "id": "madman_2",
+        "name": "Overture Box",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "padlockoftransference": {
+        "buffs": [
+            "+20% Stun Skill Chance",
+            "+20% Blight Skill Chance"
+        ],
+        "hero_class": "Abomination",
+        "id": "padlock_2",
+        "name": "Padlock of Transference",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "pagantalisman": {
+        "buffs": [
+            "+25% DMG vs. 0",
+            "+25% DMG vs. 0",
+            "-10% Stress"
+        ],
+        "hero_class": "",
+        "id": "cc_pagan_talisman",
+        "name": "Pagan Talisman",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "paralyzerscrest": {
+        "buffs": [
+            "+20% Stun Skill Chance",
+            "-2 DODGE"
+        ],
+        "hero_class": "Crusader",
+        "id": "paralyzers_crest",
+        "name": "Paralyzer's Crest",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "petrifiedamulet": {
+        "buffs": [
+            "+10 ACC if 0 in inventory",
+            "+15% MAX HP",
+            "-15% Bleed Resist"
+        ],
+        "hero_class": "Leper",
+        "id": "com_lep_crystalized_amulet",
+        "name": "Petrified Amulet",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "petrifiedskull": {
+        "buffs": [
+            "+40% PROT When Attacked By 0",
+            "-20% Healing Received",
+            "+30% PROT When Attacked By 0",
+            "+15% MAX HP"
+        ],
+        "hero_class": "Occultist",
+        "id": "com_occ_elder_sign",
+        "name": "Petrified Skull",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "poisonedherb": {
+        "buffs": [
+            "+40% Blight Skill Chance",
+            "-15% MAX HP"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "poisoned_herb",
+        "name": "Poisoned Herb",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "prismaticheartcrystal": {
+        "buffs": [
+            "+35% Blight Skill Chance vs. 0",
+            "+35% Bleed Skill Chance vs. 0",
+            "+15% CRT vs. 0"
+        ],
+        "hero_class": "",
+        "id": "com_prismatic_heart_crystal",
+        "name": "Prismatic Heart Crystal",
+        "origin_dungeon": "",
+        "rarity": "Thing"
+    },
+    "profanescroll": {
+        "buffs": [
+            "+15% DMG",
+            "+15% DMG",
+            "+10% PROT if in position 1",
+            "+33% Healing Skills if in position 1",
+            "+15% Stress"
+        ],
+        "hero_class": "Vestal",
+        "id": "profane_scroll",
+        "name": "Profane Scroll",
+        "origin_dungeon": "Ruins",
+        "rarity": "Rare"
+    },
+    "prophetseye": {
+        "buffs": [
+            "+15 ACC if in position 3",
+            "+3 SPD if in position 3",
+            "-15% Stress if in position 3"
+        ],
+        "hero_class": "",
+        "id": "boss_prophet",
+        "name": "Prophet's Eye",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "protectionstone": {
+        "buffs": [
+            "+5% PROT",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "protection_stone",
+        "name": "Protection Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "protectivecollar": {
+        "buffs": [
+            "+12 DODGE",
+            "-15% DMG",
+            "-15% DMG"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "protective_collar",
+        "name": "Protective Collar",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "protectivepadlock": {
+        "buffs": [
+            "+15% PROT",
+            "-1 SPD"
+        ],
+        "hero_class": "Abomination",
+        "id": "padlock_3",
+        "name": "Protective Padlock",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "punishmentshood": {
+        "buffs": [
+            "+20% Bleed Skill Chance",
+            "+15% DMG if HP below 0%",
+            "+15% DMG if HP below 0%",
+            "-20% Healing Skills"
+        ],
+        "hero_class": "Flagellant",
+        "id": "flag_3",
+        "name": "Punishment's Hood",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "quickdrawcharm": {
+        "buffs": [
+            "+8 SPD on First Round",
+            "+15% CRT on First Round",
+            "-3 SPD on First Round"
+        ],
+        "hero_class": "",
+        "id": "quick_draw_charm",
+        "name": "Quick Draw Charm",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "quickeningsatchel": {
+        "buffs": [
+            "+2 SPD"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "quickening_satchel",
+        "name": "Quickening Satchel",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "raiderstalisman": {
+        "buffs": [
+            "+5% CRT",
+            "+30% Trap Disarm Chance",
+            "+2 SPD",
+            "+15% Scouting Chance",
+            "-10% MAX HP"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "raiders_talisman",
+        "name": "Raider's Talisman",
+        "origin_dungeon": "Warrens",
+        "rarity": "Very Rare"
+    },
+    "rampartshield": {
+        "buffs": [
+            "+40% Move Skill Chance",
+            "+30% Stun Skill Chance",
+            "-15% DMG",
+            "-15% DMG"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "rampart_shield",
+        "name": "Rampart Shield",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "ratcarcass": {
+        "buffs": [
+            "Immune to death by Crimson Curse"
+        ],
+        "hero_class": "",
+        "id": "cc_rat_carcass",
+        "name": "Rat Carcass",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "recklesscharm": {
+        "buffs": [
+            "+5 ACC",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "reckless_charm",
+        "name": "Reckless Charm",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "recoverycharm": {
+        "buffs": [
+            "+40% Healing Received"
+        ],
+        "hero_class": "",
+        "id": "recovery_charm",
+        "name": "Recovery Charm",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "redemptionarmlet": {
+        "buffs": [
+            "+15% DMG if in position 0",
+            "+15% DMG if in position 0",
+            "-3% Virtue Chance"
+        ],
+        "hero_class": "Leper",
+        "id": "selfish_armlet",
+        "name": "Redemption Armlet",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "restrainingpadlock": {
+        "buffs": [
+            "-40% Stress Inflicted On Party: 0",
+            "-40% On Transformation Stress"
+        ],
+        "hero_class": "Abomination",
+        "id": "padlock_5",
+        "name": "Restraining Padlock",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "resurrectionscollar": {
+        "buffs": [
+            "+33% Healing Skills",
+            "-15% Bleed Skill Chance"
+        ],
+        "hero_class": "Flagellant",
+        "id": "flag_4",
+        "name": "Resurrection's Collar",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "rotgutcenser": {
+        "buffs": [
+            "+8 ACC",
+            "-5% MAX HP"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "rotgut_censer",
+        "name": "Rotgut Censer",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "sacredscroll": {
+        "buffs": [
+            "-10% Stress",
+            "+33% Healing Skills",
+            "-10% Stun Skill Chance",
+            "-33% DMG",
+            "-33% DMG"
+        ],
+        "hero_class": "Vestal",
+        "id": "sacred_scroll",
+        "name": "Sacred Scroll",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "sacrificialcauldron": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "+10% Stress"
+        ],
+        "hero_class": "Occultist",
+        "id": "sacrificial_cauldron",
+        "name": "Sacrificial Cauldron",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "salaciousdiary": {
+        "buffs": [
+            "+33% Stress Skills while Camping",
+            "+25% Healing Skills"
+        ],
+        "hero_class": "Vestal",
+        "id": "cc_set_vest_salacious_diary",
+        "name": "Salacious Diary",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "sanguinesnuff": {
+        "buffs": [
+            "+8% CRT if 0",
+            "+15 DODGE if 0"
+        ],
+        "hero_class": "",
+        "id": "cc_crystal_snifter",
+        "name": "Sanguine Snuff",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "scoutingwhistle": {
+        "buffs": [
+            "+20% Scouting Chance if Torch below 51",
+            "+20% Trap Disarm Chance"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "scouting_whistle",
+        "name": "Scouting Whistle",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "sculptorstools": {
+        "buffs": [
+            "+40% DMG vs 0",
+            "+40% DMG vs 0"
+        ],
+        "hero_class": "",
+        "id": "cc_sculptors_tools",
+        "name": "Sculptor's Tools",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "secondplacetrophy": {
+        "buffs": [
+            "+30% Healing Skills",
+            "+20% Healing Skills while Camping",
+            "-15% Stress"
+        ],
+        "hero_class": "Musketeer",
+        "id": "cc_set_musk_first_place_trophy",
+        "name": "Second Place Trophy",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "seerstone": {
+        "buffs": [
+            "+15% Scouting Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "seer_stone",
+        "name": "Seer Stone",
+        "origin_dungeon": "Ruins",
+        "rarity": "Uncommon"
+    },
+    "selfishpendant": {
+        "buffs": [
+            "-15% Stress"
+        ],
+        "hero_class": "Hellion",
+        "id": "selfish_pendant",
+        "name": "Selfish Pendant",
+        "origin_dungeon": "Weald",
+        "rarity": "Common"
+    },
+    "severedhand": {
+        "buffs": [
+            "+50% Blight Resist",
+            "-10% Stress"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_set_2",
+        "name": "Severed Hand",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "shamefullocket": {
+        "buffs": [
+            "+10 ACC",
+            "+6% CRT",
+            "+15% Stress"
+        ],
+        "hero_class": "Highwayman",
+        "id": "cc_set_high_shameful_locket",
+        "name": "Shameful Locket",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "shamefulshroud": {
+        "buffs": [
+            "-15% Stress",
+            "+10 DODGE"
+        ],
+        "hero_class": "Abomination",
+        "id": "cc_set_abom_shameful_shroud",
+        "name": "Shameful Shroud",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "shardofglass": {
+        "buffs": [
+            "+35% Bleed Skill Chance",
+            "-20% Bleed Resist"
+        ],
+        "hero_class": "Flagellant",
+        "id": "cc_set_flag_shard_of_glass",
+        "name": "Shard of Glass",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "sharpenedletteropener": {
+        "buffs": [
+            "+25% DMG Melee Skills",
+            "+25% DMG Melee Skills",
+            "+10 ACC Melee Skills",
+            "+5 DODGE"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "cc_set_gr_sharpened_letter_opener",
+        "name": "Sharpened Letter Opener",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "sharpeningsheath": {
+        "buffs": [
+            "+8% CRT Melee Skills",
+            "+40% Bleed Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "Highwayman",
+        "id": "sharpening_sheath",
+        "name": "Sharpening Sheath",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "shimmeringcloak": {
+        "buffs": [
+            "+8 DODGE",
+            "-33% Healing Received"
+        ],
+        "hero_class": "",
+        "id": "shimmering_cloak",
+        "name": "Shimmering Cloak",
+        "origin_dungeon": "Ruins",
+        "rarity": "Uncommon"
+    },
+    "shimmeringscale": {
+        "buffs": [
+            "+10% PROT",
+            "+5% Stress"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_2",
+        "name": "Shimmering Scale",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "sickeningsatchel": {
+        "buffs": [
+            "+20% DMG vs 0",
+            "+20% DMG vs 0"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "stunning_satchel",
+        "name": "Sickening Satchel",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "signedconscription": {
+        "buffs": [
+            "+20% Healing Skills",
+            "+20% Stress Skills"
+        ],
+        "hero_class": "Crusader",
+        "id": "cc_set_cru_signed_conscription",
+        "name": "Signed Conscription",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "silvermusketball": {
+        "buffs": [
+            "+15 ACC vs 0",
+            "+10% CRT vs 0",
+            "+35% Debuff Skill Chance",
+            "+35% Move Skill Chance"
+        ],
+        "hero_class": "Musketeer",
+        "id": "cc_set_musk_silver_bullet",
+        "name": "Silver Musket Ball",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "sirensconch": {
+        "buffs": [
+            "+50% Debuff Resist",
+            "-20% Stress"
+        ],
+        "hero_class": "",
+        "id": "boss_siren",
+        "name": "Siren's Conch",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "slipperyboots": {
+        "buffs": [
+            "+4 DODGE",
+            "-20% Move Resist"
+        ],
+        "hero_class": "",
+        "id": "slippery_boots",
+        "name": "Slippery Boots",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "slyeyepatch": {
+        "buffs": [
+            "+4 DODGE",
+            "-10% Stun Resist",
+            "-10% Move Resist"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "sly_eyepatch",
+        "name": "Sly Eyepatch",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "smokingskull": {
+        "buffs": [
+            "+35 DODGE if 0 in inventory",
+            "-15 ACC",
+            "-15% Blight Resist"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "com_ant_smoking_skull",
+        "name": "Smoking Skull",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "snakeoil": {
+        "buffs": [
+            "-10% Stress"
+        ],
+        "hero_class": "",
+        "id": "snake_oil",
+        "name": "Snake Oil",
+        "origin_dungeon": "Ruins",
+        "rarity": "Common"
+    },
+    "snipersring": {
+        "buffs": [
+            "+15 ACC if in position 3",
+            "-2 SPD",
+            "+4% CRT if in position 3"
+        ],
+        "hero_class": "",
+        "id": "snipers_ring",
+        "name": "Sniper's Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "solarbracer": {
+        "buffs": [
+            "+4% CRT if Torch above 75",
+            "+5 DODGE if Torch above 75",
+            "-6% CRT if Torch below 50",
+            "-6 DODGE if Torch below 51"
+        ],
+        "hero_class": "",
+        "id": "solar_bracer",
+        "name": "Solar Bracer",
+        "origin_dungeon": "Warrens",
+        "rarity": "Uncommon"
+    },
+    "solarcrown": {
+        "buffs": [
+            "-20% Stress if Torch above 75"
+        ],
+        "hero_class": "",
+        "id": "solar_crown",
+        "name": "Solar Crown",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "spectralspeartip": {
+        "buffs": [
+            "+15% DMG",
+            "On attack: Random target 5%.",
+            "+20% Blight Skill Chance",
+            "+15% MAX HP",
+            "+15% DMG"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "com_sb_spectral_speartip",
+        "name": "Spectral Speartip",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "speedstone": {
+        "buffs": [
+            "+1 SPD"
+        ],
+        "hero_class": "",
+        "id": "speed_stone",
+        "name": "Speed Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "spikedcollar": {
+        "buffs": [
+            "+20% DMG",
+            "+20% DMG",
+            "+30% Bleed Skill Chance",
+            "-20% Healing Received",
+            "-50% Healing Skills"
+        ],
+        "hero_class": "Houndmaster",
+        "id": "spiked_collar",
+        "name": "Spiked Collar",
+        "origin_dungeon": "Warrens",
+        "rarity": "Very Rare"
+    },
+    "stalwartbuckle": {
+        "buffs": [
+            "+6% CRT",
+            "+5% Stress",
+            "-3% Virtue Chance"
+        ],
+        "hero_class": "Highwayman",
+        "id": "cursed_buckle",
+        "name": "Stalwart Buckle",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "steadybracer": {
+        "buffs": [
+            "+10 ACC Ranged Skills",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "steady_bracer",
+        "name": "Steady Bracer",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "stunamulet": {
+        "buffs": [
+            "+10% Stun Skill Chance",
+            "+20% Stun Resist",
+            "-4 DODGE"
+        ],
+        "hero_class": "",
+        "id": "stun_amulet",
+        "name": "Stun Amulet",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "stuncharm": {
+        "buffs": [
+            "+20% Stun Resist",
+            "-2 DODGE"
+        ],
+        "hero_class": "",
+        "id": "stun_charm",
+        "name": "Stun Charm",
+        "origin_dungeon": "Ruins",
+        "rarity": "Common"
+    },
+    "stunstone": {
+        "buffs": [
+            "+10% Stun Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "stun_stone",
+        "name": "Stun Stone",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "sturdyboots": {
+        "buffs": [
+            "+30% Move Resist",
+            "+30% Move Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "Musketeer",
+        "id": "sturdy_boots",
+        "name": "Sturdy Boots",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "sturdygreaves": {
+        "buffs": [
+            "+30% Move Resist",
+            "+30% Move Skill Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "Arbalest",
+        "id": "sturdy_greaves",
+        "name": "Sturdy Greaves",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "subject#40notes": {
+        "buffs": [
+            "+25% MAX HP",
+            "+35% Disease Resist"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "cc_set_pd_codex_of_plagues",
+        "name": "Subject #40 Notes",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "sufferingscollar": {
+        "buffs": [
+            "+20% Bleed Resist if HP below 0%",
+            "+20% Blight Resist if HP below 0%",
+            "+10% MAX HP"
+        ],
+        "hero_class": "Flagellant",
+        "id": "flag_2",
+        "name": "Suffering's Collar",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "suncloak": {
+        "buffs": [
+            "+5% PROT if Torch above 75",
+            "+10 DODGE if Torch above 75",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "sun_cloak",
+        "name": "Sun Cloak",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "sunring": {
+        "buffs": [
+            "+10% DMG if Torch above 75",
+            "+10% DMG if Torch above 75",
+            "+5 ACC if Torch above 75",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "sun_ring",
+        "name": "Sun Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "surgicalgloves": {
+        "buffs": [
+            "+10% CRT Melee Skills",
+            "+5 ACC Melee Skills",
+            "-20% Move Resist",
+            "-10% Debuff Resist"
+        ],
+        "hero_class": "",
+        "id": "surgical_glove",
+        "name": "Surgical Gloves",
+        "origin_dungeon": "Warrens",
+        "rarity": "Uncommon"
+    },
+    "survivalguide": {
+        "buffs": [
+            "+10% Scouting Chance",
+            "+10% Trap Disarm Chance",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "survival_guide",
+        "name": "Survival Guide",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "swiftcloak": {
+        "buffs": [
+            "+2 SPD",
+            "-20% Move Resist"
+        ],
+        "hero_class": "",
+        "id": "swift_cloak",
+        "name": "Swift Cloak",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "swordsmanscrest": {
+        "buffs": [
+            "+10% DMG Melee Skills",
+            "+10% DMG Melee Skills",
+            "-50% Healing Skills"
+        ],
+        "hero_class": "Crusader",
+        "id": "swordsmans_crest",
+        "name": "Swordsman's Crest",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "talismanoftheflame": {
+        "buffs": [
+            "-1% Stress: 0",
+            "-1% DMG Taken: 0"
+        ],
+        "hero_class": "",
+        "id": "dd_trinket",
+        "name": "Talisman of the Flame",
+        "origin_dungeon": "",
+        "rarity": "Darkest Dungeon"
+    },
+    "tenacityring": {
+        "buffs": [
+            "+10% Death Blow Resist",
+            "+5 DODGE",
+            "-5% CRT"
+        ],
+        "hero_class": "",
+        "id": "tenacity_ring",
+        "name": "Tenacity Ring",
+        "origin_dungeon": "Ruins",
+        "rarity": "Uncommon"
+    },
+    "themastersessence": {
+        "buffs": [
+            "+50% Healing Skills",
+            "+35% Blight Skill Chance",
+            "+35% Debuff Skill Chance"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "cc_set_anti_the_masters_essence",
+        "name": "The Master's Essence",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "thingscrystallinefang": {
+        "buffs": [
+            "+10% Stun Skill Chance if HP above 0%",
+            "+40% Stun Skill Chance if HP below 0%"
+        ],
+        "hero_class": "",
+        "id": "com_thing_fang",
+        "name": "Thing's Crystalline Fang",
+        "origin_dungeon": "",
+        "rarity": "Thing"
+    },
+    "thingsmesmerizingeye": {
+        "buffs": [
+            "+4% CRT if HP above 0%",
+            "+10% CRT if HP below 0%"
+        ],
+        "hero_class": "",
+        "id": "com_thing_eye",
+        "name": "Thing's Mesmerizing Eye",
+        "origin_dungeon": "",
+        "rarity": "Thing"
+    },
+    "thingsphaseshiftinghide": {
+        "buffs": [
+            "-15% Stress if HP above 0%",
+            "-50% Stress if HP below 0%"
+        ],
+        "hero_class": "",
+        "id": "com_thing_hide",
+        "name": "Thing's Phase Shifting Hide",
+        "origin_dungeon": "",
+        "rarity": "Thing"
+    },
+    "thirstingblade": {
+        "buffs": [
+            "+15 ACC",
+            "-20% Bleed Resist",
+            "+2 SPD",
+            "+10% CRT vs 0"
+        ],
+        "hero_class": "Hellion",
+        "id": "com_hel_thirsting_blade",
+        "name": "Thirsting Blade",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "tinflute": {
+        "buffs": [
+            "-20% Stress",
+            "+33% Stress Skills while Camping"
+        ],
+        "hero_class": "Leper",
+        "id": "cc_set_lep_tin_flute",
+        "name": "Tin Flute",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "tomeofholyhealing": {
+        "buffs": [
+            "+25% Healing Skills",
+            "-15% MAX HP"
+        ],
+        "hero_class": "Vestal",
+        "id": "book_of_holy_healing",
+        "name": "Tome of Holy Healing",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "topshelftonic": {
+        "buffs": [
+            "+15 DODGE if 0 in inventory",
+            "+3 SPD",
+            "-20% Blight Resist",
+            "+50% Blight duration when applied"
+        ],
+        "hero_class": "Grave Robber",
+        "id": "com_grv_huskclaw_toxin",
+        "name": "Topshelf Tonic",
+        "origin_dungeon": "",
+        "rarity": "Crystalline"
+    },
+    "toughring": {
+        "buffs": [
+            "+10% PROT",
+            "+15% MAX HP",
+            "-15% DMG",
+            "-15% DMG",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "tough_ring",
+        "name": "Tough Ring",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "toysoldier": {
+        "buffs": [
+            "+10% PROT",
+            "+6% CRT"
+        ],
+        "hero_class": "Man-at-Arms",
+        "id": "cc_set_maa_toy_soldier",
+        "name": "Toy Soldier",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "twoofthree": {
+        "buffs": [
+            "+50% DMG vs 0",
+            "+50% DMG vs 0",
+            "+10% CRT vs 0"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "cc_set_anti_two_of_the_three",
+        "name": "Two of Three",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "tyrantsfingerbone": {
+        "buffs": [
+            "+3 SPD if in position 0",
+            "+20 DODGE if in position 0"
+        ],
+        "hero_class": "Jester",
+        "id": "cc_set_jest_tyrants_fingerbone",
+        "name": "Tyrant's Fingerbone",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "tyrantstastingcup": {
+        "buffs": [
+            "+33% Stress Skills",
+            "+25% Stress"
+        ],
+        "hero_class": "Jester",
+        "id": "cc_set_jest_tasting_cup",
+        "name": "Tyrant's Tasting Cup",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "unholyslayersring": {
+        "buffs": [
+            "+25% DMG vs 0",
+            "+25% DMG vs 0",
+            "-8 DODGE"
+        ],
+        "hero_class": "",
+        "id": "unholy_slayers_ring",
+        "name": "Unholy Slayer's Ring",
+        "origin_dungeon": "",
+        "rarity": "Rare"
+    },
+    "unmovablehelmet": {
+        "buffs": [
+            "+30% Move Resist",
+            "+20% Move Skill Chance"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "unmovable_helmet",
+        "name": "Unmovable Helmet",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "vengefulboots": {
+        "buffs": [
+            "+3% CRT"
+        ],
+        "hero_class": "Musketeer",
+        "id": "vengeful_boots",
+        "name": "Vengeful Boots",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "vengefulgreaves": {
+        "buffs": [
+            "+3% CRT"
+        ],
+        "hero_class": "Arbalest",
+        "id": "vengeful_greaves",
+        "name": "Vengeful Greaves",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "vengefulkilllist": {
+        "buffs": [
+            "+50% Move Skill Chance",
+            "+35% Bleed Skill Chance",
+            "+15 ACC Ranged Skills"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "cc_set_bh_vow_of_revenge",
+        "name": "Vengeful Kill List",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "venomousvial": {
+        "buffs": [
+            "+30% Blight Skill Chance",
+            "-10% Blight Resist"
+        ],
+        "hero_class": "Shieldbreaker",
+        "id": "sb_1",
+        "name": "Venomous Vial",
+        "origin_dungeon": "",
+        "rarity": "Shieldbreaker"
+    },
+    "vialofsand": {
+        "buffs": [
+            "+20% Stun Skill Chance",
+            "+20% Debuff Skill Chance",
+            "+20% Move Skill Chance",
+            "+20% Stun Resist"
+        ],
+        "hero_class": "Occultist",
+        "id": "cc_set_occ_vial_of_sand",
+        "name": "Vial of Sand",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
+    },
+    "virtuouschalice": {
+        "buffs": [
+            "+10% Virtue Chance",
+            "-5% MAX HP"
+        ],
+        "hero_class": "Vestal",
+        "id": "recovery_chalice",
+        "name": "Virtuous Chalice",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "viscountsspices": {
+        "buffs": [
+            "+5% CRT if has Crimson Curse",
+            "+1% Healing when Eating if has Crimson Curse",
+            "+1% Food Consumed if has Crimson Curse"
+        ],
+        "hero_class": "",
+        "id": "cc_boss_viscount",
+        "name": "Viscount's Spices",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "vvulfstassel": {
+        "buffs": [
+            "+20% DMG vs 0",
+            "+20% DMG vs 0",
+            "+10 ACC vs 0",
+            "+5% CRT vs size 2"
+        ],
+        "hero_class": "",
+        "id": "boss_tassle",
+        "name": "Vvulf's Tassel",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "warriorsbracer": {
+        "buffs": [
+            "+10% DMG Melee Skills",
+            "+10% DMG Melee Skills",
+            "-4 DODGE"
+        ],
+        "hero_class": "",
+        "id": "warriors_bracer",
+        "name": "Warrior's Bracer",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "warriorscap": {
+        "buffs": [
+            "+5 ACC Melee Skills"
+        ],
+        "hero_class": "",
+        "id": "warriors_cap",
+        "name": "Warrior's Cap",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "wilbursflag": {
+        "buffs": [
+            "+50% Stun Resist",
+            "+10 DODGE"
+        ],
+        "hero_class": "",
+        "id": "boss_wilbur",
+        "name": "Wilbur's Flag",
+        "origin_dungeon": "",
+        "rarity": "Trophy"
+    },
+    "witchsvial": {
+        "buffs": [
+            "+15% Stun Skill Chance"
+        ],
+        "hero_class": "Plague Doctor",
+        "id": "witchs_vial",
+        "name": "Witch's Vial",
+        "origin_dungeon": "",
+        "rarity": "Common"
+    },
+    "worrystone": {
+        "buffs": [
+            "+10% Virtue Chance",
+            "-10% Stress",
+            "-1 SPD"
+        ],
+        "hero_class": "",
+        "id": "worrystone",
+        "name": "Worrystone",
+        "origin_dungeon": "",
+        "rarity": "Uncommon"
+    },
+    "woundinghelmet": {
+        "buffs": [
+            "+25% DMG Melee Skills",
+            "+25% DMG Melee Skills",
+            "-25% Move Skill Chance",
+            "-20% Stun Skill Chance"
+        ],
+        "hero_class": "Bounty Hunter",
+        "id": "wounding_helmet",
+        "name": "Wounding Helmet",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
+    "wrathfulbandana": {
+        "buffs": [
+            "+25% DMG if in position 3",
+            "+25% DMG if in position 3",
+            "+30% Debuff Skill Chance",
+            "-50% Healing Skills"
+        ],
+        "hero_class": "Arbalest",
+        "id": "wrathful_bandana",
+        "name": "Wrathful Bandana",
+        "origin_dungeon": "Warrens",
+        "rarity": "Very Rare"
+    },
+    "wrathfulhat": {
+        "buffs": [
+            "+20% DMG if in position 3",
+            "+20% DMG if in position 3",
+            "+30% Debuff Skill Chance",
+            "-30% Healing Skills",
+            "-33% Healing Received"
+        ],
+        "hero_class": "Musketeer",
+        "id": "wrathful_hat",
+        "name": "Wrathful Hat",
+        "origin_dungeon": "Warrens",
+        "rarity": "Very Rare"
+    },
+    "youthchalice": {
+        "buffs": [
+            "+20% MAX HP",
+            "-10% DMG",
+            "-10% DMG"
+        ],
+        "hero_class": "Vestal",
+        "id": "youth_chalice",
+        "name": "Youth Chalice",
+        "origin_dungeon": "Ruins",
+        "rarity": "Uncommon"
+    }
+}

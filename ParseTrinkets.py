@@ -12,55 +12,68 @@ _separators = (',', ': ')
 def stripName(name):
     return name.replace(" ","").replace("-","").replace("'","").lower()
 
-def getHeroNames():
-    hero_dict = {}
-    tree = ET.parse(DDpath+'localization/heroes.string_table.xml')
-    root = tree.getroot()
-    english = root[0]
-    for line in english:
-        #print line.attrib
-        if line.attrib['id'].startswith('hero_class_name_'):
-            h_name = line.text
-            h_id = line.attrib['id'].replace('hero_class_name_', "")
-            hero_dict[h_id] = h_name
-    return hero_dict
+#remove tags like '{colour|blight}' from the strings
+def remove_tags(string):
+    while string.find('{')!=-1 and string.find('}')!=-1:
+        string = string.replace(string[string.find('{'):string.find('}')+1],"")
+        #print string
+    return string
 
-def getDungeonNames(english):
-    d_names = {}
-    for line in english:
-        if line.attrib['id'].startswith('dungeon_name_'):
-            d_name = line.text
-            d_id = line.attrib['id'].replace('dungeon_name_', "")
-            d_names[d_id] = d_name
-    return d_names
-#TODO it may be better to just make a dict of id/text combo's in the english section,
-#then build up to the id needed, especially for the way buffs are stored.
-def getBuffTooltips(english):
-    tooltips = {}
-    for line in english:
-        if line.attrib['id'].startswith('buff_rule_tooltip_'):
-            tip = line.text
-            tip_id = line.attrib['id'].replace('buff_rule_tooltip_', "")
-            tooltips[tip_id] = tip
-    return tooltips
 
+#TODO move string_tables and getLanguageDict to utils
 #load the misccellaneous strings and return it as a dict of key(id):text pairs.
+string_tables = ['localization/miscellaneous.string_table.xml',
+                 'localization/heroes.string_table.xml',
+                 'dlc/580100_crimson_court/localization/CC.string_table.xml',
+                 'dlc/702540_shieldbreaker/localization/shieldbreaker.string_table.xml',
+                 'dlc/735730_color_of_madness/localization/CoM.string_table.xml']
 def getLanguageDict():
-    tree = ET.parse(DDpath+'localization/miscellaneous.string_table.xml')
-    #gets the root of the tree. Idk some weird xml thing
-    root = tree.getroot()
-    #I am only interested in english, so lets simplify and get a dict with just the english info.
-    english = root[0]
     misc_strings = {}
-    for line in english:
-        misc_strings[line.attrib['id']] = line.text
+    for path in string_tables:
+        tree = ET.parse(DDpath+path)
+        #gets the root of the tree. Idk some weird xml thing
+        root = tree.getroot()
+        #I am only interested in english, so lets simplify and get a dict with just the english info.
+        english = root[0]
+        for line in english:
+            misc_strings[line.attrib['id']] = line.text
     return misc_strings
 
+trinketInfoFiles = ['trinkets/base.entries.trinkets.json',
+    'dlc/445700_musketeer/trinkets/musketeer.entries.trinkets.json',
+    'dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json',
+    'dlc/580100_crimson_court/features/flagellant/trinkets/flagellant.entries.trinkets.json',
+    'dlc/702540_shieldbreaker/trinkets/shieldbreaker.entries.trinkets.json',
+    'dlc/735730_color_of_madness/trinkets/com.entries.trinkets.json',
+    'dlc/735730_color_of_madness/trinkets/special_com.entries.trinkets.json']
+def getTrinketInfos():
+    trinketInfos = {}
+    for path in trinketInfoFiles:
+        with open(DDpath+path) as fp:
+            tempTrinkets = json.load(fp)
+        for entry in tempTrinkets['entries']:
+            trinketInfos[entry['id']] = entry
+    return trinketInfos
+
+#
+buffInfo_files = ['shared/buffs/base.buffs.json',
+    'dlc/580100_crimson_court/features/crimson_court/shared/buffs/crimson_court.buffs.json',
+    'dlc/580100_crimson_court/features/flagellant/shared/buffs/flagellant.buffs.json',
+    'dlc/702540_shieldbreaker/shared/buffs/shieldbreaker.buffs.json',
+    'dlc/735730_color_of_madness/shared/buffs/com.buffs.json']
+def getBuffInfos():
+    #open the base game buffs file and convert from list to map
+    buffInfos = {}
+    for path in buffInfo_files:
+        with open(DDpath+path) as fp:
+            tempBuffs = json.load(fp)
+        for buff in tempBuffs['buffs']:
+            buffInfos[buff['id']] = buff
+    return buffInfos
 
 def parse_trinkets():
 
     misc_strings = getLanguageDict()
-    #prints all of the trinket names and adds them to the trinket dict
     #until all the data is parsed the game_id will be the key, at the end
     #a new dict will be made with the stripped (search) name as the key.
     trinket_dict = {}
@@ -68,35 +81,19 @@ def parse_trinkets():
         if key.startswith('str_inventory_title_trinket'):
             t_id = key.replace('str_inventory_title_trinket', "")
             t_name = misc_strings[key]
-            trinket_dict[t_id] = {'name': t_name }
-#        elif line.attrib['id'].startswith('trinket_rarity_'):
-#            rarity_key = line.attrib['id'].replace('trinket_rarity_', "")
-#            rarity_dict[rarity_key] = line.text
+            trinket_dict[t_id] = {'name': t_name, 'id': t_id }
 
-    hero_dict = getHeroNames()
-    #making the dungeon names in a function instead of in the loop like rarity is less efficient but a bit tidier.
-#    dungeon_names = getDungeonNames(english)
-#    buff_tooltips = getBuffTooltips(english)
-
-    #open the base game trinket file and convert from list to map
-    with open(DDpath+'trinkets/base.entries.trinkets.json') as fp:
-        temp_baseTrinkets = json.load(fp)
-    baseTrinketInfo = {}
-    for entry in temp_baseTrinkets['entries']:
-        baseTrinketInfo[entry['id']] = entry
-
-    #open the base game buffs file and convert from list to map
-    with open(DDpath+'shared/buffs/base.buffs.json') as fp:
-        baseBuffs = json.load(fp)
-    baseBuffInfo = {}
-    for buff in baseBuffs['buffs']:
-        baseBuffInfo[buff['id']] = buff
+    #load all of the trinket info files
+    trinketInfos = getTrinketInfos()
+    #load all of the buff files
+    buffInfos = getBuffInfos()
 
 #trinket data: name, rarity, hero_class(if any), origin, effects[list], additional(?), limit, price
+    skipped_trinkets = []
     for trinket_id in trinket_dict:
-        if trinket_id in baseTrinketInfo:
+        if trinket_id in trinketInfos:
             d_trinket = trinket_dict[trinket_id]
-            s_trinket = baseTrinketInfo[trinket_id]
+            s_trinket = trinketInfos[trinket_id]
             #name (done above)
             #rarity
             d_trinket['rarity'] = misc_strings['trinket_rarity_'+s_trinket['rarity']]  #rarity_dict[s_trinket['rarity']]
@@ -104,7 +101,7 @@ def parse_trinkets():
             hero = ""
             if len(s_trinket['hero_class_requirements']):
                 #TODO I didn't see any trinkets that had multiple hero classes, but there might be in the future.
-                hero = hero_dict[s_trinket['hero_class_requirements'][0]]#for now just using the first hero if present
+                hero = misc_strings['hero_class_name_'+s_trinket['hero_class_requirements'][0]]#for now just using the first hero if present
             d_trinket['hero_class'] = hero
             #origin
             origin = ""
@@ -115,26 +112,33 @@ def parse_trinkets():
             #create a list of effects as strings.
             if len(s_trinket['buffs']):
                 d_trinket['buffs'] = []
-                print s_trinket['id']
+                #print s_trinket['id']
                 for buff_id in s_trinket['buffs']:
-                    buff_info = baseBuffInfo[buff_id]
+                    buff_info = buffInfos[buff_id]
                     rule_id = 'buff_rule_tooltip_' + buff_info['rule_type']
                     stat_str_id = 'buff_stat_tooltip_'+ buff_info['stat_type']
                     if len(buff_info['stat_sub_type']):
                         stat_str_id += '_'+buff_info['stat_sub_type']
-                    stat_str = misc_strings[stat_str_id]
+                    try:
+                        stat_str = misc_strings[stat_str_id]
+                    except:
+                        stat_str_id = 'buff_stat_tooltip_'+ buff_info['stat_type']
+                        stat_str = misc_strings[stat_str_id]
                     #print stat_str
                     stat_str = remove_tags(stat_str)
                     amount = float(buff_info['amount'])
                     if amount <1 and amount >-1:
                         amount = amount*100 #workaround for the %fomatter not multiplying as expected
-                    stat_str = stat_str % (amount)
+                    try:
+                        stat_str = stat_str % (amount)
+                    except:
+                        print "WARNING: {} may have parsed incorrectly : {}".format(s_trinket['id'], stat_str)
                     base_str = misc_strings[rule_id]
                     #print base_str
                     base_str = remove_tags(base_str)
-                    print buff_id
-                    print stat_str
-                    print base_str
+                    #print buff_id
+                    #print stat_str
+                    #print base_str
                     try:
                         base_str = base_str % (stat_str,buff_info['rule_data']['float'])
                     except TypeError:
@@ -144,22 +148,23 @@ def parse_trinkets():
             #trinket_dict[trinket_id] = d_trinket
 
         else:
-            #these trinkets were in the xml, but not in the base trinkets.
-            #for example "musketeer" trinkets.
+            #these trinkets were in the xml, but not found in trinket info
             print trinket_id + " no match"
+            skipped_trinkets.append(trinket_id)
 
+    #remove any trinkets that had a name but no info
+    for trinket_id in skipped_trinkets:
+        del trinket_dict[trinket_id]
 
-    #print trinket_dict
+    #change key to the stripped name
+    trinket_output = {}
+    for key in trinket_dict:
+        trinket_output[stripName(trinket_dict[key]['name'])] = trinket_dict[key]
+
     with open(out_dir+'trinkets.json', 'w') as fp:
-        json.dump(trinket_dict, fp, indent=4, separators=_separators, sort_keys=True)
+        json.dump(trinket_output, fp, indent=4, separators=_separators, sort_keys=True)
 
-#remove tags like '{colour|blight}' from the strings
-def remove_tags(string):
-    while string.find('{')!=-1 and string.find('}')!=-1:
-        string = string.replace(string[string.find('{'):string.find('}')+1],"")
-        #print string
-    return string
-
+#main
 def main():
     parse_trinkets()
 
