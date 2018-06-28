@@ -24,8 +24,8 @@ def get_json(DDPath):
         return {}
 
 
-def get_disease_info():
-    dlist = [d for d in get_json().get("quirks", None) if d["is_disease"]]
+def get_disease_info(path):
+    dlist = [d for d in get_json(path).get("quirks", None) if d["is_disease"]]
     if len(dlist) > 0:
         dinfo = {}
         for disease in dlist:
@@ -33,3 +33,9 @@ def get_disease_info():
         return dinfo
     else:
         return {}
+
+
+if __name__ == "__main__":
+    DDPath = ""
+    with open("diseases.json", "w") as outfile:
+        json.dump(get_disease_info(DDPath), outfile, indent=4)
