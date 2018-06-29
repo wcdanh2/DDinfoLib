@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 import xml.etree.ElementTree as ET
 import json
@@ -24,6 +24,8 @@ def remove_tags(string):
 #load the misccellaneous strings and return it as a dict of key(id):text pairs.
 string_tables = ['localization/miscellaneous.string_table.xml',
                  'localization/heroes.string_table.xml',
+                 'localization/backertrinkets.string_table.xml',
+                 'localization/PSN.string_table.xml',
                  'dlc/580100_crimson_court/localization/CC.string_table.xml',
                  'dlc/702540_shieldbreaker/localization/shieldbreaker.string_table.xml',
                  'dlc/735730_color_of_madness/localization/CoM.string_table.xml']
@@ -132,7 +134,7 @@ def parse_trinkets():
                     try:
                         stat_str = stat_str % (amount)
                     except:
-                        print "WARNING: {} may have parsed incorrectly : {}".format(s_trinket['id'], stat_str)
+                        print ('WARNING: {} may have parsed incorrectly : {}'.format(s_trinket['id'], stat_str))
                     base_str = misc_strings[rule_id]
                     #print base_str
                     base_str = remove_tags(base_str)
@@ -140,7 +142,14 @@ def parse_trinkets():
                     #print stat_str
                     #print base_str
                     try:
-                        base_str = base_str % (stat_str,buff_info['rule_data']['float'])
+                        if len(buff_info['rule_data']['string']):
+                            string2 = misc_strings['buff_rule_data_tooltip_'+buff_info['rule_data']['string']]
+                            base_str = base_str % (stat_str, string2)
+                        else:
+                            num = float(buff_info['rule_data']['float'])
+                            if num <1 and num >-1:
+                                num=num*100
+                            base_str = base_str % (stat_str,num)
                     except TypeError:
                         base_str = base_str % (stat_str)
                     d_trinket['buffs'].append(base_str)
@@ -149,7 +158,7 @@ def parse_trinkets():
 
         else:
             #these trinkets were in the xml, but not found in trinket info
-            print trinket_id + " no match"
+            print (trinket_id + " no match")
             skipped_trinkets.append(trinket_id)
 
     #remove any trinkets that had a name but no info
@@ -161,6 +170,7 @@ def parse_trinkets():
     for key in trinket_dict:
         trinket_output[stripName(trinket_dict[key]['name'])] = trinket_dict[key]
 
+    #print "{} trinkets added to library".format(len(trinket_output))
     with open(out_dir+'trinkets.json', 'w') as fp:
         json.dump(trinket_output, fp, indent=4, separators=_separators, sort_keys=True)
 
