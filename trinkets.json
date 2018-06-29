@@ -54,7 +54,6 @@
         "buffs": [
             "-25% MAX HP",
             "+30% DMG",
-            "+30% DMG",
             "+30% Bleed Skill Chance vs Husk",
             "+25% Healing Received if HP below 20%"
         ],
@@ -103,8 +102,6 @@
     "agnusdei": {
         "buffs": [
             "+8% DMG",
-            "+8% DMG",
-            "+3% CRT",
             "+3% CRT",
             "-10% Bleed Resist on First Round",
             "-13% Healing Skills if Torch below 26"
@@ -117,7 +114,6 @@
     },
     "ajsgrowlingtomeofmaddness": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+13% Healing Received",
             "-4 SPD on First Round"
@@ -148,7 +144,6 @@
             "+4 SPD",
             "+5 SPD if HP below 25%",
             "-10% DMG",
-            "-10% DMG",
             "-4% CRT",
             "-13% Healing Skills if Torch below 26"
         ],
@@ -162,7 +157,6 @@
         "buffs": [
             "+5% MAX HP",
             "+3 DODGE",
-            "+5% DMG",
             "+5% DMG",
             "-13% Healing Received on First Round"
         ],
@@ -199,7 +193,6 @@
     },
     "ancestorscandle": {
         "buffs": [
-            "+15% DMG if Torch above 50",
             "+15% DMG if Torch above 50",
             "+2 SPD if Torch above 50",
             "+5 DODGE if Torch above 50",
@@ -274,7 +267,6 @@
         "buffs": [
             "+10% CRT Ranged Skills",
             "+10% DMG Ranged Skills",
-            "+10% DMG Ranged Skills",
             "+10% Stress"
         ],
         "hero_class": "",
@@ -286,7 +278,6 @@
     "ancestorspen": {
         "buffs": [
             "+10% CRT Melee Skills",
-            "+10% DMG Melee Skills",
             "+10% DMG Melee Skills",
             "+10% Stress"
         ],
@@ -368,7 +359,6 @@
         "buffs": [
             "+3 DODGE",
             "+5% DMG",
-            "+5% DMG",
             "+4% Virtue Chance",
             "-10% Move Resist on First Round"
         ],
@@ -415,7 +405,6 @@
     "aronynnesbane": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "+5 ACC",
             "-8% Chance Monsters Surprised if Torch below 26"
         ],
@@ -441,10 +430,6 @@
     "arzacstomeofincantations": {
         "buffs": [
             "+4% CRT",
-            "+4% CRT",
-            "+4% CRT",
-            "-6 DODGE",
-            "-6 DODGE",
             "-6 DODGE"
         ],
         "hero_class": "",
@@ -480,7 +465,6 @@
     },
     "atonementbeads": {
         "buffs": [
-            "+15% DMG Melee Skills",
             "+15% DMG Melee Skills",
             "+9% CRT Melee Skills",
             "-15% Virtue Chance"
@@ -582,7 +566,6 @@
     "beastslayersring": {
         "buffs": [
             "+25% DMG vs Beast",
-            "+25% DMG vs Beast",
             "-8 DODGE"
         ],
         "hero_class": "",
@@ -607,7 +590,6 @@
     "behelit": {
         "buffs": [
             "+13% DMG vs Eldritch",
-            "+13% DMG vs Eldritch",
             "+8% Virtue Chance",
             "-10% MAX HP vs Eldritch"
         ],
@@ -620,7 +602,6 @@
     "belovedsring": {
         "buffs": [
             "+5 ACC",
-            "+10% DMG",
             "+10% DMG",
             "+4 SPD",
             "-10% Bleed Resist",
@@ -670,7 +651,6 @@
     "berserkcharm": {
         "buffs": [
             "+3 SPD",
-            "+15% DMG",
             "+15% DMG",
             "+15% Stress",
             "-5 ACC",
@@ -872,7 +852,6 @@
         "buffs": [
             "+8 DODGE if in position 0",
             "+13% DMG if in position 0",
-            "+13% DMG if in position 0",
             "-4% CRT if in position 0"
         ],
         "hero_class": "",
@@ -885,10 +864,8 @@
         "buffs": [
             "+6% PROT",
             "+13% DMG if in position 0",
-            "+13% DMG if in position 0",
             "+13% Bleed Resist if in position 0",
             "-6 DODGE",
-            "-10% DMG if in position 3",
             "-10% DMG if in position 3",
             "-10% Bleed Resist if in position 3"
         ],
@@ -902,7 +879,6 @@
         "buffs": [
             "+4 SPD if Torch below 60",
             "+25% DMG if Torch below 60",
-            "+25% DMG if Torch below 60",
             "-25% Bleed Skill Chance",
             "-10% MAX HP"
         ],
@@ -915,7 +891,6 @@
     "bloodstainedbountylist": {
         "buffs": [
             "+5% CRT vs {colour_start|mark}Marked{colour_end}",
-            "+13% DMG vs {colour_start|mark}Marked{colour_end}",
             "+13% DMG vs {colour_start|mark}Marked{colour_end}",
             "-5 ACC vs {colour_start|mark}Marked{colour_end}"
         ],
@@ -952,7 +927,6 @@
         "buffs": [
             "+10 ACC Melee Skills",
             "+30% Bleed Skill Chance",
-            "+20% DMG Melee Skills",
             "+20% DMG Melee Skills"
         ],
         "hero_class": "Plague Doctor",
@@ -1023,7 +997,6 @@
     "bookofrage": {
         "buffs": [
             "+20% DMG if HP below 33%",
-            "+20% DMG if HP below 33%",
             "+10% CRT if HP below 33%",
             "-10% Bleed Resist",
             "-10% Blight Resist"
@@ -1059,7 +1032,6 @@
     "bootsofmuchkicking": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "+4% CRT",
             "+6% PROT",
             "-10% Move Resist while Camping",
@@ -1074,7 +1046,6 @@
     },
     "bowmensend": {
         "buffs": [
-            "+8% DMG",
             "+8% DMG",
             "+5 ACC Ranged Skills",
             "+4% CRT vs Human",
@@ -1104,7 +1075,6 @@
             "+10% MAX HP",
             "+8% Virtue Chance",
             "-6 DODGE if in position 0",
-            "-4% CRT if in position 3",
             "-4% CRT if in position 3"
         ],
         "hero_class": "",
@@ -1115,7 +1085,6 @@
     },
     "brawlersgloves": {
         "buffs": [
-            "+25% DMG if in position 0",
             "+25% DMG if in position 0",
             "-6% CRT",
             "-1 SPD"
@@ -1142,9 +1111,7 @@
         "buffs": [
             "+4% CRT on First Round",
             "+10% DMG on First Round",
-            "+10% DMG on First Round",
             "+5 ACC on First Round",
-            "-10% DMG on First Round",
             "-10% DMG on First Round",
             "-4% CRT on First Round"
         ],
@@ -1195,7 +1162,6 @@
     "brutalhairpin": {
         "buffs": [
             "+15% DMG",
-            "+15% DMG",
             "-10% Bleed Resist while Camping"
         ],
         "hero_class": "",
@@ -1219,10 +1185,8 @@
     "bulksmash": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "+5% MAX HP",
             "+2% CRT",
-            "-10% DMG on First Round",
             "-10% DMG on First Round"
         ],
         "hero_class": "",
@@ -1396,7 +1360,6 @@
             "+10% Debuff Resist",
             "-5 ACC on First Round",
             "-10% DMG on First Round",
-            "-10% DMG on First Round",
             "-4% CRT on First Round"
         ],
         "hero_class": "",
@@ -1431,7 +1394,6 @@
     },
     "checkmate": {
         "buffs": [
-            "+13% DMG at Death's Door",
             "+13% DMG at Death's Door",
             "+17% Healing Received if HP below 25%",
             "+5% CRT at Death's Door",
@@ -1521,7 +1483,6 @@
         "buffs": [
             "+3% CRT",
             "+10% DMG if Torch below 26",
-            "+10% DMG if Torch below 26",
             "+5 ACC if Torch below 26",
             "+10% Stress if Torch above 75",
             "-10% Move Resist if HP above 75%"
@@ -1580,7 +1541,6 @@
             "+6 ACC vs Eldritch",
             "+10% Stress vs Eldritch",
             "-16% Resolve XP",
-            "-10% DMG vs Eldritch",
             "-10% DMG vs Eldritch"
         ],
         "hero_class": "",
@@ -1605,7 +1565,6 @@
     "cloakoftheoverwatch": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "+3 DODGE",
             "+4% Chance Monsters Surprised",
             "+50% HP DMG Inflicted When Starving on First Round"
@@ -1618,7 +1577,6 @@
     },
     "cloakoftheshadowdancer": {
         "buffs": [
-            "+13% DMG if HP below 25%",
             "+13% DMG if HP below 25%",
             "+4% CRT",
             "+8% Death Blow Resist at Death's Door",
@@ -1654,7 +1612,6 @@
         "buffs": [
             "+15% Stress Heal Received",
             "+33% Healing Skills",
-            "-10% DMG",
             "-10% DMG"
         ],
         "hero_class": "Crusader",
@@ -1668,7 +1625,6 @@
             "+3 SPD on First Round",
             "+3% CRT on First Round",
             "+5% DMG",
-            "+5% DMG",
             "-6% PROT"
         ],
         "hero_class": "",
@@ -1680,7 +1636,6 @@
     "corwynscape": {
         "buffs": [
             "+3% CRT Ranged Skills",
-            "+8% DMG Ranged Skills",
             "+8% DMG Ranged Skills",
             "+4 ACC Ranged Skills",
             "+50% HP DMG Inflicted When Starving at Death's Door"
@@ -1728,7 +1683,6 @@
         "buffs": [
             "+2 SPD",
             "+15% DMG",
-            "+15% DMG",
             "+10% Stress"
         ],
         "hero_class": "",
@@ -1762,10 +1716,7 @@
     "crimelordsmolars": {
         "buffs": [
             "+20% DMG vs {colour_start|mark}Marked{colour_end}",
-            "+20% DMG vs {colour_start|mark}Marked{colour_end}",
             "+20% DMG vs {colour_start|stun}Stunned {colour_end}",
-            "+20% DMG vs {colour_start|stun}Stunned {colour_end}",
-            "+20% DMG vs {colour_start|bleed}Bleeding{colour_end}",
             "+20% DMG vs {colour_start|bleed}Bleeding{colour_end}",
             "-10 DODGE"
         ],
@@ -1801,7 +1752,6 @@
             "+3% PROT",
             "+7% Healing Received",
             "+5% DMG",
-            "+5% DMG",
             "-16% Resolve XP"
         ],
         "hero_class": "",
@@ -1812,7 +1762,6 @@
     },
     "crystallinegunpowder": {
         "buffs": [
-            "+20% DMG",
             "+20% DMG",
             "+3 SPD",
             "-15% Stun Resist"
@@ -1837,8 +1786,6 @@
     "cthulhusrequiem": {
         "buffs": [
             "+10% DMG if in position 3",
-            "+10% DMG if in position 3",
-            "+8% DMG",
             "+8% DMG",
             "+4% CRT Ranged Skills",
             "-10% Bleed Resist vs Human",
@@ -1914,7 +1861,6 @@
     "damagestone": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "-4 DODGE"
         ],
         "hero_class": "",
@@ -1966,10 +1912,6 @@
         "buffs": [
             "+5 ACC",
             "+10% DMG",
-            "+10% DMG",
-            "+5 ACC",
-            "-10% Trap Disarm Chance while Camping",
-            "-10% Trap Disarm Chance while Camping",
             "-10% Trap Disarm Chance while Camping"
         ],
         "hero_class": "",
@@ -1982,7 +1924,6 @@
         "buffs": [
             "+10% CRT if Torch below 26",
             "+5 DODGE if Torch below 51",
-            "-10% DMG if Torch above 51",
             "-10% DMG if Torch above 51"
         ],
         "hero_class": "",
@@ -2017,9 +1958,6 @@
         "buffs": [
             "-13% Stress if Torch below 26",
             "+8% PROT if Torch below 26",
-            "+8% PROT if Torch below 26",
-            "-16% Resolve XP",
-            "-16% Resolve XP",
             "-16% Resolve XP"
         ],
         "hero_class": "",
@@ -2067,7 +2005,6 @@
             "+6% Death Blow Resist",
             "+8% Death Blow Resist at Death's Door",
             "-13% Healing Skills",
-            "-10% DMG on First Round",
             "-10% DMG on First Round",
             "-13% Healing Received if in position 3"
         ],
@@ -2226,7 +2163,6 @@
         "buffs": [
             "+25% Stress Skills",
             "+25% DMG if Laudanum in inventory",
-            "+25% DMG if Laudanum in inventory",
             "+10% Stress"
         ],
         "hero_class": "Jester",
@@ -2259,7 +2195,6 @@
     "dismashead": {
         "buffs": [
             "+25% DMG",
-            "+25% DMG",
             "-10% MAX HP",
             "+20% Stress"
         ],
@@ -2272,7 +2207,6 @@
     "dissectionkit": {
         "buffs": [
             "+35% Bleed Skill Chance",
-            "+25% DMG",
             "+25% DMG"
         ],
         "hero_class": "Plague Doctor",
@@ -2321,7 +2255,6 @@
         "buffs": [
             "+5% Death Blow Resist if HP below 25%",
             "+5% DMG",
-            "+5% DMG",
             "+5 DODGE if in position 0",
             "-10% Bleed Resist on First Round"
         ],
@@ -2346,7 +2279,6 @@
         "buffs": [
             "+10% Virtue Chance vs Unholy",
             "+10% DMG",
-            "+10% DMG",
             "+10% Stress"
         ],
         "hero_class": "",
@@ -2358,7 +2290,6 @@
     "driftersbandana": {
         "buffs": [
             "+8% Virtue Chance",
-            "+13% DMG Ranged Skills",
             "+13% DMG Ranged Skills",
             "+5% CRT Ranged Skills",
             "-6% Death Blow Resist",
@@ -2454,7 +2385,6 @@
     "eirenesvisage": {
         "buffs": [
             "-15% Stress",
-            "-10% DMG on First Round",
             "-10% DMG on First Round"
         ],
         "hero_class": "",
@@ -2465,7 +2395,6 @@
     },
     "eldritchchamberpot": {
         "buffs": [
-            "+13% DMG if Torch below 26",
             "+13% DMG if Torch below 26",
             "+10% Blight Resist",
             "-20% Food Consumed",
@@ -2482,7 +2411,6 @@
     "eldritchkillingincense": {
         "buffs": [
             "+8% CRT vs Eldritch",
-            "+15% DMG vs Eldritch",
             "+15% DMG vs Eldritch"
         ],
         "hero_class": "Occultist",
@@ -2494,7 +2422,6 @@
     "eldritchslayersring": {
         "buffs": [
             "+25% DMG vs Eldritch",
-            "+25% DMG vs Eldritch",
             "-8 DODGE"
         ],
         "hero_class": "",
@@ -2505,7 +2432,6 @@
     },
     "eldritchtrophy": {
         "buffs": [
-            "+8% DMG vs Eldritch",
             "+8% DMG vs Eldritch",
             "+6% Virtue Chance if Torch above 75",
             "+3% Death Blow Resist",
@@ -2536,7 +2462,6 @@
         "buffs": [
             "+10% Death Blow Resist",
             "+20 DODGE at Death's Door",
-            "+20% DMG if Stress above 85",
             "+20% DMG if Stress above 85"
         ],
         "hero_class": "Flagellant",
@@ -2547,7 +2472,6 @@
     },
     "etherealcrucifix": {
         "buffs": [
-            "+25% DMG vs Eldritch",
             "+25% DMG vs Eldritch",
             "+30% Bleed Resist",
             "-20% MAX HP"
@@ -2599,7 +2523,6 @@
             "-10% Stress",
             "+8% PROT vs Eldritch",
             "+13% DMG vs Eldritch",
-            "+13% DMG vs Eldritch",
             "-10% MAX HP",
             "-6 DODGE vs Eldritch",
             "-4 SPD vs Eldritch"
@@ -2612,7 +2535,6 @@
     },
     "eyepatchofiniative": {
         "buffs": [
-            "+20% DMG on First Round",
             "+20% DMG on First Round",
             "-4% Scouting Chance if in position 3"
         ],
@@ -2638,8 +2560,6 @@
     "fangedspeartip": {
         "buffs": [
             "+35% DMG vs {colour_start|mark}Marked{colour_end}",
-            "+35% DMG vs {colour_start|mark}Marked{colour_end}",
-            "-10% DMG",
             "-10% DMG"
         ],
         "hero_class": "Shieldbreaker",
@@ -2689,7 +2609,6 @@
     "flashfiregunpowder": {
         "buffs": [
             "+10% DMG Ranged Skills",
-            "+10% DMG Ranged Skills",
             "-20% Stun Resist"
         ],
         "hero_class": "Highwayman",
@@ -2737,7 +2656,6 @@
             "+4% CRT",
             "+5 ACC",
             "+10% DMG",
-            "+10% DMG",
             "-6% PROT",
             "+50% HP DMG Inflicted When Starving",
             "-10% Bleed Resist"
@@ -2766,7 +2684,6 @@
     "forlornmemento": {
         "buffs": [
             "+6% PROT if Torch below 26",
-            "+10% DMG if Torch below 26",
             "+10% DMG if Torch below 26",
             "-10% Stress if Torch below 26",
             "-10% Move Resist",
@@ -2806,7 +2723,6 @@
         "buffs": [
             "+2 ACC",
             "+2% CRT",
-            "+2% CRT",
             "-6 DODGE if Torch below 26"
         ],
         "hero_class": "",
@@ -2832,7 +2748,6 @@
     "fullthrottle": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "+3% CRT if HP below 25%",
             "+2 SPD",
             "-10% Trap Disarm Chance vs Unholy"
@@ -2846,7 +2761,6 @@
     "fusemansmatchstick": {
         "buffs": [
             "+2 SPD",
-            "+10% DMG Ranged Skills",
             "+10% DMG Ranged Skills",
             "+6% CRT Ranged Skills"
         ],
@@ -2910,7 +2824,6 @@
     "golfgun": {
         "buffs": [
             "+13% DMG Ranged Skills",
-            "+13% DMG Ranged Skills",
             "+6 ACC Ranged Skills",
             "-4 SPD while Camping"
         ],
@@ -2923,7 +2836,6 @@
     "goliathkiller": {
         "buffs": [
             "+6 ACC if in position 0",
-            "+13% DMG if in position 0",
             "+13% DMG if in position 0",
             "+5% CRT if in position 0",
             "-10% Trap Disarm Chance if in position 3",
@@ -3032,7 +2944,6 @@
     "guiseoftheharbinger": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "+2 ACC",
             "+2% CRT",
             "+10% Stress at Death's Door"
@@ -3046,9 +2957,7 @@
     "gunslingersbuckle": {
         "buffs": [
             "+20% DMG Ranged Skills",
-            "+20% DMG Ranged Skills",
             "+15 ACC Ranged Skills",
-            "-10% DMG Melee Skills",
             "-10% DMG Melee Skills",
             "-6% CRT Melee Skills"
         ],
@@ -3073,11 +2982,9 @@
     "handyhaversack": {
         "buffs": [
             "+10% DMG Ranged Skills",
-            "+10% DMG Ranged Skills",
             "+13% Healing Skills on First Round",
             "+3% Scouting Chance",
             "-13% Healing Received on First Round",
-            "-10% DMG Melee Skills",
             "-10% DMG Melee Skills"
         ],
         "hero_class": "",
@@ -3113,7 +3020,6 @@
     "headhuntersherbs": {
         "buffs": [
             "+6 ACC vs {colour_start|mark}Marked{colour_end}",
-            "+13% DMG vs {colour_start|mark}Marked{colour_end}",
             "+13% DMG vs {colour_start|mark}Marked{colour_end}",
             "+5% CRT vs {colour_start|mark}Marked{colour_end}",
             "-10% MAX HP",
@@ -3212,8 +3118,6 @@
         "buffs": [
             "+20% Healing Skills if Holy Water in inventory",
             "+25% DMG vs Husk",
-            "+25% DMG vs Husk",
-            "+25% DMG vs Eldritch",
             "+25% DMG vs Eldritch",
             "+10% Stress"
         ],
@@ -3278,10 +3182,7 @@
         "buffs": [
             "+4 SPD",
             "+10% DMG",
-            "+10% DMG",
             "+5 ACC",
-            "-4% CRT while Camping",
-            "-4% CRT while Camping",
             "-4% CRT while Camping"
         ],
         "hero_class": "",
@@ -3293,7 +3194,6 @@
     "housebloodragesignetring": {
         "buffs": [
             "+4% CRT",
-            "+10% DMG",
             "+10% DMG",
             "-4% Scouting Chance"
         ],
@@ -3308,7 +3208,6 @@
             "+5% CRT if in position 0",
             "-10% Stress",
             "+13% DMG if Torch below 26",
-            "+13% DMG if Torch below 26",
             "-8% Chance Monsters Surprised",
             "-4% Scouting Chance if Torch above 75",
             "-8% Chance Monsters Surprised if Torch above 75"
@@ -3322,7 +3221,6 @@
     "huichisbracelet": {
         "buffs": [
             "+4 ACC",
-            "+3% CRT",
             "+3% CRT",
             "+10% Stress if HP below 25%",
             "+50% Food Consumed if HP below 25%"
@@ -3377,7 +3275,6 @@
         "buffs": [
             "+16% Resolve XP",
             "+13% Healing Skills",
-            "+13% Healing Skills",
             "-10% Trap Disarm Chance if Torch below 26",
             "-6% Death Blow Resist on First Round",
             "+50% HP DMG Inflicted When Starving at Death's Door"
@@ -3390,7 +3287,6 @@
     },
     "hystericalvisage": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+5% CRT Melee Skills",
             "+6 DODGE",
@@ -3406,7 +3302,6 @@
     },
     "icosahedricmusketballs": {
         "buffs": [
-            "+20% DMG",
             "+20% DMG",
             "On attack: Random target 20%."
         ],
@@ -3444,8 +3339,6 @@
     },
     "invictus": {
         "buffs": [
-            "-5% Stress",
-            "-5% Stress",
             "-5% Stress",
             "-10% Trap Disarm Chance on First Round"
         ],
@@ -3485,7 +3378,6 @@
             "+9 DODGE",
             "-6% PROT if Torch below 26",
             "-10% DMG if Torch below 26",
-            "-10% DMG if Torch below 26",
             "-4% CRT if Torch below 26"
         ],
         "hero_class": "",
@@ -3508,7 +3400,6 @@
     },
     "keeningbolts": {
         "buffs": [
-            "+20% DMG",
             "+20% DMG",
             "+8% CRT Ranged Skills"
         ],
@@ -3539,7 +3430,6 @@
             "-10% Stress if Torch above 75",
             "+10% Move Resist if Torch above 75",
             "-10% DMG",
-            "-10% DMG",
             "+10% Stress if HP below 25%"
         ],
         "hero_class": "",
@@ -3562,7 +3452,6 @@
         "buffs": [
             "+6% Virtue Chance",
             "+4% CRT if in position 0",
-            "+10% DMG if in position 0",
             "+10% DMG if in position 0",
             "-6 DODGE if Torch below 26",
             "-6% PROT if Torch below 26"
@@ -3591,7 +3480,6 @@
         "buffs": [
             "+3% CRT if Torch below 26",
             "+3 SPD if Torch below 26",
-            "+3% CRT if Torch below 26",
             "-6 DODGE if Torch above 75"
         ],
         "hero_class": "",
@@ -3603,7 +3491,6 @@
     "kucorusregard": {
         "buffs": [
             "+5 ACC if in position 0",
-            "+10% DMG if in position 0",
             "+10% DMG if in position 0",
             "+13% Healing Received if HP below 25%",
             "+10% Stress if HP below 25%",
@@ -3672,9 +3559,7 @@
             "+5% PROT",
             "-10% Stress if in position 0",
             "+10% DMG if in position 0",
-            "+10% DMG if in position 0",
             "-5 ACC if in position 3",
-            "-10% DMG if in position 3",
             "-10% DMG if in position 3"
         ],
         "hero_class": "",
@@ -3685,7 +3570,6 @@
     },
     "legendarybracer": {
         "buffs": [
-            "+20% DMG",
             "+20% DMG",
             "-1 SPD",
             "+10% Stress"
@@ -3778,10 +3662,7 @@
     "lionesswarpaint": {
         "buffs": [
             "+20% DMG if HP below 75%",
-            "+20% DMG if HP below 75%",
             "+20% DMG if HP below 50%",
-            "+20% DMG if HP below 50%",
-            "+20% DMG if HP below 25%",
             "+20% DMG if HP below 25%",
             "+10% Stress"
         ],
@@ -3793,7 +3674,6 @@
     },
     "lockoffury": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+3 SPD",
             "-10% MAX HP"
@@ -3818,7 +3698,6 @@
         "buffs": [
             "+4 ACC",
             "+4% CRT if Torch below 26",
-            "+10% DMG if Torch below 26",
             "+10% DMG if Torch below 26",
             "-10% Stun Resist if in position 0",
             "-4 SPD if HP below 25%"
@@ -3895,7 +3774,6 @@
             "+20% Healing Skills",
             "+14% Virtue Chance if Torch below 26",
             "-10% DMG vs Human",
-            "-10% DMG vs Human",
             "-13% Healing Received if Torch above 75",
             "-4% Scouting Chance if Torch below 26"
         ],
@@ -3907,7 +3785,6 @@
     },
     "malazanbookofthefallen": {
         "buffs": [
-            "+13% DMG if HP above 75%",
             "+13% DMG if HP above 75%",
             "+6 ACC if HP above 75%",
             "+10% Move Resist",
@@ -3938,7 +3815,6 @@
     },
     "manslayersring": {
         "buffs": [
-            "+25% DMG vs Human",
             "+25% DMG vs Human",
             "-8 DODGE"
         ],
@@ -3974,7 +3850,6 @@
     },
     "martyrsseal": {
         "buffs": [
-            "+60% DMG at Death's Door",
             "+60% DMG at Death's Door",
             "+15% CRT at Death's Door",
             "+12% Death Blow Resist",
@@ -4051,7 +3926,6 @@
             "-15% Stress",
             "-4% CRT on First Round",
             "-4 SPD on First Round",
-            "-10% DMG on First Round",
             "-10% DMG on First Round"
         ],
         "hero_class": "",
@@ -4062,7 +3936,6 @@
     },
     "mercurialsalve": {
         "buffs": [
-            "+25% DMG vs Bloodsuckers",
             "+25% DMG vs Bloodsuckers"
         ],
         "hero_class": "",
@@ -4076,7 +3949,6 @@
             "-1% DMG Taken: Miller: The Reaping",
             "+40% Blight Resist",
             "+3 SPD",
-            "+40% DMG vs Miller",
             "+40% DMG vs Miller"
         ],
         "hero_class": "",
@@ -4095,7 +3967,6 @@
     "mine": {
         "buffs": [
             "+5 ACC",
-            "+13% DMG if Torch below 26",
             "+13% DMG if Torch below 26",
             "-13% Healing Received on First Round"
         ],
@@ -4120,8 +3991,6 @@
     "mizirsunfinishedbestiary": {
         "buffs": [
             "+15% DMG vs Eldritch",
-            "+15% DMG vs Eldritch",
-            "+15% DMG vs Unholy",
             "+15% DMG vs Unholy",
             "+10% Stress",
             "-4 SPD"
@@ -4135,7 +4004,6 @@
     "moiraibones": {
         "buffs": [
             "+6% CRT on First Round",
-            "+15% DMG on First Round",
             "+15% DMG on First Round",
             "-5 ACC on First Round",
             "-4% CRT on First Round"
@@ -4175,7 +4043,6 @@
     "monorailpigsseal": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "+3% PROT",
             "+5% Death Blow Resist at Death's Door",
             "+50% Food Consumed while Camping"
@@ -4202,7 +4069,6 @@
         "buffs": [
             "+15% Move Resist if in position 0",
             "+15% DMG Melee Skills",
-            "+15% DMG Melee Skills",
             "-10% Bleed Resist",
             "+10% Stress if in position 3"
         ],
@@ -4214,7 +4080,6 @@
     },
     "moonlightgreatsword": {
         "buffs": [
-            "+8% DMG Melee Skills",
             "+8% DMG Melee Skills",
             "+8% MAX HP if in position 0",
             "+3% PROT",
@@ -4228,7 +4093,6 @@
     },
     "moonring": {
         "buffs": [
-            "+15% DMG if Torch below 25",
             "+15% DMG if Torch below 25",
             "+10 ACC if Torch below 25",
             "+10% Stress"
@@ -4267,7 +4131,6 @@
             "+11% PROT if HP below 25%",
             "+11% PROT if Torch below 26",
             "-5 ACC vs Human",
-            "-10% DMG vs Human",
             "-10% DMG vs Human",
             "-6 DODGE vs Human"
         ],
@@ -4328,7 +4191,6 @@
     "necromancerscollar": {
         "buffs": [
             "+20% DMG vs Unholy",
-            "+20% DMG vs Unholy",
             "+10% CRT vs Unholy"
         ],
         "hero_class": "",
@@ -4340,10 +4202,7 @@
     "necronomicon": {
         "buffs": [
             "+13% Healing Skills",
-            "+13% Healing Skills",
             "+4 SPD",
-            "-16% Resolve XP",
-            "-16% Resolve XP",
             "-16% Resolve XP"
         ],
         "hero_class": "",
@@ -4370,7 +4229,6 @@
     "nevra": {
         "buffs": [
             "+18% DMG if HP above 75%",
-            "+18% DMG if HP above 75%",
             "+11% PROT if HP below 25%",
             "-13% Healing Received at Death's Door",
             "+50% HP DMG Inflicted When Starving while Camping",
@@ -4384,7 +4242,6 @@
     },
     "nicholasshieldofhonour": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+5% CRT if HP below 25%",
             "+13% MAX HP if Torch below 26",
@@ -4424,10 +4281,8 @@
     "numinis": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "+6% PROT",
             "+10% MAX HP",
-            "-10% DMG if HP below 25%",
             "-10% DMG if HP below 25%",
             "-6% PROT if HP below 25%",
             "-4% CRT if HP below 25%"
@@ -4491,7 +4346,6 @@
     "osmondchains": {
         "buffs": [
             "+20% DMG Ranged Skills",
-            "+20% DMG Ranged Skills",
             "+9% CRT Ranged Skills"
         ],
         "hero_class": "Abomination",
@@ -4539,7 +4393,6 @@
     "pagantalisman": {
         "buffs": [
             "+25% DMG vs. Fanatic",
-            "+25% DMG vs. Fanatic",
             "-10% Stress"
         ],
         "hero_class": "",
@@ -4552,7 +4405,6 @@
         "buffs": [
             "+10% MAX HP",
             "+5 ACC",
-            "+10% DMG",
             "+10% DMG",
             "-6 DODGE",
             "-6% PROT",
@@ -4567,7 +4419,6 @@
     "pamplemousse": {
         "buffs": [
             "+9 DODGE if Torch above 75",
-            "+15% DMG vs {colour_start|mark}Marked{colour_end}",
             "+15% DMG vs {colour_start|mark}Marked{colour_end}",
             "-5 ACC if Torch below 26",
             "+10% Stress"
@@ -4617,7 +4468,6 @@
     "pavlovsbell": {
         "buffs": [
             "+10% DMG on First Round",
-            "+10% DMG on First Round",
             "+5 ACC on First Round",
             "+4% CRT on First Round",
             "+50% HP DMG Inflicted When Starving",
@@ -4647,7 +4497,6 @@
     "pepperpot": {
         "buffs": [
             "+3 SPD if in position 3",
-            "-8% Stress if in position 3",
             "-8% Stress if in position 3",
             "+50% Food Consumed"
         ],
@@ -4685,7 +4534,6 @@
     "petrock": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
             "-5% Stress",
             "+2% CRT",
             "+50% Food Consumed if HP below 25%"
@@ -4699,7 +4547,6 @@
     "pharmakon": {
         "buffs": [
             "+2% CRT",
-            "+5% DMG",
             "+5% DMG",
             "+2 ACC",
             "-8% Virtue Chance while Camping"
@@ -4775,7 +4622,6 @@
     "profanescroll": {
         "buffs": [
             "+15% DMG",
-            "+15% DMG",
             "+10% PROT if in position 1",
             "+33% Healing Skills if in position 1",
             "+15% Stress"
@@ -4812,7 +4658,6 @@
     "protectivecollar": {
         "buffs": [
             "+12 DODGE",
-            "-15% DMG",
             "-15% DMG"
         ],
         "hero_class": "Houndmaster",
@@ -4835,7 +4680,6 @@
     "punishmentshood": {
         "buffs": [
             "+20% Bleed Skill Chance",
-            "+15% DMG if HP below 40%",
             "+15% DMG if HP below 40%",
             "-20% Healing Skills"
         ],
@@ -4927,7 +4771,6 @@
         "buffs": [
             "+40% Move Skill Chance",
             "+30% Stun Skill Chance",
-            "-15% DMG",
             "-15% DMG"
         ],
         "hero_class": "Man-at-Arms",
@@ -4949,7 +4792,6 @@
     "ravenouslionsring": {
         "buffs": [
             "+15% DMG Melee Skills",
-            "+15% DMG Melee Skills",
             "+6% CRT Melee Skills",
             "+50% Food Consumed",
             "+50% HP DMG Inflicted When Starving"
@@ -4964,7 +4806,6 @@
         "buffs": [
             "+8% Virtue Chance if in position 0",
             "+6% PROT if in position 0",
-            "+10% DMG if in position 0",
             "+10% DMG if in position 0",
             "-13% Healing Received if HP above 75%",
             "-4 SPD on First Round"
@@ -5014,7 +4855,6 @@
     "redemptionarmlet": {
         "buffs": [
             "+15% DMG if in position 0",
-            "+15% DMG if in position 0",
             "-3% Virtue Chance"
         ],
         "hero_class": "Leper",
@@ -5025,8 +4865,6 @@
     },
     "redpill": {
         "buffs": [
-            "+3 DODGE",
-            "+3 DODGE",
             "+3 DODGE",
             "-4% CRT on First Round"
         ],
@@ -5114,7 +4952,6 @@
             "-10% Stress",
             "+33% Healing Skills",
             "-10% Stun Skill Chance",
-            "-33% DMG",
             "-33% DMG"
         ],
         "hero_class": "Vestal",
@@ -5125,7 +4962,6 @@
     },
     "sacrificialcauldron": {
         "buffs": [
-            "+20% DMG",
             "+20% DMG",
             "+10% Stress"
         ],
@@ -5149,9 +4985,7 @@
     "sanguinarytalons": {
         "buffs": [
             "+8% DMG Melee Skills",
-            "+8% DMG Melee Skills",
             "+2% CRT",
-            "+5% DMG",
             "+5% DMG",
             "-13% Healing Received"
         ],
@@ -5176,7 +5010,6 @@
         "buffs": [
             "-10% Stress",
             "+13% DMG if Torch below 26",
-            "+13% DMG if Torch below 26",
             "-6% Death Blow Resist on First Round"
         ],
         "hero_class": "",
@@ -5187,7 +5020,6 @@
     },
     "scalesofjustice": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+5 ACC",
             "+6% PROT",
@@ -5258,7 +5090,6 @@
             "+17% Healing Skills if in position 3",
             "+6% Death Blow Resist",
             "-10% DMG",
-            "-10% DMG",
             "+10% Stress if in position 0",
             "-6% PROT"
         ],
@@ -5270,7 +5101,6 @@
     },
     "sculptorstools": {
         "buffs": [
-            "+40% DMG vs Stonework",
             "+40% DMG vs Stonework"
         ],
         "hero_class": "",
@@ -5363,7 +5193,6 @@
             "-8% Stress",
             "+6% PROT vs Eldritch",
             "-10% DMG vs Eldritch",
-            "-10% DMG vs Eldritch",
             "-6 DODGE vs Eldritch"
         ],
         "hero_class": "",
@@ -5374,7 +5203,6 @@
     },
     "sharpenedletteropener": {
         "buffs": [
-            "+25% DMG Melee Skills",
             "+25% DMG Melee Skills",
             "+10 ACC Melee Skills",
             "+5 DODGE"
@@ -5449,7 +5277,6 @@
     "shroudoflivingfailures": {
         "buffs": [
             "+10% DMG Ranged Skills",
-            "+10% DMG Ranged Skills",
             "+4% CRT Ranged Skills",
             "+4 SPD vs {colour_start|mark}Marked{colour_end}",
             "-6 DODGE if Torch below 26",
@@ -5467,7 +5294,6 @@
             "+10% MAX HP if in position 3",
             "+6% Virtue Chance",
             "-10% DMG if Torch below 26",
-            "-10% DMG if Torch below 26",
             "-10% Blight Resist on First Round"
         ],
         "hero_class": "",
@@ -5478,7 +5304,6 @@
     },
     "sickeningsatchel": {
         "buffs": [
-            "+20% DMG vs {colour_start|blight}Blighted{colour_end}",
             "+20% DMG vs {colour_start|blight}Blighted{colour_end}"
         ],
         "hero_class": "Grave Robber",
@@ -5516,7 +5341,6 @@
     "silent": {
         "buffs": [
             "+13% DMG if HP above 75%",
-            "+13% DMG if HP above 75%",
             "+6 ACC if Torch above 75",
             "+4 SPD",
             "-6% PROT if Torch below 26",
@@ -5531,7 +5355,6 @@
     },
     "silkensheath": {
         "buffs": [
-            "+10% DMG if in position 0",
             "+10% DMG if in position 0",
             "+4% CRT if in position 0",
             "+6% PROT if HP above 75%",
@@ -5584,7 +5407,6 @@
     },
     "skullyfm": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "-10% Stress",
             "-13% Healing Received if in position 3",
@@ -5696,8 +5518,7 @@
             "+15% DMG",
             "On attack: Random target 5%.",
             "+20% Blight Skill Chance",
-            "+15% MAX HP",
-            "+15% DMG"
+            "+15% MAX HP"
         ],
         "hero_class": "Shieldbreaker",
         "id": "com_sb_spectral_speartip",
@@ -5730,7 +5551,6 @@
     "spikedcollar": {
         "buffs": [
             "+20% DMG",
-            "+20% DMG",
             "+30% Bleed Skill Chance",
             "-20% Healing Received",
             "-50% Healing Skills"
@@ -5743,7 +5563,6 @@
     },
     "splitskullcapmemento": {
         "buffs": [
-            "+15% DMG if Torch above 75",
             "+15% DMG if Torch above 75",
             "+8% Virtue Chance",
             "-10% Move Resist",
@@ -5782,10 +5601,6 @@
     "starbreaker": {
         "buffs": [
             "+4 SPD",
-            "+4 SPD",
-            "+4 SPD",
-            "-13% Healing Skills on First Round",
-            "-13% Healing Skills on First Round",
             "-13% Healing Skills on First Round"
         ],
         "hero_class": "",
@@ -5799,7 +5614,6 @@
             "+4 SPD",
             "+6 DODGE",
             "+8 DODGE at Death's Door",
-            "-10% DMG on First Round",
             "-10% DMG on First Round",
             "-6% PROT at Death's Door",
             "-13% Healing Received at Death's Door"
@@ -5823,7 +5637,6 @@
     },
     "steelfistsbulwark": {
         "buffs": [
-            "+5% DMG",
             "+5% DMG",
             "+5% MAX HP",
             "+5% PROT if in position 0",
@@ -5865,7 +5678,6 @@
             "+13% MAX HP if HP above 75%",
             "+5% CRT if HP below 25%",
             "-5 ACC if Torch below 26",
-            "-10% DMG if in position 0",
             "-10% DMG if in position 0",
             "-6 DODGE"
         ],
@@ -5971,7 +5783,6 @@
     "sunring": {
         "buffs": [
             "+10% DMG if Torch above 75",
-            "+10% DMG if Torch above 75",
             "+5 ACC if Torch above 75",
             "+10% Stress"
         ],
@@ -6061,7 +5872,6 @@
     "swordsmanscrest": {
         "buffs": [
             "+10% DMG Melee Skills",
-            "+10% DMG Melee Skills",
             "-50% Healing Skills"
         ],
         "hero_class": "Crusader",
@@ -6084,7 +5894,6 @@
     "takarasheart": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "+6% Death Blow Resist",
             "+5 ACC",
             "-6 DODGE",
@@ -6102,7 +5911,6 @@
             "+6% PROT if in position 0",
             "+8% MAX HP",
             "+6% Virtue Chance",
-            "-10% DMG if in position 3",
             "-10% DMG if in position 3",
             "-5 ACC Ranged Skills"
         ],
@@ -6177,7 +5985,6 @@
         "buffs": [
             "+2% CRT",
             "+5% DMG",
-            "+5% DMG",
             "+2 ACC",
             "+10% Stress if in position 3"
         ],
@@ -6216,7 +6023,6 @@
     },
     "thebloodiedshroud": {
         "buffs": [
-            "+13% DMG if HP below 25%",
             "+13% DMG if HP below 25%",
             "+8 DODGE if HP below 25%",
             "-13% Healing Received"
@@ -6298,7 +6104,6 @@
             "-8% Stress if HP below 25%",
             "+12% Resolve XP if HP below 25%",
             "+5% PROT if HP below 25%",
-            "-10% DMG if HP below 25%",
             "-10% DMG if HP below 25%"
         ],
         "hero_class": "",
@@ -6325,7 +6130,6 @@
         "buffs": [
             "+10% MAX HP",
             "+6% PROT",
-            "+10% Stress",
             "+10% Stress"
         ],
         "hero_class": "",
@@ -6337,8 +6141,6 @@
     "theharbinger": {
         "buffs": [
             "+5% DMG",
-            "+5% DMG",
-            "+3% PROT",
             "+3% PROT",
             "+50% HP DMG Inflicted When Starving while Camping"
         ],
@@ -6351,7 +6153,6 @@
     "theheartshroud": {
         "buffs": [
             "+4% CRT",
-            "+13% DMG Melee Skills",
             "+13% DMG Melee Skills",
             "-6 DODGE"
         ],
@@ -6376,7 +6177,6 @@
     "themanthathidesademon": {
         "buffs": [
             "+6 ACC if Torch below 26",
-            "+13% DMG if Torch below 26",
             "+13% DMG if Torch below 26",
             "+10% Stress"
         ],
@@ -6473,7 +6273,6 @@
         "buffs": [
             "+5% CRT Ranged Skills",
             "+5 SPD on First Round",
-            "-10% DMG Melee Skills",
             "-10% DMG Melee Skills"
         ],
         "hero_class": "",
@@ -6510,10 +6309,6 @@
     "thescarecrowsbrain": {
         "buffs": [
             "+13% Healing Skills",
-            "+13% Healing Skills",
-            "+13% Healing Skills",
-            "-5 ACC",
-            "-5 ACC",
             "-5 ACC"
         ],
         "hero_class": "",
@@ -6524,7 +6319,6 @@
     },
     "theserpentseye": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+6 ACC if Torch below 26",
             "+50% Food Consumed if HP below 25%"
@@ -6541,7 +6335,6 @@
             "-13% Stress if in position 3",
             "+5% CRT if in position 3",
             "-4% Scouting Chance while Camping",
-            "-10% Trap Disarm Chance if in position 0",
             "-10% Trap Disarm Chance if in position 0"
         ],
         "hero_class": "",
@@ -6646,9 +6439,7 @@
         "buffs": [
             "+13% Healing Skills",
             "+10% Disease Resist",
-            "+13% Healing Skills",
             "-6 DODGE",
-            "-10% DMG",
             "-10% DMG",
             "-4% CRT"
         ],
@@ -6662,7 +6453,6 @@
         "buffs": [
             "+16% Resolve XP",
             "+5% CRT Melee Skills",
-            "+13% DMG if Torch above 75",
             "+13% DMG if Torch above 75",
             "-10% Move Resist",
             "+10% Stress if Torch below 26",
@@ -6761,7 +6551,6 @@
     },
     "thraximundarsrage": {
         "buffs": [
-            "+10% DMG",
             "+10% DMG",
             "+10% MAX HP",
             "+4% CRT",
@@ -6879,7 +6668,6 @@
     "torchwood": {
         "buffs": [
             "+5% PROT if in position 0",
-            "+5% PROT if in position 0",
             "+8% Move Resist if in position 0",
             "-10% MAX HP"
         ],
@@ -6894,7 +6682,6 @@
             "+10% PROT",
             "+15% MAX HP",
             "-15% DMG",
-            "-15% DMG",
             "+10% Stress"
         ],
         "hero_class": "",
@@ -6906,7 +6693,6 @@
     "tournamentvictorsribbon": {
         "buffs": [
             "+5 ACC",
-            "+10% DMG",
             "+10% DMG",
             "+6 DODGE",
             "+50% HP DMG Inflicted When Starving",
@@ -6934,10 +6720,8 @@
         "buffs": [
             "+6 DODGE",
             "+10% DMG",
-            "+10% DMG",
             "+10% MAX HP",
             "-5 ACC if Torch below 26",
-            "-10% DMG if Torch below 26",
             "-10% DMG if Torch below 26",
             "-6% Death Blow Resist if Torch below 26"
         ],
@@ -6963,7 +6747,6 @@
     },
     "trouble": {
         "buffs": [
-            "+10% DMG Melee Skills",
             "+10% DMG Melee Skills",
             "+4% CRT if in position 0",
             "+6% Virtue Chance",
@@ -7004,7 +6787,6 @@
     },
     "twoofthree": {
         "buffs": [
-            "+50% DMG vs {colour_start|blight}Blighted{colour_end}",
             "+50% DMG vs {colour_start|blight}Blighted{colour_end}",
             "+10% CRT vs {colour_start|blight}Blighted{colour_end}"
         ],
@@ -7051,7 +6833,6 @@
     },
     "unholyslayersring": {
         "buffs": [
-            "+25% DMG vs Unholy",
             "+25% DMG vs Unholy",
             "-8 DODGE"
         ],
@@ -7143,7 +6924,6 @@
     "vialoftears": {
         "buffs": [
             "+10% DMG",
-            "+10% DMG",
             "+13% Debuff Resist if Torch above 75",
             "+5 ACC",
             "-8% Chance Monsters Surprised",
@@ -7196,7 +6976,6 @@
     "vvulfstassel": {
         "buffs": [
             "+20% DMG vs {colour_start|mark}Marked{colour_end}",
-            "+20% DMG vs {colour_start|mark}Marked{colour_end}",
             "+10 ACC vs {colour_start|mark}Marked{colour_end}",
             "+5% CRT vs size 2"
         ],
@@ -7221,7 +7000,6 @@
     },
     "warriorsbracer": {
         "buffs": [
-            "+10% DMG Melee Skills",
             "+10% DMG Melee Skills",
             "-4 DODGE"
         ],
@@ -7258,7 +7036,6 @@
             "+6% PROT",
             "+8% Chance Monsters Surprised",
             "+50% Food Consumed",
-            "+50% HP DMG Inflicted When Starving",
             "+50% HP DMG Inflicted When Starving"
         ],
         "hero_class": "",
@@ -7319,7 +7096,6 @@
     "woundinghelmet": {
         "buffs": [
             "+25% DMG Melee Skills",
-            "+25% DMG Melee Skills",
             "-25% Move Skill Chance",
             "-20% Stun Skill Chance"
         ],
@@ -7332,7 +7108,6 @@
     "wrathfulbandana": {
         "buffs": [
             "+25% DMG if in position 3",
-            "+25% DMG if in position 3",
             "+30% Debuff Skill Chance",
             "-50% Healing Skills"
         ],
@@ -7344,7 +7119,6 @@
     },
     "wrathfulhat": {
         "buffs": [
-            "+20% DMG if in position 3",
             "+20% DMG if in position 3",
             "+30% Debuff Skill Chance",
             "-30% Healing Skills",
@@ -7360,7 +7134,6 @@
         "buffs": [
             "+4% CRT",
             "+5 ACC",
-            "+10% DMG",
             "+10% DMG",
             "-4 SPD",
             "-13% Healing Received",
@@ -7389,7 +7162,6 @@
     "youthchalice": {
         "buffs": [
             "+20% MAX HP",
-            "-10% DMG",
             "-10% DMG"
         ],
         "hero_class": "Vestal",
@@ -7404,7 +7176,6 @@
             "+4 SPD",
             "-10% Stress",
             "-4% CRT on First Round",
-            "-10% DMG vs Beast",
             "-10% DMG vs Beast",
             "-5 ACC vs Unholy"
         ],

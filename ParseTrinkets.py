@@ -2,10 +2,10 @@
 
 import xml.etree.ElementTree as ET
 import json
+from collections import OrderedDict
 
-DDpath = 'DarkestDungeon/'
-out_dir = 'DDinfoLib/'
-_separators = (',', ': ')
+import DD_utils
+
 
 
 #TODO move utility functions to utility import.
@@ -20,26 +20,6 @@ def remove_tags(string):
     return string
 
 
-#TODO move string_tables and getLanguageDict to utils
-#load the misccellaneous strings and return it as a dict of key(id):text pairs.
-string_tables = ['localization/miscellaneous.string_table.xml',
-                 'localization/heroes.string_table.xml',
-                 'localization/backertrinkets.string_table.xml',
-                 'localization/PSN.string_table.xml',
-                 'dlc/580100_crimson_court/localization/CC.string_table.xml',
-                 'dlc/702540_shieldbreaker/localization/shieldbreaker.string_table.xml',
-                 'dlc/735730_color_of_madness/localization/CoM.string_table.xml']
-def getLanguageDict():
-    misc_strings = {}
-    for path in string_tables:
-        tree = ET.parse(DDpath+path)
-        #gets the root of the tree. Idk some weird xml thing
-        root = tree.getroot()
-        #I am only interested in english, so lets simplify and get a dict with just the english info.
-        english = root[0]
-        for line in english:
-            misc_strings[line.attrib['id']] = line.text
-    return misc_strings
 
 trinketInfoFiles = ['trinkets/base.entries.trinkets.json',
     'dlc/445700_musketeer/trinkets/musketeer.entries.trinkets.json',
@@ -51,31 +31,16 @@ trinketInfoFiles = ['trinkets/base.entries.trinkets.json',
 def getTrinketInfos():
     trinketInfos = {}
     for path in trinketInfoFiles:
-        with open(DDpath+path) as fp:
+        with open(DD_utils.DDpath+path) as fp:
             tempTrinkets = json.load(fp)
         for entry in tempTrinkets['entries']:
             trinketInfos[entry['id']] = entry
     return trinketInfos
 
-#
-buffInfo_files = ['shared/buffs/base.buffs.json',
-    'dlc/580100_crimson_court/features/crimson_court/shared/buffs/crimson_court.buffs.json',
-    'dlc/580100_crimson_court/features/flagellant/shared/buffs/flagellant.buffs.json',
-    'dlc/702540_shieldbreaker/shared/buffs/shieldbreaker.buffs.json',
-    'dlc/735730_color_of_madness/shared/buffs/com.buffs.json']
-def getBuffInfos():
-    #open the base game buffs file and convert from list to map
-    buffInfos = {}
-    for path in buffInfo_files:
-        with open(DDpath+path) as fp:
-            tempBuffs = json.load(fp)
-        for buff in tempBuffs['buffs']:
-            buffInfos[buff['id']] = buff
-    return buffInfos
 
 def parse_trinkets():
 
-    misc_strings = getLanguageDict()
+    misc_strings = DD_utils.getLanguageDict()
     #until all the data is parsed the game_id will be the key, at the end
     #a new dict will be made with the stripped (search) name as the key.
     trinket_dict = {}
@@ -88,7 +53,7 @@ def parse_trinkets():
     #load all of the trinket info files
     trinketInfos = getTrinketInfos()
     #load all of the buff files
-    buffInfos = getBuffInfos()
+    buffInfos = DD_utils.getBuffInfos()
 
 #trinket data: name, rarity, hero_class(if any), origin, effects[list], additional(?), limit, price
     skipped_trinkets = []
@@ -113,7 +78,7 @@ def parse_trinkets():
             #effects
             #create a list of effects as strings.
             if len(s_trinket['buffs']):
-                d_trinket['buffs'] = []
+                buffList = []
                 #print s_trinket['id']
                 for buff_id in s_trinket['buffs']:
                     buff_info = buffInfos[buff_id]
@@ -152,10 +117,9 @@ def parse_trinkets():
                             base_str = base_str % (stat_str,num)
                     except TypeError:
                         base_str = base_str % (stat_str)
-                    d_trinket['buffs'].append(base_str)
-
-            #trinket_dict[trinket_id] = d_trinket
-
+                    buffList.append(base_str)
+                #remove duplicate buffs and add them to the trinket
+                d_trinket['buffs'] = list(OrderedDict.fromkeys(buffList))
         else:
             #these trinkets were in the xml, but not found in trinket info
             print (trinket_id + " no match")
@@ -171,8 +135,8 @@ def parse_trinkets():
         trinket_output[stripName(trinket_dict[key]['name'])] = trinket_dict[key]
 
     #print "{} trinkets added to library".format(len(trinket_output))
-    with open(out_dir+'trinkets.json', 'w') as fp:
-        json.dump(trinket_output, fp, indent=4, separators=_separators, sort_keys=True)
+    with open(DD_utils.out_dir+'trinkets.json', 'w') as fp:
+        json.dump(trinket_output, fp, indent=4, separators=DD_utils.separators, sort_keys=True)
 
 #main
 def main():
