@@ -8,16 +8,6 @@ import DD_utils
 
 
 
-#TODO move utility functions to utility import.
-def stripName(name):
-    return name.replace(" ","").replace("-","").replace("'","").lower()
-
-#remove tags like '{colour|blight}' from the strings
-def remove_tags(string):
-    while string.find('{')!=-1 and string.find('}')!=-1:
-        string = string.replace(string[string.find('{'):string.find('}')+1],"")
-        #print string
-    return string
 
 
 
@@ -92,7 +82,7 @@ def parse_trinkets():
                         stat_str_id = 'buff_stat_tooltip_'+ buff_info['stat_type']
                         stat_str = misc_strings[stat_str_id]
                     #print stat_str
-                    stat_str = remove_tags(stat_str)
+                    stat_str = DD_utils.remove_tags(stat_str)
                     amount = float(buff_info['amount'])
                     if amount <1 and amount >-1:
                         amount = amount*100 #workaround for the %fomatter not multiplying as expected
@@ -102,7 +92,7 @@ def parse_trinkets():
                         print ('WARNING: {} may have parsed incorrectly : {}'.format(s_trinket['id'], stat_str))
                     base_str = misc_strings[rule_id]
                     #print base_str
-                    base_str = remove_tags(base_str)
+                    base_str = DD_utils.remove_tags(base_str)
                     #print buff_id
                     #print stat_str
                     #print base_str
@@ -132,7 +122,7 @@ def parse_trinkets():
     #change key to the stripped name
     trinket_output = {}
     for key in trinket_dict:
-        trinket_output[stripName(trinket_dict[key]['name'])] = trinket_dict[key]
+        trinket_output[DD_utils.stripName(trinket_dict[key]['name'])] = trinket_dict[key]
 
     #print "{} trinkets added to library".format(len(trinket_output))
     with open(DD_utils.out_dir+'trinkets.json', 'w') as fp:

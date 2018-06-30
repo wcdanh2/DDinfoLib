@@ -2356,16 +2356,14 @@
     },
     "edgecomb": {
         "buffs": [
-            "+17% Healing Skills if in position 3",
-            "+8 DODGE if in position 3",
-            "+13% Blight Resist if in position 3",
-            "-6 DODGE if in position 0",
-            "-13% Healing Skills if in position 0",
-            "-10% Blight Resist if in position 0"
+            "+7% Healing Skills",
+            "+3% PROT",
+            "+7% Healing Received",
+            "-10% Bleed Resist while Camping"
         ],
         "hero_class": "",
-        "id": "edge_comb",
-        "name": "Edge Comb",
+        "id": "edgecomb",
+        "name": "EdgeComb",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -3168,12 +3166,13 @@
     },
     "hopeinhand": {
         "buffs": [
-            "+6 ACC on First Round",
-            "-13% Stress on First Round",
-            "+50% Food Consumed on First Round"
+            "-15% Stress on First Round",
+            "+5 ACC",
+            "-13% Healing Skills on First Round",
+            "-10% Move Resist"
         ],
         "hero_class": "",
-        "id": "hope_in_hand",
+        "id": "hope_in_hand_2",
         "name": "Hope in Hand",
         "origin_dungeon": "",
         "rarity": "Kickstarter"

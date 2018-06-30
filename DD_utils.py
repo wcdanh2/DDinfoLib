@@ -11,6 +11,23 @@ out_dir = 'DDinfoLib/'
 
 separators = (',', ': ')
 
+#format a string to a dictionary key
+#the keys are the name stripped of spaces and punctuation
+#and made lower case.  The same is done to incoming commands
+#so that users do not have to match the case and punctuation when
+#looking up entries.
+def stripName(name):
+    return name.replace(" ","").replace("-","").replace("'","").lower()
+
+
+#remove tags like '{colour|blight}' from the strings
+#(removes everything that is contained between curly braces)
+def remove_tags(string):
+    while string.find('{')!=-1 and string.find('}')!=-1:
+        string = string.replace(string[string.find('{'):string.find('}')+1],"")
+        #print string
+    return string
+
 #load the misccellaneous strings and return it as a dict of key(id):text pairs.
 string_tables = ['localization/miscellaneous.string_table.xml',
                  'localization/heroes.string_table.xml',

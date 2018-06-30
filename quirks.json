@@ -1,0 +1,2099 @@
+{
+    "ablutomania": {
+        "id": "ablutomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Ablutomania",
+        "quirk_type": "Negative"
+    },
+    "anemic": {
+        "buffs": [
+            "-10% Bleed Resist"
+        ],
+        "id": "anemic",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Anemic",
+        "quirk_type": "Negative"
+    },
+    "antsy": {
+        "buffs": [
+            "+20 stress when idle in town for a week"
+        ],
+        "id": "antsy",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Antsy",
+        "quirk_type": "Negative"
+    },
+    "armortinker": {
+        "buffs": [
+            "20% Armor Upgrade Cost"
+        ],
+        "id": "armor_haggler",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Armor Tinker",
+        "quirk_type": "Positive"
+    },
+    "ascetic": {
+        "buffs": [
+            "-20% Healing Received: Wyrd Reconstruction"
+        ],
+        "id": "ascetic",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Ascetic",
+        "quirk_type": "Negative"
+    },
+    "ashen": {
+        "buffs": [
+            "-10% Blight Resist",
+            "-10% Bleed Resist"
+        ],
+        "id": "ashen",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Ashen",
+        "quirk_type": "Negative"
+    },
+    "automatonophobia": {
+        "buffs": [
+            "+20% Stress vs Human"
+        ],
+        "id": "automatonophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Automatonophobia",
+        "quirk_type": "Negative"
+    },
+    "backtracker": {
+        "buffs": [
+            "-1% Stress while walking backward"
+        ],
+        "id": "back_tracker",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Back Tracker",
+        "quirk_type": "Positive"
+    },
+    "badgambler": {
+        "buffs": [
+            "Increased chance of losing gold. in Gambling",
+            "Increased chance of losing trinkets. in Gambling"
+        ],
+        "id": "bad_gambler",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Bad Gambler",
+        "quirk_type": "Negative"
+    },
+    "badhealer": {
+        "buffs": [
+            "-20% Healing Skills"
+        ],
+        "id": "bad_healer",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Bad Healer",
+        "quirk_type": "Negative"
+    },
+    "badhumours": {
+        "buffs": [
+            "-20% MAX HP"
+        ],
+        "id": "bad_humours",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Bad Humours",
+        "quirk_type": "Disease"
+    },
+    "balanced": {
+        "buffs": [
+            "+15% Move Resist"
+        ],
+        "id": "improved_balance",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Balanced",
+        "quirk_type": "Positive"
+    },
+    "beasthater": {
+        "buffs": [
+            "+15% DMG vs Beast",
+            "-15% Stress vs Beast"
+        ],
+        "id": "hatred_of_beast",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Beast Hater",
+        "quirk_type": "Positive"
+    },
+    "beastslayer": {
+        "buffs": [
+            "+10 ACC vs Beast",
+            "+6% CRT vs Beast"
+        ],
+        "id": "slayer_of_beast",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Beast Slayer",
+        "quirk_type": "Positive"
+    },
+    "bloodthirsty": {
+        "id": "bloodthirsty",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Bloodthirsty",
+        "quirk_type": "Negative"
+    },
+    "bulimic": {
+        "buffs": [
+            "-20% Healing Skills while Camping"
+        ],
+        "id": "bulimic",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Bulimic",
+        "quirk_type": "Disease"
+    },
+    "calm": {
+        "buffs": [
+            "-15% DMG on First Round"
+        ],
+        "id": "calm",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Calm",
+        "quirk_type": "Negative"
+    },
+    "claustrophobia": {
+        "buffs": [
+            "+20% Stress in Hallways"
+        ],
+        "id": "claustrophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Claustrophobia",
+        "quirk_type": "Negative"
+    },
+    "clotter": {
+        "buffs": [
+            "+15% Bleed Resist"
+        ],
+        "id": "clotter",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Clotter",
+        "quirk_type": "Positive"
+    },
+    "clumsy": {
+        "buffs": [
+            "-5 DODGE"
+        ],
+        "id": "clumsy",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Clumsy",
+        "quirk_type": "Negative"
+    },
+    "clutchhitter": {
+        "buffs": [
+            "+6% CRT if HP below 50%"
+        ],
+        "id": "clutch_hitter",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Clutch Hitter",
+        "quirk_type": "Positive"
+    },
+    "compulsive": {
+        "id": "compulsive",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Compulsive",
+        "quirk_type": "Negative"
+    },
+    "corvidsappetite": {
+        "buffs": [
+            "+1% Food Consumed"
+        ],
+        "id": "corvids_appetite",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Corvid's Appetite",
+        "quirk_type": "Negative"
+    },
+    "corvidsblindness": {
+        "buffs": [
+            "-10 ACC if Torch above 50"
+        ],
+        "id": "corvids_blindness",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Corvid's Blindness",
+        "quirk_type": "Negative"
+    },
+    "corvidscuriosity": {
+        "id": "corvids_curiosity",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Corvid's Curiosity",
+        "quirk_type": "Negative"
+    },
+    "corvidseye": {
+        "buffs": [
+            "+8 ACC",
+            "+8% Scouting Chance"
+        ],
+        "id": "corvids_eye",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Corvid's Eye",
+        "quirk_type": "Positive"
+    },
+    "corvidsgrace": {
+        "buffs": [
+            "+6 DODGE",
+            "+25% Move Resist"
+        ],
+        "id": "corvids_grace",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Corvid's Grace",
+        "quirk_type": "Positive"
+    },
+    "corvidsresilience": {
+        "buffs": [
+            "+33% Disease Resist"
+        ],
+        "id": "corvids_resilience",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Corvid's Resilience",
+        "quirk_type": "Positive"
+    },
+    "coveadventurer": {
+        "buffs": [
+            "-20% Stress in Cove"
+        ],
+        "id": "cove_adventurer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Cove Adventurer",
+        "quirk_type": "Positive"
+    },
+    "coveexplorer": {
+        "buffs": [
+            "+10% Scouting Chance in Cove"
+        ],
+        "id": "cove_explorer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Cove Explorer",
+        "quirk_type": "Positive"
+    },
+    "covephobe": {
+        "buffs": [
+            "+20% Stress in Cove"
+        ],
+        "id": "cove_phobe",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Cove Phobe",
+        "quirk_type": "Negative"
+    },
+    "covescrounger": {
+        "buffs": [
+            "+5% Scouting Chance in Cove"
+        ],
+        "id": "cove_scrounger",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Cove Scrounger",
+        "quirk_type": "Positive"
+    },
+    "covetactician": {
+        "buffs": [
+            "+15% DMG in Cove"
+        ],
+        "id": "cove_tactician",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Cove Tactician",
+        "quirk_type": "Positive"
+    },
+    "creepingcough": {
+        "buffs": [
+            "-20% DMG"
+        ],
+        "id": "creeping_cough",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Creeping Cough",
+        "quirk_type": "Disease"
+    },
+    "crimsoncurse": {
+        "buffs": [
+            "-5% Stun Resist",
+            "-5% Blight Resist",
+            "-5% Bleed Resist",
+            "-10% MAX HP",
+            "+1 SPD"
+        ],
+        "id": "disease_vampire_passive",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Crimson Curse",
+        "quirk_type": "Disease"
+    },
+    "crimsoncurse(bloodlust!)": {
+        "buffs": [
+            "+25% DMG",
+            "+4 SPD",
+            "+25% Stun Resist",
+            "+15% Blight Resist",
+            "-10% Bleed Resist"
+        ],
+        "id": "disease_vampire_blood_lust",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Crimson Curse (blood lust!)",
+        "quirk_type": "Disease"
+    },
+    "crimsoncurse(craving)": {
+        "buffs": [
+            "-10% Stun Resist",
+            "-10% Blight Resist",
+            "-10% Bleed Resist",
+            "-10% MAX HP",
+            "-10% Virtue Chance",
+            "+2 SPD"
+        ],
+        "id": "disease_vampire_crave",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Crimson Curse (craving)",
+        "quirk_type": "Disease"
+    },
+    "crimsoncurse(wasting)": {
+        "buffs": [
+            "-10% Stun Resist",
+            "-10% Blight Resist",
+            "-10% Bleed Resist",
+            "-20% MAX HP",
+            "-4 SPD",
+            "-10% Death Blow Resist"
+        ],
+        "id": "disease_vampire_wasting",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Crimson Curse (wasting)",
+        "quirk_type": "Disease"
+    },
+    "curious": {
+        "id": "curious",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Curious",
+        "quirk_type": "Negative"
+    },
+    "dacnomania": {
+        "id": "dacnomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Dacnomania",
+        "quirk_type": "Negative"
+    },
+    "daredevil": {
+        "buffs": [
+            "+15 DODGE if HP below 25%"
+        ],
+        "id": "daredevil",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Daredevil",
+        "quirk_type": "Positive"
+    },
+    "darktemptation": {
+        "id": "dark_temptation",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Dark Temptation",
+        "quirk_type": "Negative"
+    },
+    "deadly": {
+        "buffs": [
+            "+2% CRT"
+        ],
+        "id": "accurate",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Deadly",
+        "quirk_type": "Positive"
+    },
+    "demonomania": {
+        "id": "demonomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Demonomania",
+        "quirk_type": "Negative"
+    },
+    "devianttastes": {
+        "id": "deviant_tastes",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Deviant Tastes",
+        "quirk_type": "Negative"
+    },
+    "dipsomania": {
+        "id": "dipsomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Dipsomania",
+        "quirk_type": "Negative"
+    },
+    "diurnal": {
+        "buffs": [
+            "-2 SPD if Torch below 26"
+        ],
+        "id": "diurnal",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Diurnal",
+        "quirk_type": "Negative"
+    },
+    "dudhitter": {
+        "buffs": [
+            "-5% CRT if HP below 50%"
+        ],
+        "id": "dud_hitter",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Dud Hitter",
+        "quirk_type": "Negative"
+    },
+    "eagleeye": {
+        "buffs": [
+            "+5% CRT Ranged Skills"
+        ],
+        "id": "eagle_eye",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Eagle Eye",
+        "quirk_type": "Positive"
+    },
+    "earlyriser": {
+        "buffs": [
+            "+2 SPD if Torch above 75"
+        ],
+        "id": "early_riser",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Early Riser",
+        "quirk_type": "Positive"
+    },
+    "egomania": {
+        "id": "egomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Egomania",
+        "quirk_type": "Negative"
+    },
+    "eldritchhater": {
+        "buffs": [
+            "+15% DMG vs Eldritch",
+            "-15% Stress vs Eldritch"
+        ],
+        "id": "hatred_of_eldritch",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Eldritch Hater",
+        "quirk_type": "Positive"
+    },
+    "eldritchslayer": {
+        "buffs": [
+            "+10 ACC vs Eldritch",
+            "+6% CRT vs Eldritch"
+        ],
+        "id": "slayer_of_eldritch",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Eldritch Slayer",
+        "quirk_type": "Positive"
+    },
+    "enlightened": {
+        "id": "enlightened",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Enlightened",
+        "quirk_type": "Negative"
+    },
+    "ennui": {
+        "buffs": [
+            "-25% Virtue Chance"
+        ],
+        "id": "ennui",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Ennui",
+        "quirk_type": "Disease"
+    },
+    "evasive": {
+        "buffs": [
+            "+5 DODGE"
+        ],
+        "id": "evasive",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Evasive",
+        "quirk_type": "Positive"
+    },
+    "fading": {
+        "buffs": [
+            "-2 SPD",
+            "-5 DODGE"
+        ],
+        "id": "fading",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fading",
+        "quirk_type": "Negative"
+    },
+    "fairweatherfighter": {
+        "buffs": [
+            "+20% DMG if HP above 99%"
+        ],
+        "id": "fairweather_fighter",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Fairweather Fighter",
+        "quirk_type": "Positive"
+    },
+    "faithless": {
+        "id": "faithless",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Faithless",
+        "quirk_type": "Negative"
+    },
+    "fasthealer": {
+        "buffs": [
+            "+10% Healing Skills while Camping"
+        ],
+        "id": "fast_healer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Fast Healer",
+        "quirk_type": "Positive"
+    },
+    "fated": {
+        "id": "fated",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Fated",
+        "quirk_type": "Positive"
+    },
+    "fearofbeasts": {
+        "buffs": [
+            "+15% Stress vs Beast",
+            "-10 ACC vs Beast"
+        ],
+        "id": "fear_of_beast",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fear of Beasts",
+        "quirk_type": "Negative"
+    },
+    "fearofeldritch": {
+        "buffs": [
+            "+15% Stress vs Eldritch",
+            "-10 ACC vs Eldritch"
+        ],
+        "id": "fear_of_eldritch",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fear of Eldritch",
+        "quirk_type": "Negative"
+    },
+    "fearofmankind": {
+        "buffs": [
+            "+15% Stress vs Human",
+            "-10 ACC vs Human"
+        ],
+        "id": "fear_of_man",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fear of Mankind",
+        "quirk_type": "Negative"
+    },
+    "fearofunholy": {
+        "buffs": [
+            "+15% Stress vs Unholy",
+            "-10 ACC vs Unholy"
+        ],
+        "id": "fear_of_unholy",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fear of Unholy",
+        "quirk_type": "Negative"
+    },
+    "flagellant": {
+        "id": "flagellant",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Flagellant",
+        "quirk_type": "Negative"
+    },
+    "flawedrelease": {
+        "buffs": [
+            "-5% CRT Ranged Skills"
+        ],
+        "id": "flawed_release",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Flawed Release",
+        "quirk_type": "Negative"
+    },
+    "fragile": {
+        "buffs": [
+            "-10% MAX HP"
+        ],
+        "id": "fragile",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Fragile",
+        "quirk_type": "Negative"
+    },
+    "gambler": {
+        "id": "gambler",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Gambler",
+        "quirk_type": "Negative"
+    },
+    "germophobe": {
+        "buffs": [
+            "-10 ACC vs {colour_start|blight}Blighted{colour_end}"
+        ],
+        "id": "germophobe",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Germophobe",
+        "quirk_type": "Negative"
+    },
+    "gifted": {
+        "buffs": [
+            "+20% Healing Received"
+        ],
+        "id": "gifted",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Gifted",
+        "quirk_type": "Positive"
+    },
+    "godfearing": {
+        "id": "god_fearing",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "God Fearing",
+        "quirk_type": "Negative"
+    },
+    "gothic": {
+        "buffs": [
+            "+25% Healing Received: Wyrd Reconstruction"
+        ],
+        "id": "gothic",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Gothic",
+        "quirk_type": "Positive"
+    },
+    "greyrot": {
+        "buffs": [
+            "+20% MAX HP",
+            "-10 ACC",
+            "-10% DMG"
+        ],
+        "id": "grey_rot",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Grey Rot",
+        "quirk_type": "Disease"
+    },
+    "guiltyconscience": {
+        "id": "guilty_conscience",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Guilty Conscience",
+        "quirk_type": "Negative"
+    },
+    "hagiomania": {
+        "id": "hagiomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Hagiomania",
+        "quirk_type": "Negative"
+    },
+    "hardnoggin": {
+        "buffs": [
+            "+15% Stun Resist"
+        ],
+        "id": "hard_noggin",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Hard Noggin",
+        "quirk_type": "Positive"
+    },
+    "hardskinned": {
+        "buffs": [
+            "+10% PROT"
+        ],
+        "id": "hard_skinned",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Hard Skinned",
+        "quirk_type": "Positive"
+    },
+    "healersgift": {
+        "buffs": [
+            "+20% Healing Skills while Camping"
+        ],
+        "id": "gift_of_the_healer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Healer's Gift",
+        "quirk_type": "Positive"
+    },
+    "hemophilia": {
+        "buffs": [
+            "-50% Bleed Resist"
+        ],
+        "id": "hemophilia",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Hemophilia",
+        "quirk_type": "Disease"
+    },
+    "hieromania": {
+        "id": "hieromania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Hieromania",
+        "quirk_type": "Negative"
+    },
+    "hippocratic": {
+        "buffs": [
+            "+20% Healing Skills"
+        ],
+        "id": "hippocratic",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Hippocratic",
+        "quirk_type": "Positive"
+    },
+    "hottotrot": {
+        "buffs": [
+            "+20 ACC on First Round",
+            "+25% DMG on First Round",
+            "+5% CRT on First Round"
+        ],
+        "id": "hot_to_trot",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Hot to Trot",
+        "quirk_type": "Positive"
+    },
+    "huskslayer": {
+        "buffs": [
+            "+10 ACC vs Husk",
+            "+5% CRT vs Husk"
+        ],
+        "id": "husk_slayer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Husk Slayer",
+        "quirk_type": "Positive"
+    },
+    "hylomania": {
+        "id": "hylomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Hylomania",
+        "quirk_type": "Negative"
+    },
+    "hystericalblindness": {
+        "buffs": [
+            "-20 ACC if Stress above 70"
+        ],
+        "id": "hysterical_blindness",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Hysterical Blindness",
+        "quirk_type": "Disease"
+    },
+    "impostersyndrome": {
+        "id": "imposter_syndrome",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Imposter Syndrome",
+        "quirk_type": "Negative"
+    },
+    "infirm": {
+        "buffs": [
+            "-20% Healing Received"
+        ],
+        "id": "infirm",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Infirm",
+        "quirk_type": "Negative"
+    },
+    "irrepressible": {
+        "buffs": [
+            "+5% Virtue Chance"
+        ],
+        "id": "irrepressible",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Irrepressible",
+        "quirk_type": "Positive"
+    },
+    "kleptomaniac": {
+        "id": "kleptomaniac",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Kleptomaniac",
+        "quirk_type": "Negative"
+    },
+    "knowncheat": {
+        "id": "known_cheat",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Known Cheat",
+        "quirk_type": "Negative"
+    },
+    "lastgasp": {
+        "buffs": [
+            "+1 SPD if HP below 50%"
+        ],
+        "id": "last_gasp",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Last Gasp",
+        "quirk_type": "Positive"
+    },
+    "lazyeye": {
+        "buffs": [
+            "-5 ACC Ranged Skills"
+        ],
+        "id": "lazy_eye",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Lazy Eye",
+        "quirk_type": "Negative"
+    },
+    "lethargy": {
+        "buffs": [
+            "-4 SPD"
+        ],
+        "id": "lethargy",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Lethargy",
+        "quirk_type": "Disease"
+    },
+    "lightsensitive": {
+        "buffs": [
+            "-10% DMG if Torch above 75"
+        ],
+        "id": "sensitive_to_light",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Light Sensitive",
+        "quirk_type": "Negative"
+    },
+    "loveinterest": {
+        "id": "love_interest",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Love Interest",
+        "quirk_type": "Negative"
+    },
+    "luminous": {
+        "buffs": [
+            "+2 SPD",
+            "+5 DODGE"
+        ],
+        "id": "luminous",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Luminous",
+        "quirk_type": "Positive"
+    },
+    "lurker": {
+        "buffs": [
+            "+10% DMG if Torch below 26"
+        ],
+        "id": "lurker",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Lurker",
+        "quirk_type": "Positive"
+    },
+    "lygophobia": {
+        "buffs": [
+            "+20% Stress if Torch below 26"
+        ],
+        "id": "lygophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Lygophobia",
+        "quirk_type": "Negative"
+    },
+    "mankindhater": {
+        "buffs": [
+            "+15% DMG vs Human",
+            "-15% Stress vs Human"
+        ],
+        "id": "hatred_of_man",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Mankind Hater",
+        "quirk_type": "Positive"
+    },
+    "manslayer": {
+        "buffs": [
+            "+10 ACC vs Human",
+            "+6% CRT vs Human"
+        ],
+        "id": "slayer_of_man",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Man Slayer",
+        "quirk_type": "Positive"
+    },
+    "meditator": {
+        "buffs": [
+            "+20% Stress Heal Received in Meditation"
+        ],
+        "id": "meditator",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Meditator",
+        "quirk_type": "Positive"
+    },
+    "mercurial": {
+        "buffs": [
+            "-5% Virtue Chance"
+        ],
+        "id": "mercurial",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Mercurial",
+        "quirk_type": "Negative"
+    },
+    "missesthespot": {
+        "buffs": [
+            "-2% CRT"
+        ],
+        "id": "inaccurate",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Misses the Spot",
+        "quirk_type": "Negative"
+    },
+    "musical": {
+        "buffs": [
+            "+25% Stress Heal Received: Inspiring Tune"
+        ],
+        "id": "musical",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Musical",
+        "quirk_type": "Positive"
+    },
+    "natural": {
+        "buffs": [
+            "+20% MAX HP when wearing no trinkets",
+            "+20% Healing Received when wearing no trinkets",
+            "+3 SPD when wearing no trinkets"
+        ],
+        "id": "natural",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Natural",
+        "quirk_type": "Positive"
+    },
+    "naturaleye": {
+        "buffs": [
+            "+5 ACC Ranged Skills"
+        ],
+        "id": "natural_eye",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Natural Eye",
+        "quirk_type": "Positive"
+    },
+    "naturalswing": {
+        "buffs": [
+            "+5 ACC"
+        ],
+        "id": "natural_swing",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Natural Swing",
+        "quirk_type": "Positive"
+    },
+    "necromania": {
+        "id": "necromania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Necromania",
+        "quirk_type": "Negative"
+    },
+    "nervous": {
+        "buffs": [
+            "+10% Stress"
+        ],
+        "id": "nervous",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Nervous",
+        "quirk_type": "Negative"
+    },
+    "nervousbleeder": {
+        "buffs": [
+            "-10 ACC while {colour_start|bleed}Bleeding{colour_end}"
+        ],
+        "id": "nervous_bleeder",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Nervous Bleeder",
+        "quirk_type": "Negative"
+    },
+    "nightblindness": {
+        "buffs": [
+            "-10% DMG if Torch below 26"
+        ],
+        "id": "night_blindness",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Night Blindness",
+        "quirk_type": "Negative"
+    },
+    "nightowl": {
+        "buffs": [
+            "+2 SPD if Torch below 26"
+        ],
+        "id": "night_owl",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Night Owl",
+        "quirk_type": "Positive"
+    },
+    "nocturnal": {
+        "buffs": [
+            "-2 SPD if Torch above 75"
+        ],
+        "id": "nocturnal",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Nocturnal",
+        "quirk_type": "Negative"
+    },
+    "nymphomania": {
+        "buffs": [
+            "+20% Stress Heal Received in Brothel"
+        ],
+        "id": "nymphomania",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Nymphomania",
+        "quirk_type": "Positive"
+    },
+    "offguard": {
+        "buffs": [
+            "-4 SPD on First Round",
+            "-5 DODGE on First Round"
+        ],
+        "id": "off_guard",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Off Guard",
+        "quirk_type": "Negative"
+    },
+    "onguard": {
+        "buffs": [
+            "+4 SPD on First Round",
+            "+5 DODGE on First Round"
+        ],
+        "id": "on_guard",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "On Guard",
+        "quirk_type": "Positive"
+    },
+    "paranormania": {
+        "id": "paranormania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Paranormania",
+        "quirk_type": "Negative"
+    },
+    "perfectionist": {
+        "buffs": [
+            "+5 stress when attack misses"
+        ],
+        "id": "perfectionist",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Perfectionist",
+        "quirk_type": "Negative"
+    },
+    "phengophobia": {
+        "buffs": [
+            "+20% Stress if Torch above 75"
+        ],
+        "id": "phengophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Phengophobia",
+        "quirk_type": "Negative"
+    },
+    "photomania": {
+        "buffs": [
+            "-20% Stress if Torch above 75"
+        ],
+        "id": "photomania",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Photomania",
+        "quirk_type": "Positive"
+    },
+    "plutomania": {
+        "id": "plutomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Plutomania",
+        "quirk_type": "Negative"
+    },
+    "precisestriker": {
+        "buffs": [
+            "+5% CRT Melee Skills"
+        ],
+        "id": "precision_striker",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Precise Striker",
+        "quirk_type": "Positive"
+    },
+    "prismaticcalm": {
+        "buffs": [
+            "-30% Stress"
+        ],
+        "id": "alien_calm",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Calm",
+        "quirk_type": "Positive"
+    },
+    "prismaticcoagulation": {
+        "buffs": [
+            "+25% Bleed Resist"
+        ],
+        "id": "alien_healing",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Coagulation",
+        "quirk_type": "Positive"
+    },
+    "prismaticeye": {
+        "buffs": [
+            "+8 ACC"
+        ],
+        "id": "alien_eye",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Eye",
+        "quirk_type": "Positive"
+    },
+    "prismaticforce": {
+        "buffs": [
+            "+15% DMG"
+        ],
+        "id": "alien_force",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Force",
+        "quirk_type": "Positive"
+    },
+    "prismaticisolation": {
+        "buffs": [
+            "+25% Debuff Resist"
+        ],
+        "id": "alien_isolation",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Isolation",
+        "quirk_type": "Positive"
+    },
+    "prismaticprecision": {
+        "buffs": [
+            "+4% CRT"
+        ],
+        "id": "alien_precision",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Precision",
+        "quirk_type": "Positive"
+    },
+    "prismaticpurity": {
+        "buffs": [
+            "+25% Blight Resist"
+        ],
+        "id": "alien_purity",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Purity",
+        "quirk_type": "Positive"
+    },
+    "prismaticsolidity": {
+        "buffs": [
+            "+25% Stun Resist"
+        ],
+        "id": "alien_solidity",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Solidity",
+        "quirk_type": "Positive"
+    },
+    "prismaticspeed": {
+        "buffs": [
+            "+3 SPD"
+        ],
+        "id": "alien_speed",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Speed",
+        "quirk_type": "Positive"
+    },
+    "prismaticstability": {
+        "buffs": [
+            "+25% Move Resist"
+        ],
+        "id": "alien_stability",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Prismatic Stability",
+        "quirk_type": "Positive"
+    },
+    "quickdraw": {
+        "buffs": [
+            "+4 SPD on First Round"
+        ],
+        "id": "quickdraw",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Quickdraw",
+        "quirk_type": "Positive"
+    },
+    "quickreflexes": {
+        "buffs": [
+            "+2 SPD"
+        ],
+        "id": "quick_reflexes",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Quick Reflexes",
+        "quirk_type": "Positive"
+    },
+    "rabies": {
+        "buffs": [
+            "-10 ACC",
+            "+15% DMG"
+        ],
+        "id": "rabies",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Rabies",
+        "quirk_type": "Disease"
+    },
+    "resilient": {
+        "buffs": [
+            "+10% Stress Heal Received"
+        ],
+        "id": "resilient",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Resilient",
+        "quirk_type": "Positive"
+    },
+    "resolution": {
+        "id": "resolution",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Resolution",
+        "quirk_type": "Negative"
+    },
+    "risktaker": {
+        "buffs": [
+            "+10% DMG",
+            "-10 DODGE"
+        ],
+        "id": "risktaker",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Risktaker",
+        "quirk_type": "Negative"
+    },
+    "robust": {
+        "buffs": [
+            "+15% Disease Resist"
+        ],
+        "id": "robust",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Robust",
+        "quirk_type": "Positive"
+    },
+    "ruinsadventurer": {
+        "buffs": [
+            "-20% Stress in Ruins"
+        ],
+        "id": "ruins_adventurer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Ruins Adventurer",
+        "quirk_type": "Positive"
+    },
+    "ruinsexplorer": {
+        "buffs": [
+            "+10% Scouting Chance in Ruins"
+        ],
+        "id": "ruins_explorer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Ruins Explorer",
+        "quirk_type": "Positive"
+    },
+    "ruinsphobe": {
+        "buffs": [
+            "+20% Stress in Ruins"
+        ],
+        "id": "ruins_phobe",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Ruins Phobe",
+        "quirk_type": "Negative"
+    },
+    "ruinsscrounger": {
+        "buffs": [
+            "+5% Scouting Chance in Ruins"
+        ],
+        "id": "ruins_scrounger",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Ruins Scrounger",
+        "quirk_type": "Positive"
+    },
+    "ruinstactician": {
+        "buffs": [
+            "+15% DMG in Ruins"
+        ],
+        "id": "ruins_tactician",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Ruins Tactician",
+        "quirk_type": "Positive"
+    },
+    "ruminator": {
+        "buffs": [
+            "-10% Stress Heal Received"
+        ],
+        "id": "ruminator",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Ruminator",
+        "quirk_type": "Negative"
+    },
+    "satanophobia": {
+        "buffs": [
+            "+20% Stress vs Unholy"
+        ],
+        "id": "satanophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Satanophobia",
+        "quirk_type": "Negative"
+    },
+    "scattering": {
+        "buffs": [
+            "-5% DMG Ranged Skills"
+        ],
+        "id": "scattering",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Scattering",
+        "quirk_type": "Negative"
+    },
+    "scientific": {
+        "buffs": [
+            "-20% Healing Received: Divine Grace",
+            "-20% Healing Received: Divine Comfort"
+        ],
+        "id": "scientific",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Scientific",
+        "quirk_type": "Negative"
+    },
+    "scurvy": {
+        "buffs": [
+            "-40% Bleed Resist",
+            "-40% Move Resist"
+        ],
+        "id": "scurvy",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Scurvy",
+        "quirk_type": "Disease"
+    },
+    "scythemaster": {
+        "buffs": [
+            "+15% DMG vs Husk"
+        ],
+        "id": "scythemaster",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Scythemaster",
+        "quirk_type": "Positive"
+    },
+    "secondwind": {
+        "buffs": [
+            "+10% DMG if HP below 50%"
+        ],
+        "id": "second_wind",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Second Wind",
+        "quirk_type": "Positive"
+    },
+    "shardmercenary": {
+        "buffs": [
+            "10% Shard Loot Taken"
+        ],
+        "id": "shard_hungry",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Shard Mercenary",
+        "quirk_type": "Negative"
+    },
+    "shocker": {
+        "buffs": [
+            "-10% Stun Resist"
+        ],
+        "id": "shocker",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Shocker",
+        "quirk_type": "Negative"
+    },
+    "sickly": {
+        "buffs": [
+            "-10% Disease Resist"
+        ],
+        "id": "sickly",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Sickly",
+        "quirk_type": "Negative"
+    },
+    "sitiomania": {
+        "id": "sitiomania",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Sitiomania",
+        "quirk_type": "Negative"
+    },
+    "skilledgambler": {
+        "buffs": [
+            "Increased chance of winning gold. in Gambling",
+            "Increased chance of winning trinkets. in Gambling"
+        ],
+        "id": "skilled_gambler",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Skilled Gambler",
+        "quirk_type": "Positive"
+    },
+    "skytaint": {
+        "buffs": [
+            "+20% Stress",
+            "-20% Blight Resist",
+            "-20% Bleed Resist"
+        ],
+        "id": "sky_taint",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Sky Taint",
+        "quirk_type": "Disease"
+    },
+    "slowdraw": {
+        "buffs": [
+            "-4 SPD on First Round"
+        ],
+        "id": "slowdraw",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Slowdraw",
+        "quirk_type": "Negative"
+    },
+    "slowreflexes": {
+        "buffs": [
+            "-1 SPD"
+        ],
+        "id": "slow_reflexes",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Slow Reflexes",
+        "quirk_type": "Negative"
+    },
+    "slugger": {
+        "buffs": [
+            "+10% DMG Melee Skills"
+        ],
+        "id": "slugger",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Slugger",
+        "quirk_type": "Positive"
+    },
+    "soft": {
+        "buffs": [
+            "-5% MAX HP"
+        ],
+        "id": "soft",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Soft",
+        "quirk_type": "Negative"
+    },
+    "spasmoftheentrails": {
+        "buffs": [
+            "-20% Healing Skills while Camping"
+        ],
+        "id": "stomach_cramp",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Spasm of the Entrails",
+        "quirk_type": "Disease"
+    },
+    "spiritual": {
+        "buffs": [
+            "+25% Healing Received: Divine Grace",
+            "+25% Healing Received: Divine Comfort"
+        ],
+        "id": "spiritual",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Spiritual",
+        "quirk_type": "Positive"
+    },
+    "spottedfever": {
+        "buffs": [
+            "-50% Blight Resist"
+        ],
+        "id": "spotted_fever",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Spotted Fever",
+        "quirk_type": "Disease"
+    },
+    "steady": {
+        "buffs": [
+            "-10% Stress"
+        ],
+        "id": "steady",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Steady",
+        "quirk_type": "Positive"
+    },
+    "stout": {
+        "buffs": [
+            "+15% Healing Skills while Camping"
+        ],
+        "id": "stout",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Stout",
+        "quirk_type": "Positive"
+    },
+    "stresseater": {
+        "buffs": [
+            "+1% Food Consumed if Stress above 50"
+        ],
+        "id": "stress_eater",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Stress Eater",
+        "quirk_type": "Negative"
+    },
+    "stressfaster": {
+        "buffs": [
+            "-1% Food Consumed if Stress above 50"
+        ],
+        "id": "stress_faster",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Stress Faster",
+        "quirk_type": "Positive"
+    },
+    "syphilis": {
+        "buffs": [
+            "-5 ACC",
+            "-10% DMG",
+            "-10% MAX HP"
+        ],
+        "id": "syphilis",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Syphilis",
+        "quirk_type": "Disease"
+    },
+    "tapeworm": {
+        "buffs": [
+            "+1% Food Consumed"
+        ],
+        "id": "tapeworm",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Tapeworm",
+        "quirk_type": "Disease"
+    },
+    "tetanus": {
+        "buffs": [
+            "-5 ACC",
+            "-5% CRT"
+        ],
+        "id": "tetanus",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Tetanus",
+        "quirk_type": "Disease"
+    },
+    "thanatophobia": {
+        "buffs": [
+            "+20% Stress if HP below 50%"
+        ],
+        "id": "thanatophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Thanatophobia",
+        "quirk_type": "Negative"
+    },
+    "theague": {
+        "buffs": [
+            "-10% DMG",
+            "-3 SPD",
+            "-10% MAX HP"
+        ],
+        "id": "the_ague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Ague",
+        "quirk_type": "Disease"
+    },
+    "theblackplague": {
+        "buffs": [
+            "-75% Blight Resist",
+            "-75% Disease Resist",
+            "-10% MAX HP",
+            "-5 SPD"
+        ],
+        "id": "the_black_plague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Black Plague",
+        "quirk_type": "Disease"
+    },
+    "thefits": {
+        "buffs": [
+            "+3 SPD",
+            "-5 ACC",
+            "-5% CRT"
+        ],
+        "id": "the_fits",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Fits",
+        "quirk_type": "Disease"
+    },
+    "theredplague": {
+        "buffs": [
+            "-75% Bleed Resist",
+            "-10% MAX HP",
+            "-5% CRT"
+        ],
+        "id": "the_red_plague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Red Plague",
+        "quirk_type": "Disease"
+    },
+    "theruns": {
+        "buffs": [
+            "-20 DODGE",
+            "-10% MAX HP"
+        ],
+        "id": "the_runs",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Runs",
+        "quirk_type": "Disease"
+    },
+    "theworries": {
+        "buffs": [
+            "+30% Stress"
+        ],
+        "id": "the_worries",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Worries",
+        "quirk_type": "Disease"
+    },
+    "theyips": {
+        "buffs": [
+            "-5 ACC"
+        ],
+        "id": "the_yips",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "The Yips",
+        "quirk_type": "Negative"
+    },
+    "thickblooded": {
+        "buffs": [
+            "+10% Blight Resist"
+        ],
+        "id": "thick_blooded",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Thick Blooded",
+        "quirk_type": "Positive"
+    },
+    "thinblooded": {
+        "buffs": [
+            "-10% Blight Resist"
+        ],
+        "id": "thin_blooded",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Thin Blooded",
+        "quirk_type": "Negative"
+    },
+    "tippler": {
+        "id": "alcoholism",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Tippler",
+        "quirk_type": "Negative"
+    },
+    "tonedeaf": {
+        "buffs": [
+            "-20% Stress Heal Received: Inspiring Tune"
+        ],
+        "id": "tone_deaf",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Tone Deaf",
+        "quirk_type": "Negative"
+    },
+    "tornrotator": {
+        "buffs": [
+            "-5% DMG Melee Skills"
+        ],
+        "id": "torn_rotator_cuff",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Torn Rotator",
+        "quirk_type": "Negative"
+    },
+    "tough": {
+        "buffs": [
+            "+10% MAX HP"
+        ],
+        "id": "tough",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Tough",
+        "quirk_type": "Positive"
+    },
+    "tuckeredout": {
+        "buffs": [
+            "-10% DMG if HP below 50%"
+        ],
+        "id": "tuckered_out",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Tuckered Out",
+        "quirk_type": "Negative"
+    },
+    "twilightdreamer": {
+        "buffs": [
+            "Ignores Stealth"
+        ],
+        "id": "twilight_dreamer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Twilight Dreamer",
+        "quirk_type": "Positive"
+    },
+    "unerring": {
+        "buffs": [
+            "+10% DMG Ranged Skills"
+        ],
+        "id": "unerring",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Unerring",
+        "quirk_type": "Positive"
+    },
+    "unholyhater": {
+        "buffs": [
+            "+15% DMG vs Unholy",
+            "-15% Stress vs Unholy"
+        ],
+        "id": "hatred_of_unholy",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Unholy Hater",
+        "quirk_type": "Positive"
+    },
+    "unholyslayer": {
+        "buffs": [
+            "+10 ACC vs Unholy",
+            "+6% CRT vs Unholy"
+        ],
+        "id": "slayer_of_unholy",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Unholy Slayer",
+        "quirk_type": "Positive"
+    },
+    "unquietmind": {
+        "id": "unquiet_mind",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Unquiet Mind",
+        "quirk_type": "Negative"
+    },
+    "unyielding": {
+        "buffs": [
+            "+10% Death Blow Resist"
+        ],
+        "id": "unyielding",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Unyielding",
+        "quirk_type": "Positive"
+    },
+    "vampiricspirits": {
+        "buffs": [
+            "-50% Debuff Resist"
+        ],
+        "id": "vampiric_spirits",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Vampiric Spirits",
+        "quirk_type": "Disease"
+    },
+    "vertigo": {
+        "buffs": [
+            "-50% Move Resist"
+        ],
+        "id": "vertigo",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Vertigo",
+        "quirk_type": "Disease"
+    },
+    "warrensadventurer": {
+        "buffs": [
+            "-20% Stress in Warrens"
+        ],
+        "id": "warren_adventurer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Warrens Adventurer",
+        "quirk_type": "Positive"
+    },
+    "warrensexplorer": {
+        "buffs": [
+            "+10% Scouting Chance in Warrens"
+        ],
+        "id": "warren_explorer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Warrens Explorer",
+        "quirk_type": "Positive"
+    },
+    "warrensphobe": {
+        "buffs": [
+            "+20% Stress in Warrens"
+        ],
+        "id": "warren_phobe",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Warrens Phobe",
+        "quirk_type": "Negative"
+    },
+    "warrensscrounger": {
+        "buffs": [
+            "+5% Scouting Chance in Warrens"
+        ],
+        "id": "warren_scrounger",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Warrens Scrounger",
+        "quirk_type": "Positive"
+    },
+    "warrenstactician": {
+        "buffs": [
+            "+15% DMG in Warrens"
+        ],
+        "id": "warren_tactician",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Warrens Tactician",
+        "quirk_type": "Positive"
+    },
+    "warrioroflight": {
+        "buffs": [
+            "+10% DMG if Torch above 75"
+        ],
+        "id": "warrior_of_light",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Warrior of Light",
+        "quirk_type": "Positive"
+    },
+    "wastingsickness": {
+        "buffs": [
+            "-50% Disease Resist"
+        ],
+        "id": "wasting_sickness",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "Wasting Sickness",
+        "quirk_type": "Disease"
+    },
+    "weakgrip": {
+        "buffs": [
+            "-5% CRT Melee Skills"
+        ],
+        "id": "weak_grip",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Weak Grip",
+        "quirk_type": "Negative"
+    },
+    "weakgriponlife": {
+        "buffs": [
+            "-10% Death Blow Resist"
+        ],
+        "id": "suicidal",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Weak Grip on Life",
+        "quirk_type": "Negative"
+    },
+    "wealdadventurer": {
+        "buffs": [
+            "-20% Stress in Weald"
+        ],
+        "id": "weald_adventurer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Weald Adventurer",
+        "quirk_type": "Positive"
+    },
+    "wealdexplorer": {
+        "buffs": [
+            "+10% Scouting Chance in Weald"
+        ],
+        "id": "weald_explorer",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Weald Explorer",
+        "quirk_type": "Positive"
+    },
+    "wealdphobe": {
+        "buffs": [
+            "+20% Stress in Weald"
+        ],
+        "id": "weald_phobe",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Weald Phobe",
+        "quirk_type": "Negative"
+    },
+    "wealdscrounger": {
+        "buffs": [
+            "+5% Scouting Chance in Weald"
+        ],
+        "id": "weald_scrounger",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Weald Scrounger",
+        "quirk_type": "Positive"
+    },
+    "wealdtactician": {
+        "buffs": [
+            "+15% DMG in Weald"
+        ],
+        "id": "weald_tactician",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Weald Tactician",
+        "quirk_type": "Positive"
+    },
+    "weapontinker": {
+        "buffs": [
+            "20% Weapon Upgrade Cost"
+        ],
+        "id": "weapons_haggler",
+        "is_disease": false,
+        "is_positive": true,
+        "name": "Weapon Tinker",
+        "quirk_type": "Positive"
+    },
+    "winded": {
+        "buffs": [
+            "-1 SPD if HP below 50%"
+        ],
+        "id": "winded",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Winded",
+        "quirk_type": "Negative"
+    },
+    "witness": {
+        "id": "witness",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Witness",
+        "quirk_type": "Negative"
+    },
+    "zoophobia": {
+        "buffs": [
+            "+20% Stress vs Beast"
+        ],
+        "id": "zoophobia",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "Zoophobia",
+        "quirk_type": "Negative"
+    }
+}
