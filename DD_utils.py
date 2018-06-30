@@ -3,6 +3,7 @@
 
 import xml.etree.ElementTree as ET
 import json
+import os
 
 #TODO eventually I would like these paths to be in a config file
 #of their own.
@@ -59,10 +60,22 @@ buffInfo_files = ['shared/buffs/base.buffs.json',
     'dlc/735730_color_of_madness/shared/buffs/com.buffs.json']
 def getBuffInfos():
     #open the base game buffs file and convert from list to map
-    buffInfos = {}
-    for path in buffInfo_files:
-        with open(DDpath+path) as fp:
-            tempBuffs = json.load(fp)
-        for buff in tempBuffs['buffs']:
-            buffInfos[buff['id']] = buff
-    return buffInfos
+    return loadInfoFiles(buffInfo_files, 'buffs')
+
+#loads json files
+def loadInfoFiles(file_list, key):
+    Infos = {}
+    for path in file_list:
+        libpath = os.path.join(DDpath, path)
+        #if the path doesn't exist fail loud so nothing is missed.
+        if os.path.exists(libpath):
+            with open(libpath, 'r') as fp:
+                tempInfo = json.load(fp)
+            for entry in tempInfo[key]:
+                #if 'quirks' key doesnt exist fail loud, it is important to know that nothing is missed.
+                Infos[entry['id']] = entry
+        else:
+            print("Could not find {}".format(libpath))
+            exit(1)
+    return Infos
+

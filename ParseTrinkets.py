@@ -18,15 +18,6 @@ trinketInfoFiles = ['trinkets/base.entries.trinkets.json',
     'dlc/702540_shieldbreaker/trinkets/shieldbreaker.entries.trinkets.json',
     'dlc/735730_color_of_madness/trinkets/com.entries.trinkets.json',
     'dlc/735730_color_of_madness/trinkets/special_com.entries.trinkets.json']
-def getTrinketInfos():
-    trinketInfos = {}
-    for path in trinketInfoFiles:
-        with open(DD_utils.DDpath+path) as fp:
-            tempTrinkets = json.load(fp)
-        for entry in tempTrinkets['entries']:
-            trinketInfos[entry['id']] = entry
-    return trinketInfos
-
 
 def parse_trinkets():
 
@@ -41,7 +32,7 @@ def parse_trinkets():
             trinket_dict[t_id] = {'name': t_name, 'id': t_id }
 
     #load all of the trinket info files
-    trinketInfos = getTrinketInfos()
+    trinketInfos = DD_utils.loadInfoFiles(trinketInfoFiles, 'entries')
     #load all of the buff files
     buffInfos = DD_utils.getBuffInfos()
 

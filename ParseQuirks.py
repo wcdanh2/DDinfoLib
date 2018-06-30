@@ -3,6 +3,7 @@
 import xml.etree.ElementTree as ET
 import json
 from collections import OrderedDict
+import os
 
 import DD_utils
 
@@ -10,14 +11,6 @@ import DD_utils
 quirk_files = ['dlc/580100_crimson_court/features/crimson_court/shared/quirk/crimson_court.quirk_library.json',
                'dlc/735730_color_of_madness/shared/quirk/com.quirk_library.json',
                'shared/quirk/quirk_library.json']
-def getQuirkInfo():
-    quirkInfos = {}
-    for path in quirk_files:
-        with open(DD_utils.DDpath+path) as fp:
-            tempQuirks = json.load(fp)
-        for entry in tempQuirks['quirks']:
-            quirkInfos[entry['id']] = entry
-    return quirkInfos
 
 def parse_quirks():
     misc_strings = DD_utils.getLanguageDict()
@@ -31,7 +24,7 @@ def parse_quirks():
             quirk_dict[q_id] = {'name': q_name, 'id': q_id }
 
     #load all of the trinket info files
-    quirkInfos = getQuirkInfo()
+    quirkInfos = DD_utils.loadInfoFiles(quirk_files, 'quirks')
     #load all of the buff files
     buffInfos = DD_utils.getBuffInfos()
 
