@@ -1,0 +1,201 @@
+{
+    "abusive": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-5 ACC",
+            "+20% DMG",
+            "-15 DODGE"
+        ],
+        "dialogue": "-10% MAX HP, -5 ACC, +20% DMG, -15 DODGE",
+        "id": "abusive",
+        "name": "Abusive"
+    },
+    "courageous": {
+        "buffs": [
+            "+25% Stun Resist",
+            "+25% Blight Resist",
+            "+25% Bleed Resist",
+            "+25% Disease Resist",
+            "+25% Debuff Resist",
+            "+25% Move Resist",
+            "-33% Stress if Virtued",
+            "+2 SPD if Virtued"
+        ],
+        "dialogue": "-25% stress damage to companions",
+        "id": "courageous",
+        "name": "Courageous"
+    },
+    "fearful": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-25% DMG",
+            "+10 DODGE",
+            "+2 SPD"
+        ],
+        "dialogue": "-10% MAX HP, -25% DMG, +10 DODGE, +2 SPD",
+        "id": "fearful",
+        "name": "Fearful"
+    },
+    "focused": {
+        "buffs": [
+            "+25% Stun Resist",
+            "+25% Blight Resist",
+            "+25% Bleed Resist",
+            "+25% Disease Resist",
+            "+25% Debuff Resist",
+            "+25% Move Resist",
+            "+10 ACC if Virtued",
+            "+10% CRT if Virtued"
+        ],
+        "dialogue": "+10 ACC, +10% CRIT",
+        "id": "focused",
+        "name": "Focused"
+    },
+    "hopeless": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-5 ACC",
+            "-5 DODGE",
+            "-3 SPD"
+        ],
+        "dialogue": "-10% MAX HP, -5 ACC, -5 DODGE, -3 SPD",
+        "id": "depressed",
+        "name": "Hopeless"
+    },
+    "irrational": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-5 ACC",
+            "-10% DMG",
+            "-5 DODGE",
+            "+2 SPD"
+        ],
+        "dialogue": "-10% MAX HP, -5 ACC, -10% DMG, -5 DODGE, +2 SPD",
+        "id": "irrational",
+        "name": "Irrational"
+    },
+    "masochistic": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-15 DODGE"
+        ],
+        "dialogue": "-10% MAX HP, -15 DODGE",
+        "id": "masochistic",
+        "name": "Masochistic"
+    },
+    "paranoid": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-25% DMG",
+            "+10 DODGE",
+            "+2 SPD"
+        ],
+        "dialogue": "-10% MAX HP, -25% DMG, +10 DODGE, +2 SPD",
+        "id": "paranoid",
+        "name": "Paranoid"
+    },
+    "powerful": {
+        "buffs": [
+            "+25% Stun Resist",
+            "+25% Blight Resist",
+            "+25% Bleed Resist",
+            "+25% Disease Resist",
+            "+25% Debuff Resist",
+            "+25% Move Resist",
+            "+25% DMG if Virtued"
+        ],
+        "dialogue": "+25% DMG",
+        "id": "powerful",
+        "name": "Powerful"
+    },
+    "selfish": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-5 ACC",
+            "-10% DMG",
+            "+5 DODGE"
+        ],
+        "dialogue": "-10% MAX HP, -5 ACC, -10% DMG, +5 DODGE",
+        "id": "selfish",
+        "name": "Selfish"
+    },
+    "stalwart": {
+        "buffs": [
+            "+25% Stun Resist",
+            "+25% Blight Resist",
+            "+25% Bleed Resist",
+            "+25% Disease Resist",
+            "+25% Debuff Resist",
+            "+25% Move Resist",
+            "+15% PROT if Virtued",
+            "+8% Death Blow Resist if Virtued"
+        ],
+        "dialogue": "-50% stress damage",
+        "id": "stalwart",
+        "name": "Stalwart"
+    },
+    "vigorous": {
+        "buffs": [
+            "+25% Stun Resist",
+            "+25% Blight Resist",
+            "+25% Bleed Resist",
+            "+25% Disease Resist",
+            "+25% Debuff Resist",
+            "+25% Move Resist",
+            "+4 SPD if Virtued",
+            "+10 DODGE if Virtued"
+        ],
+        "dialogue": "+5 SPD, Increased Blight, Bleed, Disease resist",
+        "id": "vigorous",
+        "name": "Vigorous"
+    }
+}
