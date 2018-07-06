@@ -18,7 +18,7 @@ separators = (',', ': ')
 #so that users do not have to match the case and punctuation when
 #looking up entries.
 def stripName(name):
-    return name.replace(" ","").replace("-","").replace("'","").lower()
+    return name.lower().replace("the", "").replace(" ","").replace("-","").replace("'","")
 
 
 #remove tags like '{colour|blight}' from the strings
@@ -30,7 +30,8 @@ def remove_tags(string):
     return string
 
 #load the misccellaneous strings and return it as a dict of key(id):text pairs.
-string_tables = ['localization/miscellaneous.string_table.xml',
+string_tables = ['localization/dialogue.string_table.xml',
+                 'localization/miscellaneous.string_table.xml',
                  'localization/heroes.string_table.xml',
                  'localization/backertrinkets.string_table.xml',
                  'localization/PSN.string_table.xml',

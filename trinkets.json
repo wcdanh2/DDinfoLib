@@ -12,7 +12,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "absinthe": {
+    "absin": {
         "buffs": [
             "+35% Disease Resist",
             "+35% Blight Resist",
@@ -614,7 +614,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "beneaththedark": {
+    "beneathdark": {
         "buffs": [
             "-13% Stress if Torch below 26",
             "+16% Resolve XP",
@@ -637,7 +637,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "bernietherock": {
+    "bernierock": {
         "buffs": [
             "-15% Stress",
             "+50% HP DMG Inflicted When Starving at Death's Door"
@@ -687,6 +687,33 @@
         "hero_class": "",
         "id": "black_design",
         "name": "Black Design",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "blackhalo": {
+        "buffs": [
+            "+14% Virtue Chance if HP below 25%",
+            "+8 ACC if in position 0",
+            "-10% Move Resist on First Round",
+            "-4% CRT",
+            "-10% Trap Disarm Chance if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "the_black_halo",
+        "name": "The Black Halo",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "blackswordsmansguantlet": {
+        "buffs": [
+            "+7 ACC if in position 0",
+            "-15% Stress if Torch below 26",
+            "-4 SPD",
+            "-10% Bleed Resist"
+        ],
+        "hero_class": "",
+        "id": "the_black_swordsmans_guantlet",
+        "name": "The Black Swordsman's Guantlet",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -847,6 +874,18 @@
         "name": "Bloodied Neckerchief",
         "origin_dungeon": "Courtyard",
         "rarity": "Crimson Court"
+    },
+    "bloodiedshroud": {
+        "buffs": [
+            "+13% DMG if HP below 25%",
+            "+8 DODGE if HP below 25%",
+            "-13% Healing Received"
+        ],
+        "hero_class": "",
+        "id": "the_bloodied_shroud",
+        "name": "The Bloodied Shroud",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "bloodletter": {
         "buffs": [
@@ -1019,6 +1058,17 @@
         "origin_dungeon": "",
         "rarity": "Uncommon"
     },
+    "bookofruin": {
+        "buffs": [
+            "+9% Death Blow Resist",
+            "+50% Food Consumed at Death's Door"
+        ],
+        "hero_class": "",
+        "id": "the_book_of_ruin",
+        "name": "The Book of Ruin",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "bookofsanity": {
         "buffs": [
             "-20% Stress"
@@ -1146,7 +1196,7 @@
         "origin_dungeon": "",
         "rarity": "Crystalline"
     },
-    "brotherssoulstone": {
+    "brorssoulstone": {
         "buffs": [
             "-5% Stress",
             "+3 DODGE",
@@ -1270,6 +1320,21 @@
         "hero_class": "",
         "id": "cadogans_shield",
         "name": "Cadogan's Shield",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "cagoule": {
+        "buffs": [
+            "+6 DODGE",
+            "+4% CRT",
+            "+5 ACC",
+            "-13% Healing Skills if Torch below 26",
+            "-10% Move Resist if in position 0",
+            "-10% Trap Disarm Chance if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "the_cagoule",
+        "name": "The Cagoule",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -1466,7 +1531,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "clawofthebellwetherbeast": {
+    "clawofbellwerbeast": {
         "buffs": [
             "+6% CRT if Torch below 26",
             "+15% Move Resist if in position 0",
@@ -1479,7 +1544,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "clawsofthecat": {
+    "clawsofcat": {
         "buffs": [
             "+3% CRT",
             "+10% DMG if Torch below 26",
@@ -1520,21 +1585,7 @@
         "origin_dungeon": "Weald",
         "rarity": "Common"
     },
-    "cloakofshadows": {
-        "buffs": [
-            "+5 DODGE",
-            "+4 SPD if Torch below 26",
-            "+8% Trap Disarm Chance",
-            "-10% MAX HP",
-            "-8% Virtue Chance if Torch below 26"
-        ],
-        "hero_class": "",
-        "id": "cloak_of_shadows",
-        "name": "Cloak of Shadows",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "cloakoftheantedeluvian": {
+    "cloakofantedeluvian": {
         "buffs": [
             "+6 DODGE",
             "+4 SPD",
@@ -1549,7 +1600,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "cloakoftheheavens": {
+    "cloakofheavens": {
         "buffs": [
             "-15% Stress if Torch below 26",
             "+6 SPD if Torch above 75",
@@ -1562,7 +1613,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "cloakoftheoverwatch": {
+    "cloakofoverwatch": {
         "buffs": [
             "+5% DMG",
             "+3 DODGE",
@@ -1575,7 +1626,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "cloakoftheshadowdancer": {
+    "cloakofshadowdancer": {
         "buffs": [
             "+13% DMG if HP below 25%",
             "+4% CRT",
@@ -1587,6 +1638,20 @@
         "hero_class": "",
         "id": "cloak_of_the_shadow_dancer",
         "name": "Cloak of the Shadow Dancer",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "cloakofshadows": {
+        "buffs": [
+            "+5 DODGE",
+            "+4 SPD if Torch below 26",
+            "+8% Trap Disarm Chance",
+            "-10% MAX HP",
+            "-8% Virtue Chance if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "cloak_of_shadows",
+        "name": "Cloak of Shadows",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -1607,6 +1672,17 @@
         "name": "Coat Of Many Colors",
         "origin_dungeon": "",
         "rarity": "Crystalline"
+    },
+    "codofwisdom": {
+        "buffs": [
+            "+9% PROT",
+            "+10% Stress if Torch above 75"
+        ],
+        "hero_class": "",
+        "id": "the_cod_of_wisdom",
+        "name": "The Cod of Wisdom",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "commandersorders": {
         "buffs": [
@@ -1691,7 +1767,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "crestofthe1100": {
+    "crestof1100": {
         "buffs": [
             "+25% Virtue Chance",
             "-15% Stress"
@@ -1747,7 +1823,7 @@
         "origin_dungeon": "Warrens",
         "rarity": "Common"
     },
-    "crucifixforthelord": {
+    "crucifixforlord": {
         "buffs": [
             "+3% PROT",
             "+7% Healing Received",
@@ -1782,6 +1858,20 @@
         "name": "Crystal Pendant",
         "origin_dungeon": "",
         "rarity": "Crystalline"
+    },
+    "cthoniantexts": {
+        "buffs": [
+            "-10% Stress if Torch below 26",
+            "+10% Blight Resist if Torch below 26",
+            "+10% Healing Skills",
+            "+10% Stress if Torch above 75",
+            "-10% Blight Resist if Torch above 75"
+        ],
+        "hero_class": "",
+        "id": "the_cthonian_texts",
+        "name": "The Cthonian Texts",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "cthulhusrequiem": {
         "buffs": [
@@ -1954,7 +2044,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "darknightofthesoul": {
+    "darknightofsoul": {
         "buffs": [
             "-13% Stress if Torch below 26",
             "+8% PROT if Torch below 26",
@@ -2136,7 +2226,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "diademofthearcane": {
+    "diademofarcane": {
         "buffs": [
             "+12% PROT vs Eldritch",
             "-4% Scouting Chance"
@@ -2159,7 +2249,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "dirgeforthedevoured": {
+    "dirgefordevoured": {
         "buffs": [
             "+25% Stress Skills",
             "+25% DMG if Laudanum in inventory",
@@ -2356,14 +2446,31 @@
     },
     "edgecomb": {
         "buffs": [
-            "+7% Healing Skills",
-            "+3% PROT",
-            "+7% Healing Received",
-            "-10% Bleed Resist while Camping"
+            "+17% Healing Skills if in position 3",
+            "+8 DODGE if in position 3",
+            "+13% Blight Resist if in position 3",
+            "-6 DODGE if in position 0",
+            "-13% Healing Skills if in position 0",
+            "-10% Blight Resist if in position 0"
         ],
         "hero_class": "",
-        "id": "edgecomb",
-        "name": "EdgeComb",
+        "id": "edge_comb",
+        "name": "Edge Comb",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "eidolonswill": {
+        "buffs": [
+            "-10% Stress",
+            "+10% MAX HP",
+            "+6% PROT",
+            "-13% Healing Received",
+            "-8% Virtue Chance",
+            "-6% Death Blow Resist"
+        ],
+        "hero_class": "",
+        "id": "the_eidolons_will",
+        "name": "The Eidolon's Will",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -2456,6 +2563,18 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "erealcrucifix": {
+        "buffs": [
+            "+25% DMG vs Eldritch",
+            "+30% Bleed Resist",
+            "-20% MAX HP"
+        ],
+        "hero_class": "",
+        "id": "ethereal_crucifix",
+        "name": "Ethereal Crucifix",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
     "eternityscollar": {
         "buffs": [
             "+10% Death Blow Resist",
@@ -2465,18 +2584,6 @@
         "hero_class": "Flagellant",
         "id": "flag_1",
         "name": "Eternity's Collar",
-        "origin_dungeon": "",
-        "rarity": "Very Rare"
-    },
-    "etherealcrucifix": {
-        "buffs": [
-            "+25% DMG vs Eldritch",
-            "+30% Bleed Resist",
-            "-20% MAX HP"
-        ],
-        "hero_class": "",
-        "id": "ethereal_crucifix",
-        "name": "Ethereal Crucifix",
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
@@ -2503,7 +2610,20 @@
         "origin_dungeon": "Courtyard",
         "rarity": "Crimson Court"
     },
-    "eyeforthefeisty": {
+    "exilestears": {
+        "buffs": [
+            "-8% Stress if HP below 25%",
+            "+12% Resolve XP if HP below 25%",
+            "+5% PROT if HP below 25%",
+            "-10% DMG if HP below 25%"
+        ],
+        "hero_class": "",
+        "id": "the_exiles_tears",
+        "name": "The Exile's Tears",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "eyeforfeisty": {
         "buffs": [
             "+5% MAX HP",
             "+4% Virtue Chance",
@@ -2539,6 +2659,20 @@
         "hero_class": "",
         "id": "eyepatch_of_iniative",
         "name": "Eyepatch of Iniative",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "faceoffrost": {
+        "buffs": [
+            "+10% Bleed Resist at Death's Door",
+            "+6 DODGE at Death's Door",
+            "+13% Healing Received at Death's Door",
+            "-4 SPD",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "the_face_of_frost",
+        "name": "the face of frost",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -2580,7 +2714,7 @@
         "origin_dungeon": "Warrens",
         "rarity": "Rare"
     },
-    "feathercrystal": {
+    "fearcrystal": {
         "buffs": [
             "+2 SPD",
             "+8 DODGE",
@@ -2806,6 +2940,18 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "glassofmilk": {
+        "buffs": [
+            "+10% MAX HP",
+            "+6% PROT",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "the_glass_of_milk",
+        "name": "The Glass of milk",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "glitteringspaulders": {
         "buffs": [
             "+15% PROT",
@@ -2846,7 +2992,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "grandfathersrose": {
+    "grandfarsrose": {
         "buffs": [
             "+6 ACC if in position 3",
             "-10% Stress",
@@ -2887,7 +3033,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "grimoireofthegrey": {
+    "grimoireofgrey": {
         "buffs": [
             "+8% Death Blow Resist on First Round",
             "-13% Stress on First Round",
@@ -2912,7 +3058,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "grythepinnen": {
+    "grypinnen": {
         "buffs": [
             "+4% CRT",
             "+8% PROT if in position 0",
@@ -2939,7 +3085,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "guiseoftheharbinger": {
+    "guiseofharbinger": {
         "buffs": [
             "+5% DMG",
             "+2 ACC",
@@ -2988,6 +3134,18 @@
         "hero_class": "",
         "id": "handy_haversack",
         "name": "Handy Haversack",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "harbinger": {
+        "buffs": [
+            "+5% DMG",
+            "+3% PROT",
+            "+50% HP DMG Inflicted When Starving while Camping"
+        ],
+        "hero_class": "",
+        "id": "the_harbinger",
+        "name": "The Harbinger",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -3061,6 +3219,18 @@
         "origin_dungeon": "",
         "rarity": "Common"
     },
+    "heartshroud": {
+        "buffs": [
+            "+4% CRT",
+            "+13% DMG Melee Skills",
+            "-6 DODGE"
+        ],
+        "hero_class": "",
+        "id": "the_heart_shroud",
+        "name": "The Heart Shroud",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "heavenshairpin": {
         "buffs": [
             "-25% Stress if Torch above 75",
@@ -3097,7 +3267,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "helmetofthemadwarrior": {
+    "helmetofmadwarrior": {
         "buffs": [
             "+6% PROT",
             "+4% CRT",
@@ -3147,6 +3317,18 @@
         "hero_class": "",
         "id": "highbornes_praise",
         "name": "Highborne's Praise",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "holygrail": {
+        "buffs": [
+            "+6% Death Blow Resist",
+            "+10% Virtue Chance if in position 0",
+            "-6 DODGE if HP above 75%"
+        ],
+        "hero_class": "",
+        "id": "the_holy_grail",
+        "name": "The Holy Grail",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -3579,7 +3761,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "lensofthecomet": {
+    "lensofcomet": {
         "buffs": [
             "Ignores Stealth",
             "-20% Virtue Chance",
@@ -3732,7 +3914,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "lostringoftheserpent": {
+    "lostringofserpent": {
         "buffs": [
             "+20% Blight Resist",
             "-8% Virtue Chance",
@@ -3782,7 +3964,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "malazanbookofthefallen": {
+    "malazanbookoffallen": {
         "buffs": [
             "+13% DMG if HP above 75%",
             "+6 ACC if HP above 75%",
@@ -3823,6 +4005,30 @@
         "origin_dungeon": "",
         "rarity": "Rare"
     },
+    "manthathidesademon": {
+        "buffs": [
+            "+6 ACC if Torch below 26",
+            "+13% DMG if Torch below 26",
+            "+10% Stress"
+        ],
+        "hero_class": "",
+        "id": "the_man_that_hides_a_demon",
+        "name": "The Man that hides a Demon",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "mantleofowl": {
+        "buffs": [
+            "+5% CRT if HP below 25%",
+            "+6 ACC vs {colour_start|mark}Marked{colour_end}",
+            "+10% Stress if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "the_mantle_of_the_owl",
+        "name": "The Mantle of the Owl",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "mantraoffasting": {
         "buffs": [
             "+40% MAX HP if Crimson Curse - Wasting",
@@ -3834,7 +4040,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "markoftheoutcast": {
+    "markofoutcast": {
         "buffs": [
             "+2 SPD",
             "+35% Bleed Skill Chance",
@@ -3860,7 +4066,7 @@
         "origin_dungeon": "",
         "rarity": "Very Rare"
     },
-    "maskofthepious": {
+    "maskofpious": {
         "buffs": [
             "+6% PROT",
             "+8 DODGE if HP below 25%",
@@ -3875,7 +4081,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "maskofthetimeless": {
+    "maskoftimeless": {
         "buffs": [
             "+2 SPD",
             "+15 DODGE",
@@ -3887,7 +4093,7 @@
         "origin_dungeon": "",
         "rarity": "Crystalline"
     },
-    "masqueofthereddeath": {
+    "masqueofreddeath": {
         "buffs": [
             "+11 DODGE",
             "-10% Disease Resist",
@@ -3898,6 +4104,18 @@
         "name": "Masque of the Red Death",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
+    },
+    "mastersessence": {
+        "buffs": [
+            "+50% Healing Skills",
+            "+35% Blight Skill Chance",
+            "+35% Debuff Skill Chance"
+        ],
+        "hero_class": "Antiquarian",
+        "id": "cc_set_anti_the_masters_essence",
+        "name": "The Master's Essence",
+        "origin_dungeon": "Courtyard",
+        "rarity": "Crimson Court"
     },
     "medicsboots": {
         "buffs": [
@@ -4013,7 +4231,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "moltedtailfeather": {
+    "moltedtailfear": {
         "buffs": [
             "+4 SPD",
             "+33% Disease Resist if Torch below 75",
@@ -4026,7 +4244,7 @@
         "origin_dungeon": "",
         "rarity": "Shrieker"
     },
-    "moltedwingfeather": {
+    "moltedwingfear": {
         "buffs": [
             "+10 DODGE",
             "+33% Disease Resist if Torch below 75",
@@ -4125,7 +4343,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "motherslove": {
+    "morslove": {
         "buffs": [
             "+11% PROT if HP below 25%",
             "+11% PROT if Torch below 26",
@@ -4239,6 +4457,21 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "news": {
+        "buffs": [
+            "+6 ACC vs {colour_start|mark}Marked{colour_end}",
+            "+17% Healing Received if Torch above 75",
+            "+6% Death Blow Resist",
+            "-4 SPD",
+            "-6% PROT if Torch below 26",
+            "-8% Virtue Chance"
+        ],
+        "hero_class": "",
+        "id": "the_news",
+        "name": "The News",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "nicholasshieldofhonour": {
         "buffs": [
             "+10% DMG",
@@ -4292,7 +4525,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "oathbreakerssheathe": {
+    "oathbreakersshea": {
         "buffs": [
             "+6 SPD if Torch below 26",
             "+7 ACC if Torch below 26",
@@ -4428,7 +4661,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "papyruscontainingthespelltopreserveitspossessoragainstattacksfromhewhoisinthewater": {
+    "papyruscontainingspelltopreserveitspossessoragainstattacksfromhewhoisinwater": {
         "buffs": [
             "+8 DODGE vs Beast",
             "+8% Death Blow Resist vs Beast",
@@ -4478,7 +4711,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "pendantofthelostsister": {
+    "pendantoflostsister": {
         "buffs": [
             "+17% Healing Skills if Torch above 75",
             "+13% Stun Resist if Torch below 26",
@@ -4543,6 +4776,20 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "phalanx": {
+        "buffs": [
+            "+6% PROT if in position 0",
+            "+10% Move Resist if in position 0",
+            "+10% Stun Resist if in position 0",
+            "-4 SPD",
+            "-6 DODGE"
+        ],
+        "hero_class": "",
+        "id": "the_phalanx",
+        "name": "The Phalanx",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "pharmakon": {
         "buffs": [
             "+2% CRT",
@@ -4593,7 +4840,7 @@
         "origin_dungeon": "",
         "rarity": "Uncommon"
     },
-    "portraitofthebeloved": {
+    "portraitofbeloved": {
         "buffs": [
             "-5% Stress",
             "+3% CRT Ranged Skills",
@@ -4739,6 +4986,21 @@
         "origin_dungeon": "",
         "rarity": "Common"
     },
+    "radies": {
+        "buffs": [
+            "-13% Stress at Death's Door",
+            "+5 ACC",
+            "+8 DODGE if Torch below 26",
+            "+50% Food Consumed if Torch above 75",
+            "-6% PROT on First Round",
+            "-10% Move Resist at Death's Door"
+        ],
+        "hero_class": "",
+        "id": "the_radies",
+        "name": "The Radies",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "raiderstalisman": {
         "buffs": [
             "+5% CRT",
@@ -4798,6 +5060,21 @@
         "hero_class": "",
         "id": "ravenous_lions_ring",
         "name": "Ravenous Lion's Ring",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "ravensbrain": {
+        "buffs": [
+            "+20% Resolve XP if in position 3",
+            "-50% HP DMG Inflicted When Starving while Camping",
+            "+10% Blight Resist",
+            "-8% Chance Monsters Surprised on First Round",
+            "-10% MAX HP if HP below 25%",
+            "+50% Food Consumed"
+        ],
+        "hero_class": "",
+        "id": "the_ravens_brain",
+        "name": "The Raven's Brain",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -4862,6 +5139,18 @@
         "origin_dungeon": "",
         "rarity": "Common"
     },
+    "redhand": {
+        "buffs": [
+            "+5% CRT Ranged Skills",
+            "+5 SPD on First Round",
+            "-10% DMG Melee Skills"
+        ],
+        "hero_class": "",
+        "id": "the_red_hand",
+        "name": "The Red Hand",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "redpill": {
         "buffs": [
             "+3 DODGE",
@@ -4873,7 +5162,19 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "reliquaryoftheforgottensaint": {
+    "reflectorum": {
+        "buffs": [
+            "+6% PROT",
+            "+8% Death Blow Resist at Death's Door",
+            "-13% Healing Skills vs Beast"
+        ],
+        "hero_class": "",
+        "id": "the_reflectorum",
+        "name": "The Reflectorum",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "reliquaryofforgottensaint": {
         "buffs": [
             "+20% MAX HP if in position 0",
             "-6% Death Blow Resist if in position 3"
@@ -4905,6 +5206,19 @@
         "name": "Resurrection's Collar",
         "origin_dungeon": "",
         "rarity": "Uncommon"
+    },
+    "rolledbones": {
+        "buffs": [
+            "+3% CRT at Death's Door",
+            "+3% CRT if HP below 25%",
+            "+3% CRT if Torch below 26",
+            "-5 ACC"
+        ],
+        "hero_class": "",
+        "id": "the_rolled_bones",
+        "name": "The Rolled Bones",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "rotgutcenser": {
         "buffs": [
@@ -5032,6 +5346,17 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "scarecrowsbrain": {
+        "buffs": [
+            "+13% Healing Skills",
+            "-5 ACC"
+        ],
+        "hero_class": "",
+        "id": "the_scarecrows_brain",
+        "name": "The Scarecrow's Brain",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "scentofsarnath": {
         "buffs": [
             "+9% PROT vs Eldritch",
@@ -5071,19 +5396,7 @@
         "origin_dungeon": "",
         "rarity": "Common"
     },
-    "scrollofgrimmr": {
-        "buffs": [
-            "+4 SPD",
-            "+17% Healing Received if HP below 25%",
-            "+50% Food Consumed"
-        ],
-        "hero_class": "",
-        "id": "scroll_of_grimmr",
-        "name": "Scroll of Grimmr",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "scrollofthedivinehealer": {
+    "scrollofdivinehealer": {
         "buffs": [
             "+13% Healing Skills",
             "+17% Healing Skills if in position 3",
@@ -5095,6 +5408,18 @@
         "hero_class": "",
         "id": "scroll_of_the_divine_healer",
         "name": "Scroll of the divine Healer",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "scrollofgrimmr": {
+        "buffs": [
+            "+4 SPD",
+            "+17% Healing Received if HP below 25%",
+            "+50% Food Consumed"
+        ],
+        "hero_class": "",
+        "id": "scroll_of_grimmr",
+        "name": "Scroll of Grimmr",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -5140,6 +5465,18 @@
         "name": "Selfish Pendant",
         "origin_dungeon": "Weald",
         "rarity": "Common"
+    },
+    "serpentseye": {
+        "buffs": [
+            "+10% DMG",
+            "+6 ACC if Torch below 26",
+            "+50% Food Consumed if HP below 25%"
+        ],
+        "hero_class": "",
+        "id": "the_serpents_eye",
+        "name": "The Serpent's Eye",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "severedhand": {
         "buffs": [
@@ -5287,7 +5624,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "shroudofthemidnightcharmer": {
+    "shroudofmidnightcharmer": {
         "buffs": [
             "+5% Death Blow Resist",
             "+10% MAX HP if in position 3",
@@ -5363,6 +5700,20 @@
         "hero_class": "",
         "id": "silken_sheath",
         "name": "Silken Sheath",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "silvermountain": {
+        "buffs": [
+            "+13% Bleed Resist if in position 3",
+            "-13% Stress if in position 3",
+            "+5% CRT if in position 3",
+            "-4% Scouting Chance while Camping",
+            "-10% Trap Disarm Chance if in position 0"
+        ],
+        "hero_class": "",
+        "id": "the_silver_mountain",
+        "name": "The Silver Mountain",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -5497,7 +5848,20 @@
         "origin_dungeon": "",
         "rarity": "Rare"
     },
-    "souloftheneverborn": {
+    "sopsok": {
+        "buffs": [
+            "+8% Disease Resist if Torch below 26",
+            "+3 SPD if Torch below 26",
+            "+6% Chance Monsters Surprised if Torch below 26",
+            "-5 ACC if Torch below 26"
+        ],
+        "hero_class": "",
+        "id": "the_sopsok",
+        "name": "The SopSok",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "soulofneverborn": {
         "buffs": [
             "+10% MAX HP",
             "+5% CRT if Torch below 26",
@@ -5509,6 +5873,21 @@
         "hero_class": "",
         "id": "soul_of_the_neverborn",
         "name": "Soul of the Neverborn",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "spadeofaces": {
+        "buffs": [
+            "+6% Death Blow Resist",
+            "+5% CRT at Death's Door",
+            "+17% Healing Received at Death's Door",
+            "-10% Stun Resist on First Round",
+            "-10% Debuff Resist if HP above 75%",
+            "-8% Virtue Chance if in position 3"
+        ],
+        "hero_class": "",
+        "id": "the_spade_of_aces",
+        "name": "The Spade of Aces",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -5919,6 +6298,17 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "talismanofflame": {
+        "buffs": [
+            "-1% Stress: Revelation",
+            "-1% DMG Taken: Revelation"
+        ],
+        "hero_class": "",
+        "id": "dd_trinket",
+        "name": "Talisman of the Flame",
+        "origin_dungeon": "",
+        "rarity": "Darkest Dungeon"
+    },
     "talismanofpassion": {
         "buffs": [
             "+16% Resolve XP",
@@ -5932,16 +6322,18 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "talismanoftheflame": {
+    "tatteredking": {
         "buffs": [
-            "-1% Stress: Revelation",
-            "-1% DMG Taken: Revelation"
+            "+6% CRT vs {colour_start|mark}Marked{colour_end}",
+            "+8% Chance Monsters Surprised",
+            "-6% Death Blow Resist vs Human",
+            "+10% Stress"
         ],
         "hero_class": "",
-        "id": "dd_trinket",
-        "name": "Talisman of the Flame",
+        "id": "the_tattered_king",
+        "name": "The Tattered King",
         "origin_dungeon": "",
-        "rarity": "Darkest Dungeon"
+        "rarity": "Kickstarter"
     },
     "tdohteddybear": {
         "buffs": [
@@ -5968,6 +6360,20 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "temptinggoblet": {
+        "buffs": [
+            "+20% MAX HP",
+            "+3 SPD",
+            "+8 DODGE",
+            "+25% Stress",
+            "-10% Virtue Chance"
+        ],
+        "hero_class": "",
+        "id": "tempting_goblet",
+        "name": "The Tempting Goblet",
+        "origin_dungeon": "",
+        "rarity": "Very Rare"
+    },
     "tenacityring": {
         "buffs": [
             "+10% Death Blow Resist",
@@ -5990,476 +6396,6 @@
         "hero_class": "",
         "id": "tetsuo",
         "name": "Tetsuo",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theblackhalo": {
-        "buffs": [
-            "+14% Virtue Chance if HP below 25%",
-            "+8 ACC if in position 0",
-            "-10% Move Resist on First Round",
-            "-4% CRT",
-            "-10% Trap Disarm Chance if Torch below 26"
-        ],
-        "hero_class": "",
-        "id": "the_black_halo",
-        "name": "The Black Halo",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theblackswordsmansguantlet": {
-        "buffs": [
-            "+7 ACC if in position 0",
-            "-15% Stress if Torch below 26",
-            "-4 SPD",
-            "-10% Bleed Resist"
-        ],
-        "hero_class": "",
-        "id": "the_black_swordsmans_guantlet",
-        "name": "The Black Swordsman's Guantlet",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thebloodiedshroud": {
-        "buffs": [
-            "+13% DMG if HP below 25%",
-            "+8 DODGE if HP below 25%",
-            "-13% Healing Received"
-        ],
-        "hero_class": "",
-        "id": "the_bloodied_shroud",
-        "name": "The Bloodied Shroud",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thebookofruin": {
-        "buffs": [
-            "+9% Death Blow Resist",
-            "+50% Food Consumed at Death's Door"
-        ],
-        "hero_class": "",
-        "id": "the_book_of_ruin",
-        "name": "The Book of Ruin",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thecagoule": {
-        "buffs": [
-            "+6 DODGE",
-            "+4% CRT",
-            "+5 ACC",
-            "-13% Healing Skills if Torch below 26",
-            "-10% Move Resist if in position 0",
-            "-10% Trap Disarm Chance if Torch below 26"
-        ],
-        "hero_class": "",
-        "id": "the_cagoule",
-        "name": "The Cagoule",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thecodofwisdom": {
-        "buffs": [
-            "+9% PROT",
-            "+10% Stress if Torch above 75"
-        ],
-        "hero_class": "",
-        "id": "the_cod_of_wisdom",
-        "name": "The Cod of Wisdom",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thecthoniantexts": {
-        "buffs": [
-            "-10% Stress if Torch below 26",
-            "+10% Blight Resist if Torch below 26",
-            "+10% Healing Skills",
-            "+10% Stress if Torch above 75",
-            "-10% Blight Resist if Torch above 75"
-        ],
-        "hero_class": "",
-        "id": "the_cthonian_texts",
-        "name": "The Cthonian Texts",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theeidolonswill": {
-        "buffs": [
-            "-10% Stress",
-            "+10% MAX HP",
-            "+6% PROT",
-            "-13% Healing Received",
-            "-8% Virtue Chance",
-            "-6% Death Blow Resist"
-        ],
-        "hero_class": "",
-        "id": "the_eidolons_will",
-        "name": "The Eidolon's Will",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theexilestears": {
-        "buffs": [
-            "-8% Stress if HP below 25%",
-            "+12% Resolve XP if HP below 25%",
-            "+5% PROT if HP below 25%",
-            "-10% DMG if HP below 25%"
-        ],
-        "hero_class": "",
-        "id": "the_exiles_tears",
-        "name": "The Exile's Tears",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thefaceoffrost": {
-        "buffs": [
-            "+10% Bleed Resist at Death's Door",
-            "+6 DODGE at Death's Door",
-            "+13% Healing Received at Death's Door",
-            "-4 SPD",
-            "+10% Stress"
-        ],
-        "hero_class": "",
-        "id": "the_face_of_frost",
-        "name": "the face of frost",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theglassofmilk": {
-        "buffs": [
-            "+10% MAX HP",
-            "+6% PROT",
-            "+10% Stress"
-        ],
-        "hero_class": "",
-        "id": "the_glass_of_milk",
-        "name": "The Glass of milk",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theharbinger": {
-        "buffs": [
-            "+5% DMG",
-            "+3% PROT",
-            "+50% HP DMG Inflicted When Starving while Camping"
-        ],
-        "hero_class": "",
-        "id": "the_harbinger",
-        "name": "The Harbinger",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theheartshroud": {
-        "buffs": [
-            "+4% CRT",
-            "+13% DMG Melee Skills",
-            "-6 DODGE"
-        ],
-        "hero_class": "",
-        "id": "the_heart_shroud",
-        "name": "The Heart Shroud",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theholygrail": {
-        "buffs": [
-            "+6% Death Blow Resist",
-            "+10% Virtue Chance if in position 0",
-            "-6 DODGE if HP above 75%"
-        ],
-        "hero_class": "",
-        "id": "the_holy_grail",
-        "name": "The Holy Grail",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "themanthathidesademon": {
-        "buffs": [
-            "+6 ACC if Torch below 26",
-            "+13% DMG if Torch below 26",
-            "+10% Stress"
-        ],
-        "hero_class": "",
-        "id": "the_man_that_hides_a_demon",
-        "name": "The Man that hides a Demon",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "themantleoftheowl": {
-        "buffs": [
-            "+5% CRT if HP below 25%",
-            "+6 ACC vs {colour_start|mark}Marked{colour_end}",
-            "+10% Stress if Torch below 26"
-        ],
-        "hero_class": "",
-        "id": "the_mantle_of_the_owl",
-        "name": "The Mantle of the Owl",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "themastersessence": {
-        "buffs": [
-            "+50% Healing Skills",
-            "+35% Blight Skill Chance",
-            "+35% Debuff Skill Chance"
-        ],
-        "hero_class": "Antiquarian",
-        "id": "cc_set_anti_the_masters_essence",
-        "name": "The Master's Essence",
-        "origin_dungeon": "Courtyard",
-        "rarity": "Crimson Court"
-    },
-    "thenews": {
-        "buffs": [
-            "+6 ACC vs {colour_start|mark}Marked{colour_end}",
-            "+17% Healing Received if Torch above 75",
-            "+6% Death Blow Resist",
-            "-4 SPD",
-            "-6% PROT if Torch below 26",
-            "-8% Virtue Chance"
-        ],
-        "hero_class": "",
-        "id": "the_news",
-        "name": "The News",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thephalanx": {
-        "buffs": [
-            "+6% PROT if in position 0",
-            "+10% Move Resist if in position 0",
-            "+10% Stun Resist if in position 0",
-            "-4 SPD",
-            "-6 DODGE"
-        ],
-        "hero_class": "",
-        "id": "the_phalanx",
-        "name": "The Phalanx",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theradies": {
-        "buffs": [
-            "-13% Stress at Death's Door",
-            "+5 ACC",
-            "+8 DODGE if Torch below 26",
-            "+50% Food Consumed if Torch above 75",
-            "-6% PROT on First Round",
-            "-10% Move Resist at Death's Door"
-        ],
-        "hero_class": "",
-        "id": "the_radies",
-        "name": "The Radies",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theravensbrain": {
-        "buffs": [
-            "+20% Resolve XP if in position 3",
-            "-50% HP DMG Inflicted When Starving while Camping",
-            "+10% Blight Resist",
-            "-8% Chance Monsters Surprised on First Round",
-            "-10% MAX HP if HP below 25%",
-            "+50% Food Consumed"
-        ],
-        "hero_class": "",
-        "id": "the_ravens_brain",
-        "name": "The Raven's Brain",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theredhand": {
-        "buffs": [
-            "+5% CRT Ranged Skills",
-            "+5 SPD on First Round",
-            "-10% DMG Melee Skills"
-        ],
-        "hero_class": "",
-        "id": "the_red_hand",
-        "name": "The Red Hand",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thereflectorum": {
-        "buffs": [
-            "+6% PROT",
-            "+8% Death Blow Resist at Death's Door",
-            "-13% Healing Skills vs Beast"
-        ],
-        "hero_class": "",
-        "id": "the_reflectorum",
-        "name": "The Reflectorum",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "therolledbones": {
-        "buffs": [
-            "+3% CRT at Death's Door",
-            "+3% CRT if HP below 25%",
-            "+3% CRT if Torch below 26",
-            "-5 ACC"
-        ],
-        "hero_class": "",
-        "id": "the_rolled_bones",
-        "name": "The Rolled Bones",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thescarecrowsbrain": {
-        "buffs": [
-            "+13% Healing Skills",
-            "-5 ACC"
-        ],
-        "hero_class": "",
-        "id": "the_scarecrows_brain",
-        "name": "The Scarecrow's Brain",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "theserpentseye": {
-        "buffs": [
-            "+10% DMG",
-            "+6 ACC if Torch below 26",
-            "+50% Food Consumed if HP below 25%"
-        ],
-        "hero_class": "",
-        "id": "the_serpents_eye",
-        "name": "The Serpent's Eye",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thesilvermountain": {
-        "buffs": [
-            "+13% Bleed Resist if in position 3",
-            "-13% Stress if in position 3",
-            "+5% CRT if in position 3",
-            "-4% Scouting Chance while Camping",
-            "-10% Trap Disarm Chance if in position 0"
-        ],
-        "hero_class": "",
-        "id": "the_silver_mountain",
-        "name": "The Silver Mountain",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thesopsok": {
-        "buffs": [
-            "+8% Disease Resist if Torch below 26",
-            "+3 SPD if Torch below 26",
-            "+6% Chance Monsters Surprised if Torch below 26",
-            "-5 ACC if Torch below 26"
-        ],
-        "hero_class": "",
-        "id": "the_sopsok",
-        "name": "The SopSok",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thespadeofaces": {
-        "buffs": [
-            "+6% Death Blow Resist",
-            "+5% CRT at Death's Door",
-            "+17% Healing Received at Death's Door",
-            "-10% Stun Resist on First Round",
-            "-10% Debuff Resist if HP above 75%",
-            "-8% Virtue Chance if in position 3"
-        ],
-        "hero_class": "",
-        "id": "the_spade_of_aces",
-        "name": "The Spade of Aces",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thetatteredking": {
-        "buffs": [
-            "+6% CRT vs {colour_start|mark}Marked{colour_end}",
-            "+8% Chance Monsters Surprised",
-            "-6% Death Blow Resist vs Human",
-            "+10% Stress"
-        ],
-        "hero_class": "",
-        "id": "the_tattered_king",
-        "name": "The Tattered King",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thetemptinggoblet": {
-        "buffs": [
-            "+20% MAX HP",
-            "+3 SPD",
-            "+8 DODGE",
-            "+25% Stress",
-            "-10% Virtue Chance"
-        ],
-        "hero_class": "",
-        "id": "tempting_goblet",
-        "name": "The Tempting Goblet",
-        "origin_dungeon": "",
-        "rarity": "Very Rare"
-    },
-    "thetomeofmagrus": {
-        "buffs": [
-            "+8% PROT at Death's Door",
-            "+8 DODGE if in position 0",
-            "+17% Healing Skills if in position 3",
-            "+10% Stress at Death's Door",
-            "-13% Healing Received if in position 0",
-            "+10% Stress if in position 3"
-        ],
-        "hero_class": "",
-        "id": "the_tome_of_magrus",
-        "name": "The Tome of Magrus",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thetomeofstixx": {
-        "buffs": [
-            "+12% PROT if Torch below 26",
-            "-8% Virtue Chance while Camping"
-        ],
-        "hero_class": "",
-        "id": "the_tome_of_stixx",
-        "name": "The Tome Of Stixx",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thetrueknot": {
-        "buffs": [
-            "+15% Disease Resist",
-            "-6% Death Blow Resist on First Round"
-        ],
-        "hero_class": "",
-        "id": "the_true_knot",
-        "name": "The True Knot",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thevoiceofthefounder": {
-        "buffs": [
-            "+13% Healing Skills",
-            "+10% Disease Resist",
-            "-6 DODGE",
-            "-10% DMG",
-            "-4% CRT"
-        ],
-        "hero_class": "",
-        "id": "the_voice_of_the_founder",
-        "name": "The Voice of the Founder",
-        "origin_dungeon": "",
-        "rarity": "Kickstarter"
-    },
-    "thewinningsmile": {
-        "buffs": [
-            "+16% Resolve XP",
-            "+5% CRT Melee Skills",
-            "+13% DMG if Torch above 75",
-            "-10% Move Resist",
-            "+10% Stress if Torch below 26",
-            "-4 SPD if HP below 25%"
-        ],
-        "hero_class": "",
-        "id": "the_winning_smile",
-        "name": "The Winning Smile",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -6626,6 +6562,20 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
+    "tomeofdawn": {
+        "buffs": [
+            "+11% PROT if Torch below 26",
+            "+23% Healing Skills if Torch below 26",
+            "-10% Debuff Resist if in position 3",
+            "-8% Virtue Chance if in position 3",
+            "-8% Chance Monsters Surprised if in position 3"
+        ],
+        "hero_class": "",
+        "id": "tome_of_the_dawn",
+        "name": "Tome of the Dawn",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "tomeofholyhealing": {
         "buffs": [
             "+25% Healing Skills",
@@ -6637,17 +6587,29 @@
         "origin_dungeon": "",
         "rarity": "Rare"
     },
-    "tomeofthedawn": {
+    "tomeofmagrus": {
         "buffs": [
-            "+11% PROT if Torch below 26",
-            "+23% Healing Skills if Torch below 26",
-            "-10% Debuff Resist if in position 3",
-            "-8% Virtue Chance if in position 3",
-            "-8% Chance Monsters Surprised if in position 3"
+            "+8% PROT at Death's Door",
+            "+8 DODGE if in position 0",
+            "+17% Healing Skills if in position 3",
+            "+10% Stress at Death's Door",
+            "-13% Healing Received if in position 0",
+            "+10% Stress if in position 3"
         ],
         "hero_class": "",
-        "id": "tome_of_the_dawn",
-        "name": "Tome of the Dawn",
+        "id": "the_tome_of_magrus",
+        "name": "The Tome of Magrus",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "tomeofstixx": {
+        "buffs": [
+            "+12% PROT if Torch below 26",
+            "-8% Virtue Chance while Camping"
+        ],
+        "hero_class": "",
+        "id": "the_tome_of_stixx",
+        "name": "The Tome Of Stixx",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -6730,7 +6692,7 @@
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
-    "trialsofthetrinity:therelicants": {
+    "trialsoftrinity:relicants": {
         "buffs": [
             "+8% Debuff Resist",
             "+4 SPD on First Round",
@@ -6755,6 +6717,17 @@
         "hero_class": "",
         "id": "trouble",
         "name": "Trouble",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
+    "trueknot": {
+        "buffs": [
+            "+15% Disease Resist",
+            "-6% Death Blow Resist on First Round"
+        ],
+        "hero_class": "",
+        "id": "the_true_knot",
+        "name": "The True Knot",
         "origin_dungeon": "",
         "rarity": "Kickstarter"
     },
@@ -6972,6 +6945,20 @@
         "origin_dungeon": "",
         "rarity": "Trophy"
     },
+    "voiceoffounder": {
+        "buffs": [
+            "+13% Healing Skills",
+            "+10% Disease Resist",
+            "-6 DODGE",
+            "-10% DMG",
+            "-4% CRT"
+        ],
+        "hero_class": "",
+        "id": "the_voice_of_the_founder",
+        "name": "The Voice of the Founder",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
+    },
     "vvulfstassel": {
         "buffs": [
             "+20% DMG vs {colour_start|mark}Marked{colour_end}",
@@ -7028,6 +7015,21 @@
         "name": "Wilbur's Flag",
         "origin_dungeon": "",
         "rarity": "Trophy"
+    },
+    "winningsmile": {
+        "buffs": [
+            "+16% Resolve XP",
+            "+5% CRT Melee Skills",
+            "+13% DMG if Torch above 75",
+            "-10% Move Resist",
+            "+10% Stress if Torch below 26",
+            "-4 SPD if HP below 25%"
+        ],
+        "hero_class": "",
+        "id": "the_winning_smile",
+        "name": "The Winning Smile",
+        "origin_dungeon": "",
+        "rarity": "Kickstarter"
     },
     "winstonsrevenge": {
         "buffs": [

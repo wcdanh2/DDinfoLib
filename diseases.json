@@ -1,9 +1,0 @@
-{
-    "rabies": {
-        "buffs": [
-            "-10 ACC",
-            "+15% DMG"
-        ],
-        "id": "rabies",
-        "name": "Rabies"
-    },

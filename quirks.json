@@ -1,15 +1,31 @@
 {
     "ablutomania": {
+        "buffs": [],
+        "description": "Obsessed with cleanliness.",
         "id": "ablutomania",
         "is_disease": false,
         "is_positive": false,
         "name": "Ablutomania",
         "quirk_type": "Negative"
     },
+    "ague": {
+        "buffs": [
+            "-10% DMG",
+            "-3 SPD",
+            "-10% MAX HP"
+        ],
+        "description": "",
+        "id": "the_ague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Ague",
+        "quirk_type": "Disease"
+    },
     "anemic": {
         "buffs": [
             "-10% Bleed Resist"
         ],
+        "description": "",
         "id": "anemic",
         "is_disease": false,
         "is_positive": false,
@@ -20,6 +36,7 @@
         "buffs": [
             "+20 stress when idle in town for a week"
         ],
+        "description": "",
         "id": "antsy",
         "is_disease": false,
         "is_positive": false,
@@ -30,6 +47,7 @@
         "buffs": [
             "20% Armor Upgrade Cost"
         ],
+        "description": "",
         "id": "armor_haggler",
         "is_disease": false,
         "is_positive": true,
@@ -40,6 +58,7 @@
         "buffs": [
             "-20% Healing Received: Wyrd Reconstruction"
         ],
+        "description": "",
         "id": "ascetic",
         "is_disease": false,
         "is_positive": false,
@@ -51,6 +70,7 @@
             "-10% Blight Resist",
             "-10% Bleed Resist"
         ],
+        "description": "",
         "id": "ashen",
         "is_disease": false,
         "is_positive": false,
@@ -61,6 +81,7 @@
         "buffs": [
             "+20% Stress vs Human"
         ],
+        "description": "",
         "id": "automatonophobia",
         "is_disease": false,
         "is_positive": false,
@@ -71,6 +92,7 @@
         "buffs": [
             "-1% Stress while walking backward"
         ],
+        "description": "No stress penalty when walking backwards.",
         "id": "back_tracker",
         "is_disease": false,
         "is_positive": true,
@@ -82,6 +104,7 @@
             "Increased chance of losing gold. in Gambling",
             "Increased chance of losing trinkets. in Gambling"
         ],
+        "description": "Increased chance of losing money while Gambling.",
         "id": "bad_gambler",
         "is_disease": false,
         "is_positive": false,
@@ -92,6 +115,7 @@
         "buffs": [
             "-20% Healing Skills"
         ],
+        "description": "",
         "id": "bad_healer",
         "is_disease": false,
         "is_positive": false,
@@ -102,6 +126,7 @@
         "buffs": [
             "-20% MAX HP"
         ],
+        "description": "",
         "id": "bad_humours",
         "is_disease": true,
         "is_positive": false,
@@ -112,6 +137,7 @@
         "buffs": [
             "+15% Move Resist"
         ],
+        "description": "Chance to resist being pushed or pulled in battle.",
         "id": "improved_balance",
         "is_disease": false,
         "is_positive": true,
@@ -123,6 +149,7 @@
             "+15% DMG vs Beast",
             "-15% Stress vs Beast"
         ],
+        "description": "",
         "id": "hatred_of_beast",
         "is_disease": false,
         "is_positive": true,
@@ -134,13 +161,30 @@
             "+10 ACC vs Beast",
             "+6% CRT vs Beast"
         ],
+        "description": "",
         "id": "slayer_of_beast",
         "is_disease": false,
         "is_positive": true,
         "name": "Beast Slayer",
         "quirk_type": "Positive"
     },
+    "blackplague": {
+        "buffs": [
+            "-75% Blight Resist",
+            "-75% Disease Resist",
+            "-10% MAX HP",
+            "-5 SPD"
+        ],
+        "description": "",
+        "id": "the_black_plague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Black Plague",
+        "quirk_type": "Disease"
+    },
     "bloodthirsty": {
+        "buffs": [],
+        "description": "Fascinated with injury, wounds, and torture.",
         "id": "bloodthirsty",
         "is_disease": false,
         "is_positive": false,
@@ -151,6 +195,7 @@
         "buffs": [
             "-20% Healing Skills while Camping"
         ],
+        "description": "",
         "id": "bulimic",
         "is_disease": true,
         "is_positive": false,
@@ -161,6 +206,7 @@
         "buffs": [
             "-15% DMG on First Round"
         ],
+        "description": "Reduced damage for first two rounds of combat.",
         "id": "calm",
         "is_disease": false,
         "is_positive": false,
@@ -171,6 +217,7 @@
         "buffs": [
             "+20% Stress in Hallways"
         ],
+        "description": "Severe fear of enclosed spaces.",
         "id": "claustrophobia",
         "is_disease": false,
         "is_positive": false,
@@ -181,6 +228,7 @@
         "buffs": [
             "+15% Bleed Resist"
         ],
+        "description": "Stops bleeding really well.",
         "id": "clotter",
         "is_disease": false,
         "is_positive": true,
@@ -191,6 +239,7 @@
         "buffs": [
             "-5 DODGE"
         ],
+        "description": "",
         "id": "clumsy",
         "is_disease": false,
         "is_positive": false,
@@ -201,6 +250,7 @@
         "buffs": [
             "+6% CRT if HP below 50%"
         ],
+        "description": "",
         "id": "clutch_hitter",
         "is_disease": false,
         "is_positive": true,
@@ -208,6 +258,8 @@
         "quirk_type": "Positive"
     },
     "compulsive": {
+        "buffs": [],
+        "description": "Suffers intense need to do specific actions.",
         "id": "compulsive",
         "is_disease": false,
         "is_positive": false,
@@ -218,6 +270,7 @@
         "buffs": [
             "+1% Food Consumed"
         ],
+        "description": "Insatiable appetite for carrion.",
         "id": "corvids_appetite",
         "is_disease": false,
         "is_positive": false,
@@ -228,6 +281,7 @@
         "buffs": [
             "-10 ACC if Torch above 50"
         ],
+        "description": "",
         "id": "corvids_blindness",
         "is_disease": false,
         "is_positive": false,
@@ -235,6 +289,8 @@
         "quirk_type": "Negative"
     },
     "corvidscuriosity": {
+        "buffs": [],
+        "description": "Cannot resist the lure of shiny things.",
         "id": "corvids_curiosity",
         "is_disease": false,
         "is_positive": false,
@@ -246,6 +302,7 @@
             "+8 ACC",
             "+8% Scouting Chance"
         ],
+        "description": "",
         "id": "corvids_eye",
         "is_disease": false,
         "is_positive": true,
@@ -257,6 +314,7 @@
             "+6 DODGE",
             "+25% Move Resist"
         ],
+        "description": "",
         "id": "corvids_grace",
         "is_disease": false,
         "is_positive": true,
@@ -267,6 +325,7 @@
         "buffs": [
             "+33% Disease Resist"
         ],
+        "description": "",
         "id": "corvids_resilience",
         "is_disease": false,
         "is_positive": true,
@@ -277,6 +336,7 @@
         "buffs": [
             "-20% Stress in Cove"
         ],
+        "description": "",
         "id": "cove_adventurer",
         "is_disease": false,
         "is_positive": true,
@@ -287,6 +347,7 @@
         "buffs": [
             "+10% Scouting Chance in Cove"
         ],
+        "description": "",
         "id": "cove_explorer",
         "is_disease": false,
         "is_positive": true,
@@ -297,6 +358,7 @@
         "buffs": [
             "+20% Stress in Cove"
         ],
+        "description": "",
         "id": "cove_phobe",
         "is_disease": false,
         "is_positive": false,
@@ -307,6 +369,7 @@
         "buffs": [
             "+5% Scouting Chance in Cove"
         ],
+        "description": "",
         "id": "cove_scrounger",
         "is_disease": false,
         "is_positive": true,
@@ -317,6 +380,7 @@
         "buffs": [
             "+15% DMG in Cove"
         ],
+        "description": "",
         "id": "cove_tactician",
         "is_disease": false,
         "is_positive": true,
@@ -327,6 +391,7 @@
         "buffs": [
             "-20% DMG"
         ],
+        "description": "",
         "id": "creeping_cough",
         "is_disease": true,
         "is_positive": false,
@@ -341,6 +406,7 @@
             "-10% MAX HP",
             "+1 SPD"
         ],
+        "description": "M-madness...in my veins!",
         "id": "disease_vampire_passive",
         "is_disease": true,
         "is_positive": false,
@@ -355,6 +421,7 @@
             "+15% Blight Resist",
             "-10% Bleed Resist"
         ],
+        "description": "THE BLOOD MAKES ME WHOLE!",
         "id": "disease_vampire_blood_lust",
         "is_disease": true,
         "is_positive": false,
@@ -370,6 +437,7 @@
             "-10% Virtue Chance",
             "+2 SPD"
         ],
+        "description": "The blood! I must have the blood!",
         "id": "disease_vampire_crave",
         "is_disease": true,
         "is_positive": false,
@@ -385,6 +453,7 @@
             "-4 SPD",
             "-10% Death Blow Resist"
         ],
+        "description": "Without the blood, I shall perish...",
         "id": "disease_vampire_wasting",
         "is_disease": true,
         "is_positive": false,
@@ -392,6 +461,8 @@
         "quirk_type": "Disease"
     },
     "curious": {
+        "buffs": [],
+        "description": "Obsessed with the acquisition of knowledge.",
         "id": "curious",
         "is_disease": false,
         "is_positive": false,
@@ -399,6 +470,8 @@
         "quirk_type": "Negative"
     },
     "dacnomania": {
+        "buffs": [],
+        "description": "Obsessed with killing.",
         "id": "dacnomania",
         "is_disease": false,
         "is_positive": false,
@@ -409,6 +482,7 @@
         "buffs": [
             "+15 DODGE if HP below 25%"
         ],
+        "description": "",
         "id": "daredevil",
         "is_disease": false,
         "is_positive": true,
@@ -416,6 +490,8 @@
         "quirk_type": "Positive"
     },
     "darktemptation": {
+        "buffs": [],
+        "description": "Prone to investigating the Dark Arts.",
         "id": "dark_temptation",
         "is_disease": false,
         "is_positive": false,
@@ -426,6 +502,7 @@
         "buffs": [
             "+2% CRT"
         ],
+        "description": "",
         "id": "accurate",
         "is_disease": false,
         "is_positive": true,
@@ -433,6 +510,8 @@
         "quirk_type": "Positive"
     },
     "demonomania": {
+        "buffs": [],
+        "description": "Believes is possessed by demons.",
         "id": "demonomania",
         "is_disease": false,
         "is_positive": false,
@@ -440,6 +519,8 @@
         "quirk_type": "Negative"
     },
     "devianttastes": {
+        "buffs": [],
+        "description": "Is not allowed to visit the Brothel. For reasons best left to discretion.",
         "id": "deviant_tastes",
         "is_disease": false,
         "is_positive": false,
@@ -447,6 +528,8 @@
         "quirk_type": "Negative"
     },
     "dipsomania": {
+        "buffs": [],
+        "description": "Intense craving for alcohol.",
         "id": "dipsomania",
         "is_disease": false,
         "is_positive": false,
@@ -457,6 +540,7 @@
         "buffs": [
             "-2 SPD if Torch below 26"
         ],
+        "description": "",
         "id": "diurnal",
         "is_disease": false,
         "is_positive": false,
@@ -467,6 +551,7 @@
         "buffs": [
             "-5% CRT if HP below 50%"
         ],
+        "description": "",
         "id": "dud_hitter",
         "is_disease": false,
         "is_positive": false,
@@ -477,6 +562,7 @@
         "buffs": [
             "+5% CRT Ranged Skills"
         ],
+        "description": "",
         "id": "eagle_eye",
         "is_disease": false,
         "is_positive": true,
@@ -487,6 +573,7 @@
         "buffs": [
             "+2 SPD if Torch above 75"
         ],
+        "description": "",
         "id": "early_riser",
         "is_disease": false,
         "is_positive": true,
@@ -494,6 +581,8 @@
         "quirk_type": "Positive"
     },
     "egomania": {
+        "buffs": [],
+        "description": "Obsessed with self-worship.",
         "id": "egomania",
         "is_disease": false,
         "is_positive": false,
@@ -505,6 +594,7 @@
             "+15% DMG vs Eldritch",
             "-15% Stress vs Eldritch"
         ],
+        "description": "",
         "id": "hatred_of_eldritch",
         "is_disease": false,
         "is_positive": true,
@@ -516,6 +606,7 @@
             "+10 ACC vs Eldritch",
             "+6% CRT vs Eldritch"
         ],
+        "description": "",
         "id": "slayer_of_eldritch",
         "is_disease": false,
         "is_positive": true,
@@ -523,6 +614,8 @@
         "quirk_type": "Positive"
     },
     "enlightened": {
+        "buffs": [],
+        "description": "In town, will only Meditate for stress relief.",
         "id": "enlightened",
         "is_disease": false,
         "is_positive": false,
@@ -533,6 +626,7 @@
         "buffs": [
             "-25% Virtue Chance"
         ],
+        "description": "",
         "id": "ennui",
         "is_disease": true,
         "is_positive": false,
@@ -543,6 +637,7 @@
         "buffs": [
             "+5 DODGE"
         ],
+        "description": "",
         "id": "evasive",
         "is_disease": false,
         "is_positive": true,
@@ -554,16 +649,18 @@
             "-2 SPD",
             "-5 DODGE"
         ],
+        "description": "",
         "id": "fading",
         "is_disease": false,
         "is_positive": false,
         "name": "Fading",
         "quirk_type": "Negative"
     },
-    "fairweatherfighter": {
+    "fairwearfighter": {
         "buffs": [
             "+20% DMG if HP above 99%"
         ],
+        "description": "",
         "id": "fairweather_fighter",
         "is_disease": false,
         "is_positive": true,
@@ -571,6 +668,8 @@
         "quirk_type": "Positive"
     },
     "faithless": {
+        "buffs": [],
+        "description": "Will not Pray or Flagellate for stress relief.",
         "id": "faithless",
         "is_disease": false,
         "is_positive": false,
@@ -581,6 +680,7 @@
         "buffs": [
             "+10% Healing Skills while Camping"
         ],
+        "description": "",
         "id": "fast_healer",
         "is_disease": false,
         "is_positive": true,
@@ -588,6 +688,8 @@
         "quirk_type": "Positive"
     },
     "fated": {
+        "buffs": [],
+        "description": "Chance to turn any MISS into a HIT",
         "id": "fated",
         "is_disease": false,
         "is_positive": true,
@@ -599,6 +701,7 @@
             "+15% Stress vs Beast",
             "-10 ACC vs Beast"
         ],
+        "description": "",
         "id": "fear_of_beast",
         "is_disease": false,
         "is_positive": false,
@@ -610,6 +713,7 @@
             "+15% Stress vs Eldritch",
             "-10 ACC vs Eldritch"
         ],
+        "description": "",
         "id": "fear_of_eldritch",
         "is_disease": false,
         "is_positive": false,
@@ -621,6 +725,7 @@
             "+15% Stress vs Human",
             "-10 ACC vs Human"
         ],
+        "description": "",
         "id": "fear_of_man",
         "is_disease": false,
         "is_positive": false,
@@ -632,13 +737,29 @@
             "+15% Stress vs Unholy",
             "-10 ACC vs Unholy"
         ],
+        "description": "",
         "id": "fear_of_unholy",
         "is_disease": false,
         "is_positive": false,
         "name": "Fear of Unholy",
         "quirk_type": "Negative"
     },
+    "fits": {
+        "buffs": [
+            "+3 SPD",
+            "-5 ACC",
+            "-5% CRT"
+        ],
+        "description": "",
+        "id": "the_fits",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Fits",
+        "quirk_type": "Disease"
+    },
     "flagellant": {
+        "buffs": [],
+        "description": "In town, will only Flagellate for stress relief.",
         "id": "flagellant",
         "is_disease": false,
         "is_positive": false,
@@ -649,6 +770,7 @@
         "buffs": [
             "-5% CRT Ranged Skills"
         ],
+        "description": "",
         "id": "flawed_release",
         "is_disease": false,
         "is_positive": false,
@@ -659,6 +781,7 @@
         "buffs": [
             "-10% MAX HP"
         ],
+        "description": "",
         "id": "fragile",
         "is_disease": false,
         "is_positive": false,
@@ -666,6 +789,8 @@
         "quirk_type": "Negative"
     },
     "gambler": {
+        "buffs": [],
+        "description": "In town, will only Gamble.",
         "id": "gambler",
         "is_disease": false,
         "is_positive": false,
@@ -676,6 +801,7 @@
         "buffs": [
             "-10 ACC vs {colour_start|blight}Blighted{colour_end}"
         ],
+        "description": "",
         "id": "germophobe",
         "is_disease": false,
         "is_positive": false,
@@ -686,6 +812,7 @@
         "buffs": [
             "+20% Healing Received"
         ],
+        "description": "",
         "id": "gifted",
         "is_disease": false,
         "is_positive": true,
@@ -693,6 +820,8 @@
         "quirk_type": "Positive"
     },
     "godfearing": {
+        "buffs": [],
+        "description": "In town, will only Pray for stress relief.",
         "id": "god_fearing",
         "is_disease": false,
         "is_positive": false,
@@ -703,6 +832,7 @@
         "buffs": [
             "+25% Healing Received: Wyrd Reconstruction"
         ],
+        "description": "",
         "id": "gothic",
         "is_disease": false,
         "is_positive": true,
@@ -715,6 +845,7 @@
             "-10 ACC",
             "-10% DMG"
         ],
+        "description": "",
         "id": "grey_rot",
         "is_disease": true,
         "is_positive": false,
@@ -722,6 +853,8 @@
         "quirk_type": "Disease"
     },
     "guiltyconscience": {
+        "buffs": [],
+        "description": "Bears the crushing guilt of deeds real and imagined.",
         "id": "guilty_conscience",
         "is_disease": false,
         "is_positive": false,
@@ -729,6 +862,8 @@
         "quirk_type": "Negative"
     },
     "hagiomania": {
+        "buffs": [],
+        "description": "Obsessed with sainthood.",
         "id": "hagiomania",
         "is_disease": false,
         "is_positive": false,
@@ -739,6 +874,7 @@
         "buffs": [
             "+15% Stun Resist"
         ],
+        "description": "",
         "id": "hard_noggin",
         "is_disease": false,
         "is_positive": true,
@@ -749,6 +885,7 @@
         "buffs": [
             "+10% PROT"
         ],
+        "description": "",
         "id": "hard_skinned",
         "is_disease": false,
         "is_positive": true,
@@ -759,6 +896,7 @@
         "buffs": [
             "+20% Healing Skills while Camping"
         ],
+        "description": "",
         "id": "gift_of_the_healer",
         "is_disease": false,
         "is_positive": true,
@@ -769,6 +907,7 @@
         "buffs": [
             "-50% Bleed Resist"
         ],
+        "description": "",
         "id": "hemophilia",
         "is_disease": true,
         "is_positive": false,
@@ -776,6 +915,8 @@
         "quirk_type": "Disease"
     },
     "hieromania": {
+        "buffs": [],
+        "description": "Experiences religious visions and delusions.",
         "id": "hieromania",
         "is_disease": false,
         "is_positive": false,
@@ -786,6 +927,7 @@
         "buffs": [
             "+20% Healing Skills"
         ],
+        "description": "",
         "id": "hippocratic",
         "is_disease": false,
         "is_positive": true,
@@ -798,6 +940,7 @@
             "+25% DMG on First Round",
             "+5% CRT on First Round"
         ],
+        "description": "",
         "id": "hot_to_trot",
         "is_disease": false,
         "is_positive": true,
@@ -809,6 +952,7 @@
             "+10 ACC vs Husk",
             "+5% CRT vs Husk"
         ],
+        "description": "",
         "id": "husk_slayer",
         "is_disease": false,
         "is_positive": true,
@@ -816,6 +960,8 @@
         "quirk_type": "Positive"
     },
     "hylomania": {
+        "buffs": [],
+        "description": "Obsessed with material things.",
         "id": "hylomania",
         "is_disease": false,
         "is_positive": false,
@@ -826,6 +972,7 @@
         "buffs": [
             "-20 ACC if Stress above 70"
         ],
+        "description": "",
         "id": "hysterical_blindness",
         "is_disease": true,
         "is_positive": false,
@@ -833,6 +980,8 @@
         "quirk_type": "Disease"
     },
     "impostersyndrome": {
+        "buffs": [],
+        "description": "Consumed by thoughts of inadequacy",
         "id": "imposter_syndrome",
         "is_disease": false,
         "is_positive": false,
@@ -843,6 +992,7 @@
         "buffs": [
             "-20% Healing Received"
         ],
+        "description": "",
         "id": "infirm",
         "is_disease": false,
         "is_positive": false,
@@ -853,6 +1003,7 @@
         "buffs": [
             "+5% Virtue Chance"
         ],
+        "description": "",
         "id": "irrepressible",
         "is_disease": false,
         "is_positive": true,
@@ -860,6 +1011,8 @@
         "quirk_type": "Positive"
     },
     "kleptomaniac": {
+        "buffs": [],
+        "description": "Prone to stealing items.",
         "id": "kleptomaniac",
         "is_disease": false,
         "is_positive": false,
@@ -867,6 +1020,8 @@
         "quirk_type": "Negative"
     },
     "knowncheat": {
+        "buffs": [],
+        "description": "Is not allowed to Gamble while in town.",
         "id": "known_cheat",
         "is_disease": false,
         "is_positive": false,
@@ -877,6 +1032,7 @@
         "buffs": [
             "+1 SPD if HP below 50%"
         ],
+        "description": "",
         "id": "last_gasp",
         "is_disease": false,
         "is_positive": true,
@@ -887,6 +1043,7 @@
         "buffs": [
             "-5 ACC Ranged Skills"
         ],
+        "description": "",
         "id": "lazy_eye",
         "is_disease": false,
         "is_positive": false,
@@ -897,6 +1054,7 @@
         "buffs": [
             "-4 SPD"
         ],
+        "description": "",
         "id": "lethargy",
         "is_disease": true,
         "is_positive": false,
@@ -907,6 +1065,7 @@
         "buffs": [
             "-10% DMG if Torch above 75"
         ],
+        "description": "",
         "id": "sensitive_to_light",
         "is_disease": false,
         "is_positive": false,
@@ -914,6 +1073,8 @@
         "quirk_type": "Negative"
     },
     "loveinterest": {
+        "buffs": [],
+        "description": "In town, will only visit the Brothel for stress relief.",
         "id": "love_interest",
         "is_disease": false,
         "is_positive": false,
@@ -925,6 +1086,7 @@
             "+2 SPD",
             "+5 DODGE"
         ],
+        "description": "",
         "id": "luminous",
         "is_disease": false,
         "is_positive": true,
@@ -935,6 +1097,7 @@
         "buffs": [
             "+10% DMG if Torch below 26"
         ],
+        "description": "Becomes stronger in the dark.",
         "id": "lurker",
         "is_disease": false,
         "is_positive": true,
@@ -945,6 +1108,7 @@
         "buffs": [
             "+20% Stress if Torch below 26"
         ],
+        "description": "",
         "id": "lygophobia",
         "is_disease": false,
         "is_positive": false,
@@ -956,6 +1120,7 @@
             "+15% DMG vs Human",
             "-15% Stress vs Human"
         ],
+        "description": "",
         "id": "hatred_of_man",
         "is_disease": false,
         "is_positive": true,
@@ -967,6 +1132,7 @@
             "+10 ACC vs Human",
             "+6% CRT vs Human"
         ],
+        "description": "",
         "id": "slayer_of_man",
         "is_disease": false,
         "is_positive": true,
@@ -977,6 +1143,7 @@
         "buffs": [
             "+20% Stress Heal Received in Meditation"
         ],
+        "description": "Improved stress reduction while Meditating and while Camping.",
         "id": "meditator",
         "is_disease": false,
         "is_positive": true,
@@ -987,16 +1154,18 @@
         "buffs": [
             "-5% Virtue Chance"
         ],
+        "description": "",
         "id": "mercurial",
         "is_disease": false,
         "is_positive": false,
         "name": "Mercurial",
         "quirk_type": "Negative"
     },
-    "missesthespot": {
+    "missesspot": {
         "buffs": [
             "-2% CRT"
         ],
+        "description": "",
         "id": "inaccurate",
         "is_disease": false,
         "is_positive": false,
@@ -1007,6 +1176,7 @@
         "buffs": [
             "+25% Stress Heal Received: Inspiring Tune"
         ],
+        "description": "",
         "id": "musical",
         "is_disease": false,
         "is_positive": true,
@@ -1019,6 +1189,7 @@
             "+20% Healing Received when wearing no trinkets",
             "+3 SPD when wearing no trinkets"
         ],
+        "description": "",
         "id": "natural",
         "is_disease": false,
         "is_positive": true,
@@ -1029,6 +1200,7 @@
         "buffs": [
             "+5 ACC Ranged Skills"
         ],
+        "description": "",
         "id": "natural_eye",
         "is_disease": false,
         "is_positive": true,
@@ -1039,6 +1211,7 @@
         "buffs": [
             "+5 ACC"
         ],
+        "description": "",
         "id": "natural_swing",
         "is_disease": false,
         "is_positive": true,
@@ -1046,6 +1219,8 @@
         "quirk_type": "Positive"
     },
     "necromania": {
+        "buffs": [],
+        "description": "Fascinated with corpses.",
         "id": "necromania",
         "is_disease": false,
         "is_positive": false,
@@ -1056,6 +1231,7 @@
         "buffs": [
             "+10% Stress"
         ],
+        "description": "",
         "id": "nervous",
         "is_disease": false,
         "is_positive": false,
@@ -1066,6 +1242,7 @@
         "buffs": [
             "-10 ACC while {colour_start|bleed}Bleeding{colour_end}"
         ],
+        "description": "",
         "id": "nervous_bleeder",
         "is_disease": false,
         "is_positive": false,
@@ -1076,6 +1253,7 @@
         "buffs": [
             "-10% DMG if Torch below 26"
         ],
+        "description": "",
         "id": "night_blindness",
         "is_disease": false,
         "is_positive": false,
@@ -1086,6 +1264,7 @@
         "buffs": [
             "+2 SPD if Torch below 26"
         ],
+        "description": "",
         "id": "night_owl",
         "is_disease": false,
         "is_positive": true,
@@ -1096,6 +1275,7 @@
         "buffs": [
             "-2 SPD if Torch above 75"
         ],
+        "description": "",
         "id": "nocturnal",
         "is_disease": false,
         "is_positive": false,
@@ -1106,6 +1286,7 @@
         "buffs": [
             "+20% Stress Heal Received in Brothel"
         ],
+        "description": "",
         "id": "nymphomania",
         "is_disease": false,
         "is_positive": true,
@@ -1117,6 +1298,7 @@
             "-4 SPD on First Round",
             "-5 DODGE on First Round"
         ],
+        "description": "",
         "id": "off_guard",
         "is_disease": false,
         "is_positive": false,
@@ -1128,6 +1310,7 @@
             "+4 SPD on First Round",
             "+5 DODGE on First Round"
         ],
+        "description": "",
         "id": "on_guard",
         "is_disease": false,
         "is_positive": true,
@@ -1135,6 +1318,8 @@
         "quirk_type": "Positive"
     },
     "paranormania": {
+        "buffs": [],
+        "description": "Obsessed with the paranormal.",
         "id": "paranormania",
         "is_disease": false,
         "is_positive": false,
@@ -1145,6 +1330,7 @@
         "buffs": [
             "+5 stress when attack misses"
         ],
+        "description": "",
         "id": "perfectionist",
         "is_disease": false,
         "is_positive": false,
@@ -1155,6 +1341,7 @@
         "buffs": [
             "+20% Stress if Torch above 75"
         ],
+        "description": "",
         "id": "phengophobia",
         "is_disease": false,
         "is_positive": false,
@@ -1165,6 +1352,7 @@
         "buffs": [
             "-20% Stress if Torch above 75"
         ],
+        "description": "",
         "id": "photomania",
         "is_disease": false,
         "is_positive": true,
@@ -1172,6 +1360,8 @@
         "quirk_type": "Positive"
     },
     "plutomania": {
+        "buffs": [],
+        "description": "Manic for money.",
         "id": "plutomania",
         "is_disease": false,
         "is_positive": false,
@@ -1182,6 +1372,7 @@
         "buffs": [
             "+5% CRT Melee Skills"
         ],
+        "description": "",
         "id": "precision_striker",
         "is_disease": false,
         "is_positive": true,
@@ -1192,6 +1383,7 @@
         "buffs": [
             "-30% Stress"
         ],
+        "description": "",
         "id": "alien_calm",
         "is_disease": false,
         "is_positive": true,
@@ -1202,6 +1394,7 @@
         "buffs": [
             "+25% Bleed Resist"
         ],
+        "description": "",
         "id": "alien_healing",
         "is_disease": false,
         "is_positive": true,
@@ -1212,6 +1405,7 @@
         "buffs": [
             "+8 ACC"
         ],
+        "description": "",
         "id": "alien_eye",
         "is_disease": false,
         "is_positive": true,
@@ -1222,6 +1416,7 @@
         "buffs": [
             "+15% DMG"
         ],
+        "description": "",
         "id": "alien_force",
         "is_disease": false,
         "is_positive": true,
@@ -1232,6 +1427,7 @@
         "buffs": [
             "+25% Debuff Resist"
         ],
+        "description": "",
         "id": "alien_isolation",
         "is_disease": false,
         "is_positive": true,
@@ -1242,6 +1438,7 @@
         "buffs": [
             "+4% CRT"
         ],
+        "description": "",
         "id": "alien_precision",
         "is_disease": false,
         "is_positive": true,
@@ -1252,6 +1449,7 @@
         "buffs": [
             "+25% Blight Resist"
         ],
+        "description": "",
         "id": "alien_purity",
         "is_disease": false,
         "is_positive": true,
@@ -1262,6 +1460,7 @@
         "buffs": [
             "+25% Stun Resist"
         ],
+        "description": "",
         "id": "alien_solidity",
         "is_disease": false,
         "is_positive": true,
@@ -1272,6 +1471,7 @@
         "buffs": [
             "+3 SPD"
         ],
+        "description": "",
         "id": "alien_speed",
         "is_disease": false,
         "is_positive": true,
@@ -1282,6 +1482,7 @@
         "buffs": [
             "+25% Move Resist"
         ],
+        "description": "",
         "id": "alien_stability",
         "is_disease": false,
         "is_positive": true,
@@ -1292,6 +1493,7 @@
         "buffs": [
             "+4 SPD on First Round"
         ],
+        "description": "",
         "id": "quickdraw",
         "is_disease": false,
         "is_positive": true,
@@ -1302,6 +1504,7 @@
         "buffs": [
             "+2 SPD"
         ],
+        "description": "",
         "id": "quick_reflexes",
         "is_disease": false,
         "is_positive": true,
@@ -1313,16 +1516,31 @@
             "-10 ACC",
             "+15% DMG"
         ],
+        "description": "",
         "id": "rabies",
         "is_disease": true,
         "is_positive": false,
         "name": "Rabies",
         "quirk_type": "Disease"
     },
+    "redplague": {
+        "buffs": [
+            "-75% Bleed Resist",
+            "-10% MAX HP",
+            "-5% CRT"
+        ],
+        "description": "",
+        "id": "the_red_plague",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Red Plague",
+        "quirk_type": "Disease"
+    },
     "resilient": {
         "buffs": [
             "+10% Stress Heal Received"
         ],
+        "description": "",
         "id": "resilient",
         "is_disease": false,
         "is_positive": true,
@@ -1330,6 +1548,8 @@
         "quirk_type": "Positive"
     },
     "resolution": {
+        "buffs": [],
+        "description": "In town, will never Drink.",
         "id": "resolution",
         "is_disease": false,
         "is_positive": false,
@@ -1341,6 +1561,7 @@
             "+10% DMG",
             "-10 DODGE"
         ],
+        "description": "",
         "id": "risktaker",
         "is_disease": false,
         "is_positive": false,
@@ -1351,6 +1572,7 @@
         "buffs": [
             "+15% Disease Resist"
         ],
+        "description": "",
         "id": "robust",
         "is_disease": false,
         "is_positive": true,
@@ -1361,6 +1583,7 @@
         "buffs": [
             "-20% Stress in Ruins"
         ],
+        "description": "",
         "id": "ruins_adventurer",
         "is_disease": false,
         "is_positive": true,
@@ -1371,6 +1594,7 @@
         "buffs": [
             "+10% Scouting Chance in Ruins"
         ],
+        "description": "",
         "id": "ruins_explorer",
         "is_disease": false,
         "is_positive": true,
@@ -1381,6 +1605,7 @@
         "buffs": [
             "+20% Stress in Ruins"
         ],
+        "description": "",
         "id": "ruins_phobe",
         "is_disease": false,
         "is_positive": false,
@@ -1391,6 +1616,7 @@
         "buffs": [
             "+5% Scouting Chance in Ruins"
         ],
+        "description": "",
         "id": "ruins_scrounger",
         "is_disease": false,
         "is_positive": true,
@@ -1401,6 +1627,7 @@
         "buffs": [
             "+15% DMG in Ruins"
         ],
+        "description": "",
         "id": "ruins_tactician",
         "is_disease": false,
         "is_positive": true,
@@ -1411,16 +1638,30 @@
         "buffs": [
             "-10% Stress Heal Received"
         ],
+        "description": "",
         "id": "ruminator",
         "is_disease": false,
         "is_positive": false,
         "name": "Ruminator",
         "quirk_type": "Negative"
     },
+    "runs": {
+        "buffs": [
+            "-20 DODGE",
+            "-10% MAX HP"
+        ],
+        "description": "",
+        "id": "the_runs",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Runs",
+        "quirk_type": "Disease"
+    },
     "satanophobia": {
         "buffs": [
             "+20% Stress vs Unholy"
         ],
+        "description": "",
         "id": "satanophobia",
         "is_disease": false,
         "is_positive": false,
@@ -1431,6 +1672,7 @@
         "buffs": [
             "-5% DMG Ranged Skills"
         ],
+        "description": "",
         "id": "scattering",
         "is_disease": false,
         "is_positive": false,
@@ -1442,6 +1684,7 @@
             "-20% Healing Received: Divine Grace",
             "-20% Healing Received: Divine Comfort"
         ],
+        "description": "",
         "id": "scientific",
         "is_disease": false,
         "is_positive": false,
@@ -1453,16 +1696,18 @@
             "-40% Bleed Resist",
             "-40% Move Resist"
         ],
+        "description": "",
         "id": "scurvy",
         "is_disease": true,
         "is_positive": false,
         "name": "Scurvy",
         "quirk_type": "Disease"
     },
-    "scythemaster": {
+    "scymaster": {
         "buffs": [
             "+15% DMG vs Husk"
         ],
+        "description": "",
         "id": "scythemaster",
         "is_disease": false,
         "is_positive": true,
@@ -1473,6 +1718,7 @@
         "buffs": [
             "+10% DMG if HP below 50%"
         ],
+        "description": "",
         "id": "second_wind",
         "is_disease": false,
         "is_positive": true,
@@ -1483,6 +1729,7 @@
         "buffs": [
             "10% Shard Loot Taken"
         ],
+        "description": "Hero will only undertake Endless Harvest quest in Farmstead",
         "id": "shard_hungry",
         "is_disease": false,
         "is_positive": false,
@@ -1493,6 +1740,7 @@
         "buffs": [
             "-10% Stun Resist"
         ],
+        "description": "",
         "id": "shocker",
         "is_disease": false,
         "is_positive": false,
@@ -1503,6 +1751,7 @@
         "buffs": [
             "-10% Disease Resist"
         ],
+        "description": "",
         "id": "sickly",
         "is_disease": false,
         "is_positive": false,
@@ -1510,6 +1759,8 @@
         "quirk_type": "Negative"
     },
     "sitiomania": {
+        "buffs": [],
+        "description": "Obsessed with food.",
         "id": "sitiomania",
         "is_disease": false,
         "is_positive": false,
@@ -1521,6 +1772,7 @@
             "Increased chance of winning gold. in Gambling",
             "Increased chance of winning trinkets. in Gambling"
         ],
+        "description": "Increased chance of winning while gambling.",
         "id": "skilled_gambler",
         "is_disease": false,
         "is_positive": true,
@@ -1533,6 +1785,7 @@
             "-20% Blight Resist",
             "-20% Bleed Resist"
         ],
+        "description": "",
         "id": "sky_taint",
         "is_disease": true,
         "is_positive": false,
@@ -1543,6 +1796,7 @@
         "buffs": [
             "-4 SPD on First Round"
         ],
+        "description": "",
         "id": "slowdraw",
         "is_disease": false,
         "is_positive": false,
@@ -1553,6 +1807,7 @@
         "buffs": [
             "-1 SPD"
         ],
+        "description": "",
         "id": "slow_reflexes",
         "is_disease": false,
         "is_positive": false,
@@ -1563,6 +1818,7 @@
         "buffs": [
             "+10% DMG Melee Skills"
         ],
+        "description": "",
         "id": "slugger",
         "is_disease": false,
         "is_positive": true,
@@ -1573,16 +1829,18 @@
         "buffs": [
             "-5% MAX HP"
         ],
+        "description": "",
         "id": "soft",
         "is_disease": false,
         "is_positive": false,
         "name": "Soft",
         "quirk_type": "Negative"
     },
-    "spasmoftheentrails": {
+    "spasmofentrails": {
         "buffs": [
             "-20% Healing Skills while Camping"
         ],
+        "description": "",
         "id": "stomach_cramp",
         "is_disease": true,
         "is_positive": false,
@@ -1594,6 +1852,7 @@
             "+25% Healing Received: Divine Grace",
             "+25% Healing Received: Divine Comfort"
         ],
+        "description": "",
         "id": "spiritual",
         "is_disease": false,
         "is_positive": true,
@@ -1604,6 +1863,7 @@
         "buffs": [
             "-50% Blight Resist"
         ],
+        "description": "",
         "id": "spotted_fever",
         "is_disease": true,
         "is_positive": false,
@@ -1614,6 +1874,7 @@
         "buffs": [
             "-10% Stress"
         ],
+        "description": "",
         "id": "steady",
         "is_disease": false,
         "is_positive": true,
@@ -1624,6 +1885,7 @@
         "buffs": [
             "+15% Healing Skills while Camping"
         ],
+        "description": "",
         "id": "stout",
         "is_disease": false,
         "is_positive": true,
@@ -1634,6 +1896,7 @@
         "buffs": [
             "+1% Food Consumed if Stress above 50"
         ],
+        "description": "",
         "id": "stress_eater",
         "is_disease": false,
         "is_positive": false,
@@ -1644,6 +1907,7 @@
         "buffs": [
             "-1% Food Consumed if Stress above 50"
         ],
+        "description": "",
         "id": "stress_faster",
         "is_disease": false,
         "is_positive": true,
@@ -1656,6 +1920,7 @@
             "-10% DMG",
             "-10% MAX HP"
         ],
+        "description": "The Great Pox...a sign of indiscretions.",
         "id": "syphilis",
         "is_disease": true,
         "is_positive": false,
@@ -1666,6 +1931,7 @@
         "buffs": [
             "+1% Food Consumed"
         ],
+        "description": "",
         "id": "tapeworm",
         "is_disease": true,
         "is_positive": false,
@@ -1677,6 +1943,7 @@
             "-5 ACC",
             "-5% CRT"
         ],
+        "description": "",
         "id": "tetanus",
         "is_disease": true,
         "is_positive": false,
@@ -1687,96 +1954,18 @@
         "buffs": [
             "+20% Stress if HP below 50%"
         ],
+        "description": "Terrified of meeting an untimely end.",
         "id": "thanatophobia",
         "is_disease": false,
         "is_positive": false,
         "name": "Thanatophobia",
         "quirk_type": "Negative"
     },
-    "theague": {
-        "buffs": [
-            "-10% DMG",
-            "-3 SPD",
-            "-10% MAX HP"
-        ],
-        "id": "the_ague",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Ague",
-        "quirk_type": "Disease"
-    },
-    "theblackplague": {
-        "buffs": [
-            "-75% Blight Resist",
-            "-75% Disease Resist",
-            "-10% MAX HP",
-            "-5 SPD"
-        ],
-        "id": "the_black_plague",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Black Plague",
-        "quirk_type": "Disease"
-    },
-    "thefits": {
-        "buffs": [
-            "+3 SPD",
-            "-5 ACC",
-            "-5% CRT"
-        ],
-        "id": "the_fits",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Fits",
-        "quirk_type": "Disease"
-    },
-    "theredplague": {
-        "buffs": [
-            "-75% Bleed Resist",
-            "-10% MAX HP",
-            "-5% CRT"
-        ],
-        "id": "the_red_plague",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Red Plague",
-        "quirk_type": "Disease"
-    },
-    "theruns": {
-        "buffs": [
-            "-20 DODGE",
-            "-10% MAX HP"
-        ],
-        "id": "the_runs",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Runs",
-        "quirk_type": "Disease"
-    },
-    "theworries": {
-        "buffs": [
-            "+30% Stress"
-        ],
-        "id": "the_worries",
-        "is_disease": true,
-        "is_positive": false,
-        "name": "The Worries",
-        "quirk_type": "Disease"
-    },
-    "theyips": {
-        "buffs": [
-            "-5 ACC"
-        ],
-        "id": "the_yips",
-        "is_disease": false,
-        "is_positive": false,
-        "name": "The Yips",
-        "quirk_type": "Negative"
-    },
     "thickblooded": {
         "buffs": [
             "+10% Blight Resist"
         ],
+        "description": "",
         "id": "thick_blooded",
         "is_disease": false,
         "is_positive": true,
@@ -1787,6 +1976,7 @@
         "buffs": [
             "-10% Blight Resist"
         ],
+        "description": "",
         "id": "thin_blooded",
         "is_disease": false,
         "is_positive": false,
@@ -1794,6 +1984,8 @@
         "quirk_type": "Negative"
     },
     "tippler": {
+        "buffs": [],
+        "description": "In town, will only Drink.",
         "id": "alcoholism",
         "is_disease": false,
         "is_positive": false,
@@ -1804,6 +1996,7 @@
         "buffs": [
             "-20% Stress Heal Received: Inspiring Tune"
         ],
+        "description": "",
         "id": "tone_deaf",
         "is_disease": false,
         "is_positive": false,
@@ -1814,6 +2007,7 @@
         "buffs": [
             "-5% DMG Melee Skills"
         ],
+        "description": "",
         "id": "torn_rotator_cuff",
         "is_disease": false,
         "is_positive": false,
@@ -1824,6 +2018,7 @@
         "buffs": [
             "+10% MAX HP"
         ],
+        "description": "",
         "id": "tough",
         "is_disease": false,
         "is_positive": true,
@@ -1834,6 +2029,7 @@
         "buffs": [
             "-10% DMG if HP below 50%"
         ],
+        "description": "",
         "id": "tuckered_out",
         "is_disease": false,
         "is_positive": false,
@@ -1844,6 +2040,7 @@
         "buffs": [
             "Ignores Stealth"
         ],
+        "description": "All attacks can hit Stealthed enemies.",
         "id": "twilight_dreamer",
         "is_disease": false,
         "is_positive": true,
@@ -1854,6 +2051,7 @@
         "buffs": [
             "+10% DMG Ranged Skills"
         ],
+        "description": "",
         "id": "unerring",
         "is_disease": false,
         "is_positive": true,
@@ -1865,6 +2063,7 @@
             "+15% DMG vs Unholy",
             "-15% Stress vs Unholy"
         ],
+        "description": "",
         "id": "hatred_of_unholy",
         "is_disease": false,
         "is_positive": true,
@@ -1876,6 +2075,7 @@
             "+10 ACC vs Unholy",
             "+6% CRT vs Unholy"
         ],
+        "description": "",
         "id": "slayer_of_unholy",
         "is_disease": false,
         "is_positive": true,
@@ -1883,6 +2083,8 @@
         "quirk_type": "Positive"
     },
     "unquietmind": {
+        "buffs": [],
+        "description": "May not Meditate while in town.",
         "id": "unquiet_mind",
         "is_disease": false,
         "is_positive": false,
@@ -1893,6 +2095,7 @@
         "buffs": [
             "+10% Death Blow Resist"
         ],
+        "description": "",
         "id": "unyielding",
         "is_disease": false,
         "is_positive": true,
@@ -1903,6 +2106,7 @@
         "buffs": [
             "-50% Debuff Resist"
         ],
+        "description": "",
         "id": "vampiric_spirits",
         "is_disease": true,
         "is_positive": false,
@@ -1913,6 +2117,7 @@
         "buffs": [
             "-50% Move Resist"
         ],
+        "description": "",
         "id": "vertigo",
         "is_disease": true,
         "is_positive": false,
@@ -1923,6 +2128,7 @@
         "buffs": [
             "-20% Stress in Warrens"
         ],
+        "description": "",
         "id": "warren_adventurer",
         "is_disease": false,
         "is_positive": true,
@@ -1933,6 +2139,7 @@
         "buffs": [
             "+10% Scouting Chance in Warrens"
         ],
+        "description": "",
         "id": "warren_explorer",
         "is_disease": false,
         "is_positive": true,
@@ -1943,6 +2150,7 @@
         "buffs": [
             "+20% Stress in Warrens"
         ],
+        "description": "",
         "id": "warren_phobe",
         "is_disease": false,
         "is_positive": false,
@@ -1953,6 +2161,7 @@
         "buffs": [
             "+5% Scouting Chance in Warrens"
         ],
+        "description": "",
         "id": "warren_scrounger",
         "is_disease": false,
         "is_positive": true,
@@ -1963,6 +2172,7 @@
         "buffs": [
             "+15% DMG in Warrens"
         ],
+        "description": "",
         "id": "warren_tactician",
         "is_disease": false,
         "is_positive": true,
@@ -1973,6 +2183,7 @@
         "buffs": [
             "+10% DMG if Torch above 75"
         ],
+        "description": "",
         "id": "warrior_of_light",
         "is_disease": false,
         "is_positive": true,
@@ -1983,6 +2194,7 @@
         "buffs": [
             "-50% Disease Resist"
         ],
+        "description": "Life drains with each step...",
         "id": "wasting_sickness",
         "is_disease": true,
         "is_positive": false,
@@ -1993,6 +2205,7 @@
         "buffs": [
             "-5% CRT Melee Skills"
         ],
+        "description": "",
         "id": "weak_grip",
         "is_disease": false,
         "is_positive": false,
@@ -2003,6 +2216,7 @@
         "buffs": [
             "-10% Death Blow Resist"
         ],
+        "description": "",
         "id": "suicidal",
         "is_disease": false,
         "is_positive": false,
@@ -2013,6 +2227,7 @@
         "buffs": [
             "-20% Stress in Weald"
         ],
+        "description": "",
         "id": "weald_adventurer",
         "is_disease": false,
         "is_positive": true,
@@ -2023,6 +2238,7 @@
         "buffs": [
             "+10% Scouting Chance in Weald"
         ],
+        "description": "",
         "id": "weald_explorer",
         "is_disease": false,
         "is_positive": true,
@@ -2033,6 +2249,7 @@
         "buffs": [
             "+20% Stress in Weald"
         ],
+        "description": "",
         "id": "weald_phobe",
         "is_disease": false,
         "is_positive": false,
@@ -2043,6 +2260,7 @@
         "buffs": [
             "+5% Scouting Chance in Weald"
         ],
+        "description": "",
         "id": "weald_scrounger",
         "is_disease": false,
         "is_positive": true,
@@ -2053,6 +2271,7 @@
         "buffs": [
             "+15% DMG in Weald"
         ],
+        "description": "",
         "id": "weald_tactician",
         "is_disease": false,
         "is_positive": true,
@@ -2063,6 +2282,7 @@
         "buffs": [
             "20% Weapon Upgrade Cost"
         ],
+        "description": "",
         "id": "weapons_haggler",
         "is_disease": false,
         "is_positive": true,
@@ -2073,6 +2293,7 @@
         "buffs": [
             "-1 SPD if HP below 50%"
         ],
+        "description": "",
         "id": "winded",
         "is_disease": false,
         "is_positive": false,
@@ -2080,16 +2301,41 @@
         "quirk_type": "Negative"
     },
     "witness": {
+        "buffs": [],
+        "description": "Will not take part in Prayer activity in town, after certain traumatic events.",
         "id": "witness",
         "is_disease": false,
         "is_positive": false,
         "name": "Witness",
         "quirk_type": "Negative"
     },
+    "worries": {
+        "buffs": [
+            "+30% Stress"
+        ],
+        "description": "",
+        "id": "the_worries",
+        "is_disease": true,
+        "is_positive": false,
+        "name": "The Worries",
+        "quirk_type": "Disease"
+    },
+    "yips": {
+        "buffs": [
+            "-5 ACC"
+        ],
+        "description": "",
+        "id": "the_yips",
+        "is_disease": false,
+        "is_positive": false,
+        "name": "The Yips",
+        "quirk_type": "Negative"
+    },
     "zoophobia": {
         "buffs": [
             "+20% Stress vs Beast"
         ],
+        "description": "Afraid of beasts.",
         "id": "zoophobia",
         "is_disease": false,
         "is_positive": false,

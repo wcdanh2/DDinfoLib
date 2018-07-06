@@ -46,11 +46,18 @@ def parse_quirks():
             if quirk_in['is_disease'] == True and quirk_in['is_positive'] == True:
                     print("WARNING found disease marked as positive")
 
+            description = ""
+            desc_id = 'str_quirk_description_'+quirk_id
+
+            if desc_id in misc_strings:
+                description = misc_strings[desc_id]
+            quirk_out['description'] = description
+
             #effects
             #TODO I think all this buff parsing can move to a util function.
             #create a list of effects as strings.
+            buffList = []
             if len(quirk_in['buffs']):
-                buffList = []
                 for buff_id in quirk_in['buffs']:
                     buff_info = buffInfos[buff_id]
                     rule_id = 'buff_rule_tooltip_' + buff_info['rule_type']
@@ -90,7 +97,7 @@ def parse_quirks():
                         base_str = base_str % (stat_str)
                     buffList.append(base_str)
                 #remove duplicate buffs and add them to the trinket
-                quirk_out['buffs'] = list(OrderedDict.fromkeys(buffList))
+            quirk_out['buffs'] = list(OrderedDict.fromkeys(buffList))
 
         else:
             #these quirks were in the xml, but not found in trinket info
