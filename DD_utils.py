@@ -18,7 +18,7 @@ separators = (',', ': ')
 #so that users do not have to match the case and punctuation when
 #looking up entries.
 def stripName(name):
-    return name.lower().replace("the", "").replace(" ","").replace("-","").replace("'","")
+    return name.lower().replace("the","").replace(" ","").replace("-","").replace("'","").replace("!","").replace("(","").replace(")","")
 
 
 #remove tags like '{colour|blight}' from the strings
@@ -50,6 +50,8 @@ def getLanguageDict():
             misc_strings[line.attrib['id']] = line.text
     return misc_strings
 
+misc_strings = getLanguageDict()
+
 
 #load the buff-info json files and return them as one dictionary.
 # the key will be the buff id, and the value will be the same as it's
@@ -79,4 +81,48 @@ def loadInfoFiles(file_list, key):
             print("Could not find {}".format(libpath))
             exit(1)
     return Infos
+
+
+#pass in a buff i.e. buffInfos[buff_id] and it
+#will return a built version in string form.
+def getStringFromBuff(buff_info):
+    rule_id = 'buff_rule_tooltip_' + buff_info['rule_type']
+    stat_str_id = 'buff_stat_tooltip_'+ buff_info['stat_type']
+    if len(buff_info['stat_sub_type']):
+        stat_str_id += '_'+buff_info['stat_sub_type']
+    try:
+        stat_str = misc_strings[stat_str_id]
+    except:
+        stat_str_id = 'buff_stat_tooltip_'+ buff_info['stat_type']
+        stat_str = misc_strings[stat_str_id]
+    #print stat_str
+    stat_str = remove_tags(stat_str)
+    amount = float(buff_info['amount'])
+    if amount <1 and amount >-1:
+        amount = amount*100 #workaround for the %fomatter not multiplying as expected
+    try:
+        stat_str = stat_str % (amount)
+    except:
+        print ('WARNING: {} may have parsed incorrectly : {}'.format(virtue_out['id'], stat_str))
+    base_str = misc_strings[rule_id]
+    #print base_str
+    base_str = remove_tags(base_str)
+    #print stat_str
+    #print base_str
+    try:
+        if len(buff_info['rule_data']['string']):
+            string2 = misc_strings['buff_rule_data_tooltip_'+buff_info['rule_data']['string']]
+            base_str = base_str % (stat_str, string2)
+        else:
+            num = float(buff_info['rule_data']['float'])
+            if num <1 and num >-1:
+                num=num*100
+            base_str = base_str % (stat_str,num)
+    except TypeError:
+        base_str = base_str % (stat_str)
+    base_str = remove_tags(base_str)
+    return base_str
+
+
+
 

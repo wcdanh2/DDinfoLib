@@ -1,0 +1,64 @@
+{
+    "haunting": {
+        "color": "Green",
+        "heroBuffs": [
+            "+15% Blight Skill Chance",
+            "+10% Stress"
+        ],
+        "monsterBuffs": [
+            "+15% Blight Skill Chance",
+            "+10 DODGE"
+        ],
+        "id": "wave_transition_c",
+        "name": "Haunting"
+    },
+    "gleaming": {
+        "color": "Red",
+        "heroBuffs": [
+            "+15% Bleed Skill Chance",
+            "+15% Healing Skills"
+        ],
+        "monsterBuffs": [
+            "+15% Bleed Skill Chance",
+            "+5% CRT"
+        ],
+        "id": "wave_transition_a",
+        "name": "Gleaming"
+    },
+    "blazing": {
+        "color": "Blue",
+        "heroBuffs": [
+            "+20% DMG vs Marked",
+            "+20% Debuff Skill Chance"
+        ],
+        "monsterBuffs": [
+            "+3 SPD",
+            "+10% PROT"
+        ],
+        "id": "wave_transition_b",
+        "name": "Blazing"
+    },
+    "miasma": {
+        "color": "default",
+        "heroBuffs": [
+            "-10% Healing Received",
+            "+10% Stress"
+        ],
+        "monsterBuffs": [],
+        "id": "wave_farm",
+        "name": "The Farmstead's Miasma"
+    },
+    "splendorous": {
+        "color": "Yellow",
+        "heroBuffs": [
+            "+5% Virtue Chance",
+            "+20% Stress Skills"
+        ],
+        "monsterBuffs": [
+            "-10% Blight Resist",
+            "-10% Bleed Resist"
+        ],
+        "id": "wave_transition_d",
+        "name": "Splendorous"
+    }
+}

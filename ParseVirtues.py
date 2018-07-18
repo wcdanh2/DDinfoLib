@@ -88,6 +88,8 @@ def parse_virtues():
 
             #dialogue
             #"overstress_type": "affliction",
+            virtue_out['overstress_type'] = virtue_in['overstress_type']
+
             if virtue_in['overstress_type'] == "virtue":
                 virtue_out['dialogue'] = misc_strings['str_virtue_description_'+virtue_id]
             elif virtue_in['overstress_type'] == "affliction":

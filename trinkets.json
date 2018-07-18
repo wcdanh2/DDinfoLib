@@ -2773,8 +2773,8 @@
     },
     "focusring": {
         "buffs": [
-            "+15 ACC",
-            "+6% CRT",
+            "+10 ACC",
+            "+5% CRT",
             "-8 DODGE"
         ],
         "hero_class": "",

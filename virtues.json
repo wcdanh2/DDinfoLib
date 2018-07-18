@@ -15,7 +15,8 @@
         ],
         "dialogue": "-10% MAX HP, -5 ACC, +20% DMG, -15 DODGE",
         "id": "abusive",
-        "name": "Abusive"
+        "name": "Abusive",
+        "overstress_type": "affliction"
     },
     "courageous": {
         "buffs": [
@@ -30,7 +31,8 @@
         ],
         "dialogue": "-25% stress damage to companions",
         "id": "courageous",
-        "name": "Courageous"
+        "name": "Courageous",
+        "overstress_type": "virtue"
     },
     "fearful": {
         "buffs": [
@@ -48,7 +50,8 @@
         ],
         "dialogue": "-10% MAX HP, -25% DMG, +10 DODGE, +2 SPD",
         "id": "fearful",
-        "name": "Fearful"
+        "name": "Fearful",
+        "overstress_type": "affliction"
     },
     "focused": {
         "buffs": [
@@ -63,7 +66,8 @@
         ],
         "dialogue": "+10 ACC, +10% CRIT",
         "id": "focused",
-        "name": "Focused"
+        "name": "Focused",
+        "overstress_type": "virtue"
     },
     "hopeless": {
         "buffs": [
@@ -81,7 +85,8 @@
         ],
         "dialogue": "-10% MAX HP, -5 ACC, -5 DODGE, -3 SPD",
         "id": "depressed",
-        "name": "Hopeless"
+        "name": "Hopeless",
+        "overstress_type": "affliction"
     },
     "irrational": {
         "buffs": [
@@ -100,7 +105,8 @@
         ],
         "dialogue": "-10% MAX HP, -5 ACC, -10% DMG, -5 DODGE, +2 SPD",
         "id": "irrational",
-        "name": "Irrational"
+        "name": "Irrational",
+        "overstress_type": "affliction"
     },
     "masochistic": {
         "buffs": [
@@ -116,7 +122,8 @@
         ],
         "dialogue": "-10% MAX HP, -15 DODGE",
         "id": "masochistic",
-        "name": "Masochistic"
+        "name": "Masochistic",
+        "overstress_type": "affliction"
     },
     "paranoid": {
         "buffs": [
@@ -134,7 +141,8 @@
         ],
         "dialogue": "-10% MAX HP, -25% DMG, +10 DODGE, +2 SPD",
         "id": "paranoid",
-        "name": "Paranoid"
+        "name": "Paranoid",
+        "overstress_type": "affliction"
     },
     "powerful": {
         "buffs": [
@@ -148,7 +156,8 @@
         ],
         "dialogue": "+25% DMG",
         "id": "powerful",
-        "name": "Powerful"
+        "name": "Powerful",
+        "overstress_type": "virtue"
     },
     "selfish": {
         "buffs": [
@@ -166,7 +175,8 @@
         ],
         "dialogue": "-10% MAX HP, -5 ACC, -10% DMG, +5 DODGE",
         "id": "selfish",
-        "name": "Selfish"
+        "name": "Selfish",
+        "overstress_type": "affliction"
     },
     "stalwart": {
         "buffs": [
@@ -179,9 +189,10 @@
             "+15% PROT if Virtued",
             "+8% Death Blow Resist if Virtued"
         ],
-        "dialogue": "-50% stress damage",
+        "dialogue": "+15% PROT, +8% Death Blow Resist",
         "id": "stalwart",
-        "name": "Stalwart"
+        "name": "Stalwart",
+        "overstress_type": "virtue"
     },
     "vigorous": {
         "buffs": [
@@ -196,6 +207,7 @@
         ],
         "dialogue": "+5 SPD, Increased Blight, Bleed, Disease resist",
         "id": "vigorous",
-        "name": "Vigorous"
+        "name": "Vigorous",
+        "overstress_type": "virtue"
     }
 }

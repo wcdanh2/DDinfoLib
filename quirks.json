@@ -413,7 +413,7 @@
         "name": "Crimson Curse",
         "quirk_type": "Disease"
     },
-    "crimsoncurse(bloodlust!)": {
+    "crimsoncursebloodlust": {
         "buffs": [
             "+25% DMG",
             "+4 SPD",
@@ -428,7 +428,7 @@
         "name": "Crimson Curse (blood lust!)",
         "quirk_type": "Disease"
     },
-    "crimsoncurse(craving)": {
+    "crimsoncursecraving": {
         "buffs": [
             "-10% Stun Resist",
             "-10% Blight Resist",
@@ -444,7 +444,7 @@
         "name": "Crimson Curse (craving)",
         "quirk_type": "Disease"
     },
-    "crimsoncurse(wasting)": {
+    "crimsoncursewasting": {
         "buffs": [
             "-10% Stun Resist",
             "-10% Blight Resist",
