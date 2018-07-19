@@ -162,6 +162,38 @@
         "name": "Powerful",
         "overstress_type": "virtue"
     },
+    "rapturous": {
+        "buffs": [
+            "+25% DMG",
+            "-20 DODGE",
+            "+3 SPD"
+        ],
+        "dialogue": "+25% DMG, -20 DODGE, +3 SPD",
+        "id": "berserk",
+        "name": "Rapturous",
+        "overstress_type": "affliction"
+    },
+    "refracted": {
+        "buffs": [
+            "-15% Stun Resist",
+            "-15% Blight Resist",
+            "-15% Bleed Resist",
+            "-15% Disease Resist",
+            "-15% Debuff Resist",
+            "-15% Move Resist",
+            "-15% Trap Disarm Chance",
+            "-10% MAX HP",
+            "+20% Stress",
+            "-5 SPD",
+            "+15% Bleed Skill Chance",
+            "+15% Blight Skill Chance",
+            "Ignores Stealth"
+        ],
+        "dialogue": "-10% MAX HP, +20% Stress, -5 SPD, +15% Bleed Skill Chance, +15% Blight Skill Chance, Ignores Stealth",
+        "id": "color_madness",
+        "name": "Refracted",
+        "overstress_type": "affliction"
+    },
     "selfish": {
         "buffs": [
             "-15% Stun Resist",
@@ -192,8 +224,7 @@
             "+15% PROT if Virtued",
             "+8% Death Blow Resist if Virtued"
         ],
-        "dialogue": "+15% PROT, +8% Death Blow Resist",
-        "message": "+15% PROT, +8% Death Blow Resist, 25% chance to stress heal self for 15 at the start of each turn.",
+        "dialogue": "-50% stress damage",
         "id": "stalwart",
         "name": "Stalwart",
         "overstress_type": "virtue"

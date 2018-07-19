@@ -10,7 +10,9 @@ import DD_utils
 #"traits" appears to be the generic name that encompases afflictions and virtues
 #This parser will get both afflictions and virtues, but place them into the virtues.json
 #file since it is a bit more memorable than traits.
-virtue_files = ['shared/trait/trait_library.json']
+virtue_files = ['shared/trait/trait_library.json',
+                'dlc/580100_crimson_court/features/flagellant/shared/trait/flagellant.trait_library.json',
+                'dlc/735730_color_of_madness/shared/trait/color_of_madness.trait_library.json']
 
 def parse_virtues():
     misc_strings = DD_utils.getLanguageDict()
